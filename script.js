@@ -2,6 +2,7 @@
 /* 1. CONFIGURATION & GLOBAL STATE           */
 /* ========================================= */
 
+// ✅ FIXED: Base URL wapis normal kar diya (Code khud ID jodega)
 const BASE_API = "https://renbotstream.onrender.com/stream/";
 const AI_HANDLER_URL = "https://rensiteer.netlify.app/.netlify/functions/gemini-handler"; 
 
@@ -69,49 +70,6 @@ function setupPlayerModalControls() {
     }
 }
 
-function killWindow() {
-    alert("DevTools detected! Unauthorized access or copying is not allowed.");
-    document.body.innerHTML = ''; 
-    window.close();
-    setTimeout(() => { 
-        window.location.href = 'about:blank'; 
-    }, 100);
-}
-
-function initAggressiveDevToolsCheck() {
-    const checkConsole = () => {
-        if (window.outerWidth - window.innerWidth > 150 || window.outerHeight - window.innerHeight > 150) {
-            if (typeof killWindowExecuted === 'undefined' || !killWindowExecuted) {
-                 window.killWindowExecuted = true;
-                 killWindow();
-            }
-        }
-    };
-    
-    (function checkDebugger() {
-        if (window.debuggerActive) {
-             if (typeof killWindowExecuted === 'undefined' || !killWindowExecuted) {
-                 window.killWindowExecuted = true;
-                 killWindow();
-             }
-        }
-        try {
-            if (window.console && window.console.firebug || /Chr/.test(navigator.userAgent) && /console/.test(document.URL)) {
-                 if (typeof killWindowExecuted === 'undefined' || !killWindowExecuted) {
-                      window.killWindowExecuted = true;
-                      killWindow();
-                      return;
-                 }
-            }
-        } catch (e) {}
-        window.debuggerActive = true; 
-        window.debuggerActive = false;
-        checkConsole(); 
-        setTimeout(checkDebugger, 200);
-    })();
-    window.addEventListener('resize', checkConsole);
-}
-
 function initKeepAlive() {
     const interval = 300000; 
     const sendPing = () => {
@@ -128,6 +86,7 @@ window.onload = function() {
         particlesJS("particles-js", {"particles":{"number":{"value":40,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"opacity":{"value":0.1},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.1}}});
     }
 
+    // Load Data safely
     const d11 = (typeof class11Data !== 'undefined') ? class11Data : ((typeof batch11 !== 'undefined') ? batch11 : (typeof dataClass11 !== 'undefined' ? dataClass11 : []));
     const d12 = (typeof class12Data !== 'undefined') ? class12Data : ((typeof batch12 !== 'undefined') ? batch12 : (typeof dataClass12 !== 'undefined' ? dataClass12 : []));
     const d13 = (typeof class13Data !== 'undefined') ? class13Data : ((typeof batch13 !== 'undefined') ? batch13 : (typeof dataClass13 !== 'undefined' ? dataClass13 : []));
@@ -147,7 +106,7 @@ window.onload = function() {
     setupPlayerModalControls(); 
     setTimeout(initDoubtSolver, 500);
     initKeepAlive();
-    initAggressiveDevToolsCheck(); 
+    // initAggressiveDevToolsCheck() removed ✅
 };
 
 /* ========================================= */
@@ -225,7 +184,7 @@ document.getElementById('back-btn').onclick = () => {
         // Stop the player completely
         if(typeof player !== 'undefined') {
             player.stop();
-            // Optional: Reset source to empty to force stop buffering
+            // Reset source to empty to force stop buffering
             player.source = { type: 'video', sources: [] };
         }
         
@@ -382,7 +341,6 @@ function renderHome() {
             </div>
         </div>
     `;
-
 }
 
 function renderBatches() {
@@ -452,6 +410,7 @@ function renderBatches() {
                 
                 let action = '';
                 if (res.type === 'VIDEO') {
+                    // --- MULTI-CHANNEL FIX: Using Fallback ID for Resources ---
                     action = `onclick="openPlayer('-1003345907635', '${res.url_or_id}', '${res.title}')"`;
                 } else {
                     action = `onclick="openPDF('${res.url_or_id}')"`;
@@ -595,13 +554,16 @@ function setTab(tab) {
     renderResources(chapter);
 }
 
+// --- UPDATED RENDER RESOURCES (Handles Channel ID) ---
 function renderResources(chapter) {
     const container = document.getElementById('content-list-container');
     container.innerHTML = '';
     
+    // ✅ FIXED: Channel ID Extraction Logic
     const batch = DB[appState.classId].batches[appState.batchIdx];
     const channelID = batch.channel_id || "-1003345907635"; 
 
+    // ✅ FIXED: Removed duplicate 'type' declaration
     const type = appState.tab;
     const term = appState.searchTerm;
     const completedList = getCompletedLectures();
@@ -638,6 +600,7 @@ function renderResources(chapter) {
             let vidId = item.video_id ? item.video_id.toString() : null;
             let isDone = vidId && completedList.includes(vidId);
             
+            // ✅ FIXED: Passing Channel ID correctly
             let btnHtml = item.video_id 
                 ? `<button class="btn-small play-btn" onclick="openPlayer('${channelID}', '${item.video_id}', '${title}')"><i class="ri-play-fill"></i> Play</button>`
                 : `<span style="font-size:0.8rem; color:#666;">No Video</span>`;
@@ -685,7 +648,8 @@ function renderResources(chapter) {
     });
 }
 
-// --- UPDATED OPEN PLAYER (Handles Channel ID + Video Refresh) ---
+// --- UPDATED OPEN PLAYER (Handles Channel ID) ---
+// ✅ FIXED: Function Signature Updated to accept channelId
 function openPlayer(channelId, vidId, title) {
     const modal = document.getElementById('video-player-modal');
     modal.classList.remove('hidden');
@@ -703,24 +667,39 @@ function openPlayer(channelId, vidId, title) {
     vpQuoteEl.className = 'vp-quote purple-bracket'; 
     vpQuoteEl.innerHTML = `"Study hard." <br><span style="font-size:0.85rem; opacity:0.8;">— You</span>`;
 
-    // ✅ FIX 2 (Part B): Create new URL every time
+    // ✅ FIXED: URL Construction with Channel ID
     const streamUrl = `${BASE_API}${channelId}/${vidId}`;
     
-    // ✅ FIX 2 (Part C): Force update Plyr source
-    player.source = {
-        type: 'video',
-        sources: [
-            {
-                src: streamUrl,
-                type: 'video/mp4',
-            },
-        ],
-    };
+    console.log("Stream URL:", streamUrl); // Debugging
+
+    const activePlayerEl = document.getElementById('active-player');
     
-    // Auto-play the new source
-    player.play();
+    // ✅ FIX 2 (Part B): Force update Plyr source every time
+    // Even if player exists, we override source to ensure new video loads
     
-    // --- SIDEBAR LOGIC (Standard) ---
+    if (activePlayerEl) {
+        // Player HTML exists, just update source
+        let sourceEl = activePlayerEl.querySelector('source');
+        if (!sourceEl) {
+             sourceEl = document.createElement('source');
+             activePlayerEl.appendChild(sourceEl);
+        }
+        sourceEl.src = streamUrl;
+        sourceEl.type = 'video/mp4'; 
+        
+        // IMPORTANT: Update Plyr instance source
+        player.source = {
+            type: 'video',
+            sources: [{ src: streamUrl, type: 'video/mp4' }],
+        };
+        player.play();
+    } else {
+        // First time load
+        document.getElementById('video-wrapper').innerHTML = `<video id="active-player" playsinline controls autoplay><source src="${streamUrl}" type="video/mp4" /></video>`;
+        new Plyr('#active-player', { autoplay: true, seekTime: 10, controls: ['play-large', 'rewind', 'play', 'fast-forward', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'fullscreen'] });
+    }
+    
+    // Refresh Sidebar content (same logic as before)
     const attachList = document.getElementById('vp-attachments-list');
     attachList.innerHTML = ''; 
     
@@ -789,8 +768,10 @@ function openPlayer(channelId, vidId, title) {
 
 // ✅ FIX 2 (Part D): Stop video on Close Button
 document.getElementById('close-player').onclick = () => {
-    player.stop(); 
-    player.source = { type: 'video', sources: [] }; // Clear source
+    if(typeof player !== 'undefined') {
+        player.stop(); 
+        player.source = { type: 'video', sources: [] }; // Clear source
+    }
     document.getElementById('video-player-modal').classList.add('hidden');
 };
 
