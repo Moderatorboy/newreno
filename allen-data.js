@@ -7,20 +7,19 @@ const allenClass11Data = [
         "channel_id": "-1001520421056",
         "chapters": [
             {
-                "chapter_name": "Kinematics",
+                "chapter_name": "UNIT AND DIMENSION [ SKJ SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Introduction to Motion", "video_id": 3 },
-                    { "lec_no": "L-02", "title": "Speed and Velocity", "video_id": 4 },
-                    { "lec_no": "L-03", "title": "Equation of Motion", "video_id": 5 },
-                    { "lec_no": "L-04", "title": "Motion Under Gravity", "video_id": 6 }
+                    { "lec_no": "L-01", "title": "Leacture 01", "video_id": 3 },
+                    { "lec_no": "L-02", "title": "Leacture 02", "video_id": 4 },
+                    { "lec_no": "L-03", "title": "Leacture 03", "video_id": 5 }
                 ]
             },
             {
-                "chapter_name": "Laws Of Motion",
+                "chapter_name": "UNIT AND DIMENSION [ VJ SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Newton's First Law", "video_id": 5060 },
-                    { "lec_no": "L-02", "title": "Newton's Second Law", "video_id": 5061 },
-                    { "lec_no": "L-03", "title": "Friction Basics", "video_id": 5062 }
+                    { "lec_no": "L-01", "title": "Leacture 01", "video_id": 8 },
+                    { "lec_no": "L-02", "title": "Leacture 02", "video_id": 9 },
+                    { "lec_no": "L-03", "title": "Leacture 03", "video_id": 10 }
                 ]
             },
             {
