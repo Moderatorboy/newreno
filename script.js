@@ -320,34 +320,51 @@ function renderHome() {
 
     main.innerHTML = `
         <div class="grid-layout" style="justify-content:center; margin-top:50px;">
-            
             <div class="card class-card" onclick="updateURL('/class/11')">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-stack-line" style="font-size:4rem; color:#8b5cf6;"></i>
                 </div>
+                <div class="card-body">
+                    <div class="card-title">Class 11th</div>
+                    <div class="card-meta">JEE Mains & Advanced</div>
+                </div>
+            </div>
             <div class="card class-card" onclick="updateURL('/class/12')">
-                </div>
-
-            <div class="card class-card" onclick="updateURL('/class/allen-11')" style="border: 1px solid #00c6ff;">
-                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #005c97 0%, #363795 100%); display:flex; flex-direction:column; align-items:center; justify-content:center;">
-                    <h2 style="color:white; margin:0;">ALLEN NEET</h2>
-                    <span style="color:#00c6ff; font-weight:bold;">CLASS 11TH</span>
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">Classroom Lectures</div>
-                    <div class="card-meta">Phy, Chem, Bio</div>
+                    <div class="card-title">Class 12th</div>
+                    <div class="card-meta">JEE Mains & Advanced</div>
                 </div>
             </div>
-
-            <div class="card class-card" onclick="updateURL('/class/allen-12')" style="border: 1px solid #00c6ff;">
-                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #005c97 0%, #363795 100%); display:flex; flex-direction:column; align-items:center; justify-content:center;">
-                    <h2 style="color:white; margin:0;">ALLEN NEET</h2>
-                    <span style="color:#00c6ff; font-weight:bold;">CLASS 12TH</span>
+            <div class="card class-card" onclick="updateURL('/class/13')">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">Classroom Lectures</div>
-                    <div class="card-meta">Phy, Chem, Bio</div>
+                    <div class="card-title">Other Batch</div>
+                    <div class="card-meta">JEE Mains & Advanced</div>
                 </div>
             </div>
-
+            <div class="card class-card" onclick="updateURL('/class/class/allen-11')">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">ALLEN NEET 11TH</div>
+                    <div class="card-meta">NEET</div>
+                </div>
+            </div>
+            <div class="card class-card" onclick="updateURL('/class/allen-12')">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">ALLEN NEET 12TH</div>
+                    <div class="card-meta">NEET</div>
+                </div>
+            </div>
         </div>
     `;
 }
