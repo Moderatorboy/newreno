@@ -5,6 +5,8 @@ const dataClass11 = [
                         "notes_id": 04
                     },
         "batch_name": "Jee-11th Chem (SKM Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Isomerism",
@@ -475,6 +477,8 @@ const dataClass11 = [
     },
     {
         "batch_name": "Jee-11th Chem (AKK Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Thermodynamics",
@@ -1167,6 +1171,8 @@ const dataClass11 = [
     },
     {
         "batch_name": "Jee-11th Chem (VJ Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "p-Block",
@@ -1872,6 +1878,8 @@ const dataClass11 = [
     },
     {
         "batch_name": "Jee-11th Phy (JP Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Heat And Thermodynamics",
@@ -3682,6 +3690,8 @@ const dataClass11 = [
     },
     {
         "batch_name": "Jee-11th Phy (NS Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Surface Tension",
@@ -5490,6 +5500,8 @@ const dataClass11 = [
     },
     {
         "batch_name": "Jee-11th Maths (GB Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Hyperbola",
@@ -7062,6 +7074,8 @@ const dataClass11 = [
     },
     {
         "batch_name": "Jee-11th Maths (VG Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Hyperbola",
