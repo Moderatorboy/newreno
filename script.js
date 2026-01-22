@@ -90,13 +90,17 @@ window.onload = function() {
     const d11 = (typeof class11Data !== 'undefined') ? class11Data : ((typeof batch11 !== 'undefined') ? batch11 : (typeof dataClass11 !== 'undefined' ? dataClass11 : []));
     const d12 = (typeof class12Data !== 'undefined') ? class12Data : ((typeof batch12 !== 'undefined') ? batch12 : (typeof dataClass12 !== 'undefined' ? dataClass12 : []));
     const d13 = (typeof class13Data !== 'undefined') ? class13Data : ((typeof batch13 !== 'undefined') ? batch13 : (typeof dataClass13 !== 'undefined' ? dataClass13 : []));
+    
+    // ✅ FIXED: Allen Data Loading (Clean Syntax)
+    const allen11 = (typeof allenClass11Data !== 'undefined') ? allenClass11Data : [];
+    const allen12 = (typeof allenClass12Data !== 'undefined') ? allenClass12Data : [];
 
     DB = {
         '11': { name: 'Class 11th', batches: d11 },
         '12': { name: 'Class 12th', batches: d12 },
-        '13': { name: 'Eduniti 2025', batches: d13},
+        '13': { name: 'Eduniti 2025', batches: d13 },
         
-        // 👇 YEH NAYA ADD KARO:
+        // 👇 Allen Batches
         'allen-11': { name: 'Allen NEET - 11th', batches: allen11 },
         'allen-12': { name: 'Allen NEET - 12th', batches: allen12 }
     };
@@ -110,7 +114,7 @@ window.onload = function() {
     setupPlayerModalControls(); 
     setTimeout(initDoubtSolver, 500);
     initKeepAlive();
-    // initAggressiveDevToolsCheck() removed ✅
+    // initAggressiveDevToolsCheck(); // Removed as requested
 };
 
 /* ========================================= */
@@ -316,33 +320,34 @@ function renderHome() {
 
     main.innerHTML = `
         <div class="grid-layout" style="justify-content:center; margin-top:50px;">
+            
             <div class="card class-card" onclick="updateURL('/class/11')">
-                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
-                    <i class="ri-stack-line" style="font-size:4rem; color:#8b5cf6;"></i>
                 </div>
-                <div class="card-body">
-                    <div class="card-title">Class 11th</div>
-                    <div class="card-meta">JEE Mains & Advanced</div>
-                </div>
-            </div>
             <div class="card class-card" onclick="updateURL('/class/12')">
-                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
-                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
+                </div>
+
+            <div class="card class-card" onclick="updateURL('/class/allen-11')" style="border: 1px solid #00c6ff;">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #005c97 0%, #363795 100%); display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                    <h2 style="color:white; margin:0;">ALLEN NEET</h2>
+                    <span style="color:#00c6ff; font-weight:bold;">CLASS 11TH</span>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">Class 12th</div>
-                    <div class="card-meta">JEE Mains & Advanced</div>
+                    <div class="card-title">Classroom Lectures</div>
+                    <div class="card-meta">Phy, Chem, Bio</div>
                 </div>
             </div>
-            <div class="card class-card" onclick="updateURL('/class/13')">
-                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
-                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
+
+            <div class="card class-card" onclick="updateURL('/class/allen-12')" style="border: 1px solid #00c6ff;">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #005c97 0%, #363795 100%); display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                    <h2 style="color:white; margin:0;">ALLEN NEET</h2>
+                    <span style="color:#00c6ff; font-weight:bold;">CLASS 12TH</span>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">Other Batch</div>
-                    <div class="card-meta">JEE Mains & Advanced</div>
+                    <div class="card-title">Classroom Lectures</div>
+                    <div class="card-meta">Phy, Chem, Bio</div>
                 </div>
             </div>
+
         </div>
     `;
 }
