@@ -130,10 +130,12 @@ window.onload = function() {
 
     const d11 = (typeof class11Data !== 'undefined') ? class11Data : ((typeof batch11 !== 'undefined') ? batch11 : (typeof dataClass11 !== 'undefined' ? dataClass11 : []));
     const d12 = (typeof class12Data !== 'undefined') ? class12Data : ((typeof batch12 !== 'undefined') ? batch12 : (typeof dataClass12 !== 'undefined' ? dataClass12 : []));
+    const d13 = (typeof class13Data !== 'undefined') ? class13Data : ((typeof batch13 !== 'undefined') ? batch13 : (typeof dataClass13 !== 'undefined' ? dataClass13 : []));
 
     DB = {
         '11': { name: 'Class 11th', batches: d11 },
-        '12': { name: 'Class 12th', batches: d12 }
+        '12': { name: 'Class 12th', batches: d12 },
+        '13': { name: 'Eduniti 2025', batches: d13 }
     };
 
     console.log("Database Loaded:", DB);
@@ -369,8 +371,18 @@ function renderHome() {
                     <div class="card-meta">JEE Mains & Advanced</div>
                 </div>
             </div>
+            <div class="card class-card" onclick="updateURL('/class/13')">
+                <div class="card-img" style="height:160px; background:linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Other Batch</div>
+                    <div class="card-meta">JEE Mains & Advanced</div>
+                </div>
+            </div>
         </div>
     `;
+
 }
 
 function renderBatches() {
