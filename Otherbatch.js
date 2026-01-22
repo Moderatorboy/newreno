@@ -256,6 +256,38 @@ const dataClass13 = [
             "video_id": 5024
           }
         ]
+      },
+      {
+        "chapter_name": "SEASON 02",
+        "lectures": [
+          {
+            "lec_no": "L-01",
+            "title": "EPISODE 01",
+            "video_id": 5026,
+            "date": "2025-04-04"
+          },
+          {
+            "lec_no": "L-02",
+            "title": "EPISODE 02",
+            "video_id": 5027,
+            "date": "2024-01-05"
+          },
+          {
+            "lec_no": "L-03",
+            "title": "EPISODE 03",
+            "video_id": 5028
+          },
+          {
+            "lec_no": "L-04",
+            "title": "EPISODE 04",
+            "video_id": 5029
+          },
+          {
+            "lec_no": "L-05",
+            "title": "EPISODE 05",
+            "video_id": 5030
+          }
+        ]
       }
     ]
   }
