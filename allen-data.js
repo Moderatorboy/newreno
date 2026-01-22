@@ -37,6 +37,17 @@ const allenClass11Data = [
                     { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 19 },
                     { "lec_no": "L-02", "title": "VECTOR LAST 🚫 KINEMATICS FIRST 🔥 | LEACTURE 03", "video_id": 20 }
                 ]
+            },
+            {
+                "chapter_name": "KINEMATICS  BY [ MKP SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "VECTOR LAST 🚫 KINEMATICS FIRST 🔥 | LEACTURE 01", "video_id": 23 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 24 },
+                    { "lec_no": "L-02", "title": "LEACTURE 03", "video_id": 25 },
+                    { "lec_no": "L-02", "title": "LEACTURE 04", "video_id": 26 },
+                    { "lec_no": "L-02", "title": "LEACTURE 05", "video_id": 27 },
+                    { "lec_no": "L-02", "title": "LEACTURE 06", "video_id": 28 }
+                ]
             }
         ]
     },
