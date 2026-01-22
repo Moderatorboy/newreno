@@ -2,7 +2,6 @@
 /* 1. CONFIGURATION & GLOBAL STATE           */
 /* ========================================= */
 
-// ✅ FIXED: Base URL wapis normal kar diya (Code khud ID jodega)
 const BASE_API = "https://renbotstream.onrender.com/stream/";
 const AI_HANDLER_URL = "https://rensiteer.netlify.app/.netlify/functions/gemini-handler"; 
 
@@ -19,8 +18,33 @@ let appState = {
 
 let DB = {}; 
 
+// ✅ FIX 1: Added Skip Buttons (Rewind/Fast-Forward) & 10s Time
 const player = new Plyr('#player', {
-    controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'],
+    controls: [
+        'play-large', 
+        'rewind',       // 10s Back Button
+        'play', 
+        'fast-forward', // 10s Forward Button
+        'progress', 
+        'current-time', 
+        'duration', 
+        'mute', 
+        'volume', 
+        'settings', 
+        'fullscreen'
+    ],
+    seekTime: 10, // Skip time set to 10 seconds
+});
+
+// ✅ FIX 3: Force Landscape on Fullscreen (Mobile Only)
+player.on('enterfullscreen', event => {
+    try {
+        if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock('landscape').catch((e) => console.log("Orientation lock not supported/allowed"));
+        }
+    } catch (err) {
+        console.log("Landscape mode error:", err);
+    }
 });
 
 /* ========================================= */
@@ -193,11 +217,16 @@ function getSubjectIcon(name) {
 
 function updateURL(hash) { window.location.hash = hash; }
 
+// ✅ FIX 2 (Part A): Stop video when Back button is clicked
 document.getElementById('back-btn').onclick = () => {
     if (appState.view === 'player') {
-        if(typeof player !== 'undefined' && player.stop) {
+        // Stop the player completely
+        if(typeof player !== 'undefined') {
             player.stop();
+            // Optional: Reset source to empty to force stop buffering
+            player.source = { type: 'video', sources: [] };
         }
+        
         document.getElementById('video-player-modal').classList.add('hidden');
         updateURL(`/class/${appState.classId}/batch/${appState.batchIdx}`);
     } 
@@ -218,7 +247,10 @@ function handleRouting() {
         appState.searchTerm = '';
     }
     document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
+    
+    // Safety check on routing changes
     document.getElementById('video-player-modal').classList.add('hidden'); 
+    
     document.getElementById('nav-controls').classList.remove('hidden');
 
     if (!hash || hash === '/') {
@@ -408,7 +440,6 @@ function renderBatches() {
                 
                 let action = '';
                 if (res.type === 'VIDEO') {
-                    // --- MULTI-CHANNEL FIX: Using Fallback ID for Resources ---
                     action = `onclick="openPlayer('-1003345907635', '${res.url_or_id}', '${res.title}')"`;
                 } else {
                     action = `onclick="openPDF('${res.url_or_id}')"`;
@@ -552,16 +583,13 @@ function setTab(tab) {
     renderResources(chapter);
 }
 
-// --- UPDATED RENDER RESOURCES (Handles Channel ID) ---
 function renderResources(chapter) {
     const container = document.getElementById('content-list-container');
     container.innerHTML = '';
     
-    // ✅ FIXED: Channel ID Extraction Logic
     const batch = DB[appState.classId].batches[appState.batchIdx];
     const channelID = batch.channel_id || "-1003345907635"; 
 
-    // ✅ FIXED: Removed duplicate 'type' declaration
     const type = appState.tab;
     const term = appState.searchTerm;
     const completedList = getCompletedLectures();
@@ -598,7 +626,6 @@ function renderResources(chapter) {
             let vidId = item.video_id ? item.video_id.toString() : null;
             let isDone = vidId && completedList.includes(vidId);
             
-            // ✅ FIXED: Passing Channel ID correctly
             let btnHtml = item.video_id 
                 ? `<button class="btn-small play-btn" onclick="openPlayer('${channelID}', '${item.video_id}', '${title}')"><i class="ri-play-fill"></i> Play</button>`
                 : `<span style="font-size:0.8rem; color:#666;">No Video</span>`;
@@ -646,8 +673,7 @@ function renderResources(chapter) {
     });
 }
 
-// --- UPDATED OPEN PLAYER (Handles Channel ID) ---
-// ✅ FIXED: Function Signature Updated to accept channelId
+// --- UPDATED OPEN PLAYER (Handles Channel ID + Video Refresh) ---
 function openPlayer(channelId, vidId, title) {
     const modal = document.getElementById('video-player-modal');
     modal.classList.remove('hidden');
@@ -665,32 +691,24 @@ function openPlayer(channelId, vidId, title) {
     vpQuoteEl.className = 'vp-quote purple-bracket'; 
     vpQuoteEl.innerHTML = `"Study hard." <br><span style="font-size:0.85rem; opacity:0.8;">— You</span>`;
 
-    // ✅ FIXED: URL Construction with Channel ID
+    // ✅ FIX 2 (Part B): Create new URL every time
     const streamUrl = `${BASE_API}${channelId}/${vidId}`;
     
-    console.log("Stream URL:", streamUrl); // Debugging
-
-    const activePlayerEl = document.getElementById('active-player');
+    // ✅ FIX 2 (Part C): Force update Plyr source
+    player.source = {
+        type: 'video',
+        sources: [
+            {
+                src: streamUrl,
+                type: 'video/mp4',
+            },
+        ],
+    };
     
-    if (activePlayerEl) {
-        let sourceEl = activePlayerEl.querySelector('source');
-        if (!sourceEl) {
-             sourceEl = document.createElement('source');
-             activePlayerEl.appendChild(sourceEl);
-        }
-        sourceEl.src = streamUrl;
-        sourceEl.type = 'video/mp4'; 
-        player.source = {
-            type: 'video',
-            sources: [{ src: streamUrl, type: 'video/mp4' }],
-        };
-        player.play();
-    } else {
-        document.getElementById('video-wrapper').innerHTML = `<video id="active-player" playsinline controls autoplay><source src="${streamUrl}" type="video/mp4" /></video>`;
-        new Plyr('#active-player', { autoplay: true });
-    }
+    // Auto-play the new source
+    player.play();
     
-    // Refresh Sidebar content (same logic as before)
+    // --- SIDEBAR LOGIC (Standard) ---
     const attachList = document.getElementById('vp-attachments-list');
     attachList.innerHTML = ''; 
     
@@ -757,8 +775,10 @@ function openPlayer(channelId, vidId, title) {
     }
 }
 
+// ✅ FIX 2 (Part D): Stop video on Close Button
 document.getElementById('close-player').onclick = () => {
     player.stop(); 
+    player.source = { type: 'video', sources: [] }; // Clear source
     document.getElementById('video-player-modal').classList.add('hidden');
 };
 
