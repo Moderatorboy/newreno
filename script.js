@@ -583,6 +583,7 @@ function renderResources(chapter) {
     const container = document.getElementById('content-list-container');
     container.innerHTML = '';
     
+    // ✅ STEP 1: Sahi Channel ID nikalo
     const batch = DB[appState.classId].batches[appState.batchIdx];
     const channelID = batch.channel_id || "-1003345907635"; 
 
@@ -622,12 +623,14 @@ function renderResources(chapter) {
             let vidId = item.video_id ? item.video_id.toString() : null;
             let isDone = vidId && completedList.includes(vidId);
             
+            // Video Player Button
             let btnHtml = item.video_id 
                 ? `<button class="btn-small play-btn" onclick="openPlayer('${channelID}', '${item.video_id}', '${title}')"><i class="ri-play-fill"></i> Play</button>`
                 : `<span style="font-size:0.8rem; color:#666;">No Video</span>`;
                 
+            // ✅ FIX: PDF Button me Channel ID bhejo
             if (item.notes_id) {
-                btnHtml += `<button class="btn-small" style="margin-left:10px" onclick="openPDF('${item.notes_id}')">PDF</button>`;
+                btnHtml += `<button class="btn-small" style="margin-left:10px" onclick="openPDF('${channelID}', '${item.notes_id}')">PDF</button>`;
             }
 
             let checkHtml = item.video_id ? `
@@ -652,7 +655,8 @@ function renderResources(chapter) {
             if(item.quizId || title.toLowerCase().includes('quiz')) {
                  btnHtml = `<button class="btn-small play-btn" onclick="startQuiz('${item.quizId || 'dpp-02-diff'}')">Start Quiz</button>`;
             } else {
-                 btnHtml = `<button class="btn-small" onclick="openPDF('${id}')">View</button>`;
+                 // ✅ FIX: View Button me Channel ID bhejo
+                 btnHtml = `<button class="btn-small" onclick="openPDF('${channelID}', '${id}')">View</button>`;
             }
             row.innerHTML = `
                 <div class="res-left">
@@ -782,9 +786,16 @@ document.getElementById('close-player').onclick = () => {
     document.getElementById('video-player-modal').classList.add('hidden');
 };
 
-function openPDF(id) { 
+function openPDF(channelId, id) { 
     if(!id) return alert("PDF not available");
-    window.open(`pdf.html?id=${id}`, '_blank');
+    
+    // Agar channelId missing hai, toh default use karo
+    if(!channelId || channelId === 'undefined' || channelId === 'null') {
+        channelId = "-1003345907635";
+    }
+
+    // pdf.html ko ID aur CID dono bhejo
+    window.open(`pdf.html?id=${id}&cid=${channelId}`, '_blank');
 }
 
 function initTheme() {
