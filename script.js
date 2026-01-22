@@ -327,6 +327,12 @@ function renderHome() {
                 </div>
                 <div class="card-body"><div class="card-title">Class 12th</div></div>
             </div>
+            <div class="card class-card" onclick="updateURL('/class/13')">
+                <div class="card-img" style="height:160px; background:#1e293b; display:flex; align-items:center; justify-content:center;">
+                    <i class="ri-graduation-cap-line" style="font-size:4rem; color:#22c55e;"></i>
+                </div>
+                <div class="card-body"><div class="card-title">Other Batch</div></div>
+            </div>
 
             <div class="card class-card" onclick="updateURL('allen-menu')" style="border: 2px solid #00ff88;">
                 <div class="card-img" style="height:160px; background:linear-gradient(135deg, #11998e 0%, #38ef7d 100%); display:flex; flex-direction:column; align-items:center; justify-content:center;">
