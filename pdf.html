@@ -67,7 +67,7 @@
 
     <div id="pdf-container">
         <div id="loading" class="loader-overlay">
-            <i class="ri-loader-4-line ri-spin" style="margin-right: 10px;"></i> Loading...
+            <i class="ri-loader-4-line ri-spin" style="margin-right: 10px;"></i> Loading Document...
         </div>
         <iframe id="pdf-frame" src=""></iframe>
     </div>
@@ -76,13 +76,24 @@
         const BASE_API = "https://renbotstream.onrender.com/stream/";
 
         window.onload = function() {
-            // Get File ID from URL
+            // Get Parameters from URL
             const params = new URLSearchParams(window.location.search);
             const fileId = params.get('id');
+            
+            // ✅ Fix: Get Channel ID from URL (cid)
+            let channelId = params.get('cid');
+
+            // Fallback: Agar URL mein Channel ID nahi hai, toh default use karo
+            if (!channelId || channelId === 'undefined' || channelId === 'null') {
+                channelId = "-1003345907635"; 
+            }
 
             if (fileId) {
-                const streamUrl = BASE_API + fileId;
+                // ✅ Fix: Construct Correct URL (API + ChannelID + FileID)
+                const streamUrl = `${BASE_API}${channelId}/${fileId}`;
                 
+                console.log("Loading PDF from:", streamUrl); // Debugging ke liye check console
+
                 const frame = document.getElementById('pdf-frame');
                 const loader = document.getElementById('loading');
                 
@@ -91,13 +102,18 @@
                 // Set Source
                 frame.src = streamUrl;
                 
-                // Hide loader when PDF loads (Note: might not trigger for some PDF plugins, but good practice)
+                // Hide loader when PDF loads
                 frame.onload = () => {
                     loader.style.display = 'none'; 
                 };
 
+                // Fallback timeout just in case onload doesn't fire
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 3000);
+
             } else {
-                document.body.innerHTML = "<h2 style='color:white; text-align:center; margin-top:50px;'>Error: Document Not Found</h2>";
+                document.body.innerHTML = "<h2 style='color:white; text-align:center; margin-top:50px;'>Error: Document ID Missing</h2>";
             }
         };
     </script>
