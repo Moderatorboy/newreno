@@ -693,9 +693,23 @@ function openPlayer(channelId, vidId, title) {
     document.getElementById('vp-title').innerText = batchName; 
     document.getElementById('vp-lecture-name').innerText = title; 
     
+    // 3. Set Motivational Quote
+    const quotes = [
+        { text: "Success is the sum of small efforts, repeated day in and day out.", author: "Robert Collier" },
+        { text: "Believe in yourself and all that you are.", author: "Christian D. Larson" },
+        // ... (truncated quotes list for brevity, keep your original full list here) ...
+        { text: "Don't fear failure. Fear being in the same place next year as you are today.", author: "Unknown" }
+    ];
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    
+    // FIX: Get the element and apply the class (This will use the CSS fix)
     const vpQuoteEl = document.getElementById('vp-quote');
     vpQuoteEl.className = 'vp-quote purple-bracket'; 
-    vpQuoteEl.innerHTML = `"Study hard." <br><span style="font-size:0.85rem; opacity:0.8;">— You</span>`;
+
+    vpQuoteEl.innerHTML = `
+        "${randomQuote.text}" 
+        <br><span style="font-size:0.85rem; opacity:0.8; display:block; margin-top:5px; color: var(--primary);">— ${randomQuote.author}</span>
+    `;
 
     // Video Play Logic
     const streamUrl = `${BASE_API}${channelId}/${vidId}`;
