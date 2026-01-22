@@ -2,7 +2,7 @@
 /* 1. CONFIGURATION & GLOBAL STATE           */
 /* ========================================= */
 
-const BASE_API = "https://tg-file-stream-bot-6ac8.onrender.com/stream/";
+const BASE_API = "https://renbotstream.onrender.com/stream/CHANNEL_ID/VIDEO_ID";
 // FINAL FIX: SETTING THE DEPLOYED NETLIFY FUNCTION URL
 const AI_HANDLER_URL = "https://rensiteer.netlify.app/.netlify/functions/gemini-handler"; 
 
