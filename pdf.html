@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDIATE Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #09090b; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+        
+        /* Minimal Header */
+        .viewer-header {
+            height: 50px;
+            background: #18181b;
+            border-bottom: 1px solid #27272a;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center Title */
+            padding: 0 20px;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+
+        .logo-text { 
+            font-weight: 700; 
+            font-size: 1rem; 
+            letter-spacing: 0.5px;
+            color: #8b5cf6;
+        }
+
+        /* PDF Frame */
+        #pdf-container {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            position: relative;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* Loading Overlay */
+        .loader-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: #09090b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #8b5cf6;
+            z-index: 5;
+            font-size: 1.1rem;
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="viewer-header">
+        <span class="logo-text">REDIATE • Document Viewer</span>
+    </div>
+
+    <div id="pdf-container">
+        <div id="loading" class="loader-overlay">
+            <i class="ri-loader-4-line ri-spin" style="margin-right: 10px;"></i> Loading...
+        </div>
+        <iframe id="pdf-frame" src=""></iframe>
+    </div>
+
+    <script>
+        const BASE_API = "https://tg-file-stream-bot-6ac8.onrender.com/stream/";
+
+        window.onload = function() {
+            // Get File ID from URL
+            const params = new URLSearchParams(window.location.search);
+            const fileId = params.get('id');
+
+            if (fileId) {
+                const streamUrl = BASE_API + fileId;
+                
+                const frame = document.getElementById('pdf-frame');
+                const loader = document.getElementById('loading');
+                
+                loader.style.display = 'flex'; // Show loader
+                
+                // Set Source
+                frame.src = streamUrl;
+                
+                // Hide loader when PDF loads (Note: might not trigger for some PDF plugins, but good practice)
+                frame.onload = () => {
+                    loader.style.display = 'none'; 
+                };
+
+            } else {
+                document.body.innerHTML = "<h2 style='color:white; text-align:center; margin-top:50px;'>Error: Document Not Found</h2>";
+            }
+        };
+    </script>
+
+</body>
+</html>

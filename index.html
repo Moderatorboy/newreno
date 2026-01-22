@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENSITER</title>
+    
+    <meta name="description" content="Free JEE & NEET Study Material">
+    <meta name="robots" content="index, follow">
+    
+<link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=ZYujt38OjL95&format=png&color=000000">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="DsInfjPCx2HI832p5uJ4AjPLNSgJsT7xZ-84g-6qEI8" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ============================================================== */
+        /* CRITICAL FIXES FOR VIDEO MODAL LAYOUT AND SLIDING SIDEBAR      */
+        /* (These styles override the ones in style.css for the modal)    */
+        /* ============================================================== */
+        
+        /* FIX 1: Modal must be fixed and cover everything */
+        #video-player-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 5000; /* High Z-index for overlap fix */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* FIX 2: Main body for video + info and sidebar */
+        .vp-body {
+            display: flex;
+            flex-grow: 1;
+            /* Height is handled by the overall modal container */
+            overflow: hidden; 
+            position: relative; /* Context for absolute sidebar */
+        }
+        
+        /* NEW WRAPPER (vp-main-content) for Video and Info to scroll together */
+        .vp-main-content {
+            flex-grow: 1; 
+            display: flex;
+            flex-direction: column; 
+            overflow-y: auto; /* Allows content below video (quotes) to scroll */
+            padding-bottom: 30px; /* Extra padding for bottom content */
+        }
+
+        .vp-video-container {
+            width: 100%;
+            max-width: 1000px; /* Center the video */
+            margin: 0 auto;
+            padding: 30px;
+            flex-shrink: 0;
+        }
+
+        /* FIX 3: Sidebar sliding logic (position: absolute/fixed on mobile) */
+        #vp-sidebar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 320px; 
+            height: 100%;
+            background: #18181b; 
+            border-left: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            /* Initial hidden state */
+            transform: translateX(100%); 
+            transition: transform 0.3s ease-out;
+            z-index: 5010; /* Ensure it overlays video content */
+        }
+
+        /* Visible state */
+        #vp-sidebar.sidebar-open {
+            transform: translateX(0);
+        }
+        
+        .sidebar-header {
+            padding: 15px; 
+            background: #111; 
+            border-bottom: 1px solid #333; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+        }
+        
+        #vp-attachments-list {
+            flex-grow: 1; 
+            overflow-y: auto; 
+            padding: 10px;
+        }
+        
+        /* Ensures header is visible and fixed */
+        .vp-header {
+             padding: 15px 20px;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             background: #111;
+             z-index: 5020;
+        }
+        
+        /* FIX 4: Doubt modal must use display:flex logic from JS */
+        #doubt-modal {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        @media (max-width: 768px) {
+            #vp-sidebar {
+                width: 100%;
+                top: 0;
+                /* On mobile, use fixed and full width when open */
+                position: fixed; 
+            }
+        }
+    </style>
+</head>
+<body style="user-select: none; -webkit-user-select: none;">
+
+    <div id="particles-js"></div>
+
+    <div class="app-container">
+        
+        <header>
+            <div class="header-top">
+                <div class="logo-container" onclick="updateURL('/')"> 
+                    <img src="https://img.icons8.com/?size=100&id=ZYujt38OjL95&format=png&color=000000" alt="Logo">
+                    <h1 id="brand-title">RENSITER</h1>
+                </div>
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="ri-moon-line"></i> <span class="desktop-only">Dark Mode</span>
+                </button>
+            </div>
+            
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="ri-search-line"></i>
+                    <input type="text" id="global-search" placeholder="Search for batches, chapters...">
+                </div>
+            </div>
+            <div class="header-border"></div>
+        </header>
+
+        <div id="nav-controls" class="hidden">
+            <button id="back-btn"><i class="ri-arrow-left-line"></i> Back</button>
+            <span id="current-path">Home</span>
+        </div>
+
+        <main id="main-content">
+            <div class="loader" style="text-align:center; padding:50px;">Loading Content...</div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 RENSITER. All Rights Reserved.</p>
+            <p style="font-size:0.8rem; color:#666; margin-top:5px;">Study Smart, achive more 🚀</p>
+        </footer>
+
+    </div>
+    
+    <div id="video-player-modal" class="hidden">
+        <div class="vp-header">
+            <button id="close-player"><i class="ri-arrow-left-line"></i> Back</button> 
+            <h3 id="vp-title">Now Playing</h3>
+            <button id="vp-menu-btn" class="notes-btn"><i class="ri-file-list-3-line"></i> Attachments</button> 
+        </div>
+        
+        <div class="vp-body">
+            <div class="vp-main-content"> 
+                <div class="vp-video-container">
+                    <div class="video-wrapper" id="video-wrapper">
+                        <video id="player" playsinline controls></video> 
+                    </div>
+                    <div class="vp-info">
+                        <h2 id="vp-lecture-name">Lecture Title</h2>
+                        <div class="vp-quote" id="vp-quote"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="vp-sidebar" class="vp-sidebar">
+                <div class="sidebar-header">
+                    <h4>Attachments</h4>
+                    <button id="close-sidebar" class="btn-small" style="background: none; border: none; color: white; cursor: pointer;">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div id="vp-attachments-list" class="sidebar-list"></div>
+            </div>
+        </div>
+    </div>
+    <div id="quiz-modal" class="hidden" style="position:fixed; inset:0; background:#09090b; z-index:2000; overflow-y:auto; padding:20px;">
+        <div style="max-width:800px; margin:0 auto; color:white;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; padding-bottom:10px; border-bottom:1px solid #333;">
+                <h2 id="quiz-title">Quiz</h2>
+                <div id="quiz-header-actions">
+                    <span id="quiz-timer" style="color:#ff4757; font-weight:bold; margin-right:15px; font-size:1.2rem;">00:00</span>
+                    <button onclick="closeQuiz()" style="background:transparent; color:white; border:1px solid #555; padding:5px 10px; border-radius:5px; cursor:pointer;">Exit</button>
+                </div>
+            </div>
+
+            <div id="quiz-dashboard" class="hidden" style="text-align:center; padding:20px;"></div>
+
+            <div id="quiz-questions-wrapper">
+                <div id="quiz-questions-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <button id="doubt-btn" class="fab-doubt" style="z-index: 10000; pointer-events: auto;">
+        <i class="ri-robot-2-line"></i> <span class="desktop-only">Ask Doubt</span>
+    </button>
+
+    <div id="doubt-modal" class="hidden" style="position: fixed; bottom: 90px; right: 30px; width: 320px; height: 450px; background: #18181b; border: 1px solid #333; border-radius: 12px; z-index: 10001; box-shadow: 0 10px 40px rgba(0,0,0,0.5);">
+        <div style="padding:15px; background:#111; border-bottom:1px solid #333; display:flex; justify-content:space-between; align-items:center; border-radius: 12px 12px 0 0;">
+            <span style="font-weight:600; color:white;">AI Tutor 🤖</span>
+            <span id="close-doubt" style="cursor:pointer; color:#888; font-size:1.5rem;">&times;</span>
+        </div>
+        <div id="chat-history" style="flex:1; padding:15px; overflow-y:auto; color:#ddd; font-size:0.9rem;">
+            <div style="text-align:center; color:#666; margin-top:20px;">
+                Ask me anything about Physics, Chemistry or Maths!
+            </div>
+        </div>
+        <div style="padding:10px; background:#111; border-top:1px solid #333; display:flex; gap:10px; border-radius: 0 0 12px 12px;">
+            <input type="text" id="doubt-input" placeholder="Type your doubt..." style="flex:1; padding:8px 12px; border-radius:20px; border:1px solid #444; background:#222; color:white; outline:none;">
+            <button id="send-doubt" style="background:#8b5cf6; color:white; border:none; width:35px; height:35px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center;"><i class="ri-send-plane-fill"></i></button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    
+    <script src="ak11th.js"></script>
+    <script src="ak12th.js"></script>
+    <script src="quiz-data.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
