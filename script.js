@@ -673,16 +673,23 @@ function renderResources(chapter) {
     });
 }
 
+// ✅ UPDATED OPEN PLAYER (Fixes Sidebar PDF Issue)
 function openPlayer(channelId, vidId, title) {
     const modal = document.getElementById('video-player-modal');
     modal.classList.remove('hidden');
     document.getElementById('vp-sidebar').classList.remove('sidebar-open');
     
     let batchName = "Class Batch";
+    // Batch Info Nikalo
+    let currentBatchChannelId = channelId; // Default to passed ID
+
     if(appState.classId && appState.batchIdx !== null && DB[appState.classId]) {
          const batch = DB[appState.classId].batches[appState.batchIdx];
          batchName = batch.batch_name.toUpperCase();
+         // Data se Channel ID lo (Backup)
+         if(batch.channel_id) currentBatchChannelId = batch.channel_id; 
     }
+    
     document.getElementById('vp-title').innerText = batchName; 
     document.getElementById('vp-lecture-name').innerText = title; 
     
@@ -690,8 +697,8 @@ function openPlayer(channelId, vidId, title) {
     vpQuoteEl.className = 'vp-quote purple-bracket'; 
     vpQuoteEl.innerHTML = `"Study hard." <br><span style="font-size:0.85rem; opacity:0.8;">— You</span>`;
 
+    // Video Play Logic
     const streamUrl = `${BASE_API}${channelId}/${vidId}`;
-    
     const activePlayerEl = document.getElementById('active-player');
     
     if (activePlayerEl) {
@@ -712,6 +719,7 @@ function openPlayer(channelId, vidId, title) {
         new Plyr('#active-player', { autoplay: true, seekTime: 10, controls: ['play-large', 'rewind', 'play', 'fast-forward', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'fullscreen'] });
     }
     
+    // --- SIDEBAR ATTACHMENTS LOGIC ---
     const attachList = document.getElementById('vp-attachments-list');
     attachList.innerHTML = ''; 
     
@@ -719,6 +727,7 @@ function openPlayer(channelId, vidId, title) {
         const batch = DB[appState.classId].batches[appState.batchIdx];
         const chapter = batch.chapters[appState.chapterIdx];
         let notesData = [];
+        
         const addCategorizedData = (items, type) => {
             if (items) {
                 items.forEach(item => {
@@ -728,6 +737,7 @@ function openPlayer(channelId, vidId, title) {
                 });
             }
         };
+
         if (chapter.lectures) {
             chapter.lectures.forEach(l => {
                 if (l.notes_id) notesData.push({ title: l.title + " (Notes)", id: l.notes_id, type: 'Lecture Notes' });
@@ -752,6 +762,7 @@ function openPlayer(channelId, vidId, title) {
                     headerEl.style.cssText = 'font-weight: 700; color: var(--primary); padding: 10px 5px 5px; margin-top: 15px; border-bottom: 1px solid #222; font-size: 0.9rem;';
                     headerEl.innerText = type.toUpperCase();
                     attachList.appendChild(headerEl);
+                    
                     groupedData[type].forEach(doc => {
                         const docId = doc.id;
                         const docTitle = doc.title;
@@ -759,12 +770,14 @@ function openPlayer(channelId, vidId, title) {
                         noteEl.className = 'attachment-item';
                         noteEl.style.cssText = 'display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #111;';
                         let icon = (type === 'DPPs' || type === 'Sheets') ? 'ri-test-tube-line' : 'ri-file-text-line';
+                        
+                        // ✅ FIX: Added currentBatchChannelId here
                         noteEl.innerHTML = `
                             <div class="res-left" style="gap:10px; display:flex; align-items:center;">
                                 <i class="${icon}" style="color:var(--text-sub);"></i>
                                 <div style="font-size:0.9rem; color:white;">${docTitle}</div>
                             </div>
-                            <button class="btn-small" onclick="openPDF('${docId}')" style="font-size:0.8rem; padding: 5px 10px;"><i class="ri-eye-line"></i> View</button>
+                            <button class="btn-small" onclick="openPDF('${currentBatchChannelId}', '${docId}')" style="font-size:0.8rem; padding: 5px 10px;"><i class="ri-eye-line"></i> View</button>
                         `;
                         attachList.appendChild(noteEl);
                     });
