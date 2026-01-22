@@ -9,31 +9,33 @@ const allenClass11Data = [
             {
                 "chapter_name": "UNIT AND DIMENSION [ SKJ SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Leacture 01", "video_id": 3 },
-                    { "lec_no": "L-02", "title": "Leacture 02", "video_id": 4 },
-                    { "lec_no": "L-03", "title": "Leacture 03", "video_id": 5 }
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 3 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 4 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 5 }
                 ]
             },
             {
                 "chapter_name": "UNIT AND DIMENSION [ VJ SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Leacture 01", "video_id": 8 },
-                    { "lec_no": "L-02", "title": "Leacture 02", "video_id": 9 },
-                    { "lec_no": "L-03", "title": "Leacture 03", "video_id": 10 }
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 8 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 9 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 10 }
                 ]
             },
             {
-                "chapter_name": "Center of Mass (COM)",
+                "chapter_name": "BASIC MATH BY  [ MKP SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Introduction to COM", "video_id": 5070 },
-                    { "lec_no": "L-02", "title": "Motion of COM", "video_id": 5071 }
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 13 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 14 },
+                    { "lec_no": "L-02", "title": "BASIC MATH LAST 🚫 VECTOR FIRST 🔥 | LEACTURE 03", "video_id": 15 }
                 ]
             },
             {
-                "chapter_name": "Work Power Energy (WPE)",
+                "chapter_name": "VECTOR BY [ MKP SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Work Done by Constant Force", "video_id": 5080 },
-                    { "lec_no": "L-02", "title": "Work Energy Theorem", "video_id": 5081 }
+                    { "lec_no": "L-01", "title": "BASIC MATH LAST 🚫 VECTOR FIRST 🔥 | LEACTURE 01", "video_id": 18 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 19 },
+                    { "lec_no": "L-02", "title": "VECTOR LAST 🚫 KINEMATICS FIRST 🔥 | LEACTURE 03", "video_id": 20 }
                 ]
             }
         ]
