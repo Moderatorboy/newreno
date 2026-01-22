@@ -2,6 +2,8 @@
 const dataClass12 = [
     {
         "batch_name": "Jee-12th Chem (SKM Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Revision Plan",
@@ -1055,6 +1057,8 @@ const dataClass12 = [
     },
     {
         "batch_name": "Jee-12th Chem (AKK Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Revision Plan",
@@ -2066,6 +2070,8 @@ const dataClass12 = [
     },
     {
         "batch_name": "Jee-12th Chem (VJ Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "p- Block",
@@ -3429,6 +3435,8 @@ const dataClass12 = [
     },
     {
         "batch_name": "Jee-12th Phy (JP Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Dimension & Error Analysis",
@@ -5556,6 +5564,8 @@ const dataClass12 = [
     },
     {
         "batch_name": "Jee-12th Phy (NS Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Waves",
@@ -7607,6 +7617,8 @@ const dataClass12 = [
     },
     {
         "batch_name": "Jee-12th Maths (GB Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Parabola",
@@ -9239,6 +9251,8 @@ const dataClass12 = [
     },
     {
         "batch_name": "Jee-12th Maths (VG Sir)",
+        // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
+        "channel_id": "-1002011365587",
         "chapters": [
             {
                 "chapter_name": "Statistics",
