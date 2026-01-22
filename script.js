@@ -94,7 +94,11 @@ window.onload = function() {
     DB = {
         '11': { name: 'Class 11th', batches: d11 },
         '12': { name: 'Class 12th', batches: d12 },
-        '13': { name: 'Eduniti 2025', batches: d13 }
+        '13': { name: 'Eduniti 2025', batches: d13},
+        
+        // 👇 YEH NAYA ADD KARO:
+        'allen-11': { name: 'Allen NEET - 11th', batches: allen11 },
+        'allen-12': { name: 'Allen NEET - 12th', batches: allen12 }
     };
 
     console.log("Database Loaded:", DB);
