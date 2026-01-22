@@ -4,15 +4,15 @@
 const allenClass11Data = [
     {
         "batch_name": "PHYSICS",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Kinematics",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Introduction to Motion", "video_id": 5050 },
-                    { "lec_no": "L-02", "title": "Speed and Velocity", "video_id": 5051 },
-                    { "lec_no": "L-03", "title": "Equation of Motion", "video_id": 5052 },
-                    { "lec_no": "L-04", "title": "Motion Under Gravity", "video_id": 5053 }
+                    { "lec_no": "L-01", "title": "Introduction to Motion", "video_id": 3 },
+                    { "lec_no": "L-02", "title": "Speed and Velocity", "video_id": 4 },
+                    { "lec_no": "L-03", "title": "Equation of Motion", "video_id": 5 },
+                    { "lec_no": "L-04", "title": "Motion Under Gravity", "video_id": 6 }
                 ]
             },
             {
