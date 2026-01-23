@@ -1,7 +1,7 @@
 // Class 12th Data
 const dataClass12 = [
     {
-        "batch_name": "Jee-12th Chem (SKM Sir)",
+        "batch_name": "ORGANIC (SKM Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -1056,7 +1056,7 @@ const dataClass12 = [
         ]
     },
     {
-        "batch_name": "Jee-12th Chem (AKK Sir)",
+        "batch_name": "PHYICAL (AKK Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -2069,7 +2069,7 @@ const dataClass12 = [
         ]
     },
     {
-        "batch_name": "Jee-12th Chem (VJ Sir)",
+        "batch_name": "ORGANIC (VJ Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -3434,7 +3434,7 @@ const dataClass12 = [
         ]
     },
     {
-        "batch_name": "Jee-12th Phy (JP Sir)",
+        "batch_name": "PHYSICS (JP Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -5563,7 +5563,7 @@ const dataClass12 = [
         ]
     },
     {
-        "batch_name": "Jee-12th Phy (NS Sir)",
+        "batch_name": "PHYSICS (NS Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -7616,7 +7616,7 @@ const dataClass12 = [
         ]
     },
     {
-        "batch_name": "Jee-12th Maths (GB Sir)",
+        "batch_name": "MATHS (GB Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -9250,7 +9250,7 @@ const dataClass12 = [
         ]
     },
     {
-        "batch_name": "Jee-12th Maths (VG Sir)",
+        "batch_name": "MATHS (VG Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -10538,9 +10538,5 @@ const dataClass12 = [
                 "dpps": []
             }
         ]
-    },
-    {
-        "batch_name": "Jee-12th Files",
-        "chapters": []
     }
 ];
