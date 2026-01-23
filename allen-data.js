@@ -2354,6 +2354,167 @@ const allenMoreData = [
     { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38332 },
     { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38333 },
     { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38334 }
+        ]
+    },
+    {
+        "chapter_name": "THERMAL PHYSICS NEW [ HY SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38751 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38752 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38753 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38754 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38755 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38756 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38757 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38758 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38759 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38760 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38761 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38762 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38763 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38764 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38765 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38766 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38767 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38768 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 38769 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 38770 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 38771 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 38772 }
+        ]
+    },
+    {
+        "chapter_name": "SHM NEW [ SNG SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38695 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38696 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38697 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38698 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38699 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38700 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38701 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38702 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38703 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38704 }
+        ]
+    },
+    {
+        "chapter_name": "WAVE MOTION [ SNG SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38707 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38708 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38709 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38710 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38711 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38712 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38713 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38714 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38715 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38716 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38717 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38718 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38719 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38720 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38721 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38722 }
+        ]
+    },
+    {
+        "chapter_name": "PERIODIC TABLE BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39009 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39010 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39011 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39012 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39013 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39014 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39015 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39016 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39017 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39018 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL BONDING BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39019 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39020 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39021 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39022 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39023 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39024 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39025 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39026 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39027 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39028 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39029 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39030 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 39031 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 39032 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 39033 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 39034 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 39035 }
+        ]
+    },
+    {
+        "chapter_name": "P BLOCK BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39035 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39036 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39037 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39038 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39039 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39040 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39041 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39042 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39043 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39044 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39045 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39046 }
+        ]
+    },
+    {
+        "chapter_name": "COORDINATION COMPOUND BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39046 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39047 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39048 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39049 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39050 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39051 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39052 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39053 }
+        ]
+    },
+    {
+        "chapter_name": "D & F BLOCK BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39053 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39054 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39055 }
+        ]
+    },
+    {
+        "chapter_name": "S BLOCK BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39055 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39056 }
+        ]
+    },
+    {
+        "chapter_name": "HYDROGEN BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39056 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39057 }
+        ]
+    },
+    {
+        "chapter_name": "METALLURGY BY ABHINAV SHARMA [AS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39057 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39058 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39059 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39060 }
                 ]
             }
         ]
