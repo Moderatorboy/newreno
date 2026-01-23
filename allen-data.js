@@ -335,7 +335,7 @@ const allenClass11Data = [
     },
     {
         "batch_name": "PHYSICAL",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "MOLE CONCEPT BY [ RKJ SIR ]",
