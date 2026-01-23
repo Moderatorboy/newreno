@@ -736,27 +736,114 @@ const allenClass11Data = [
     }, // Physical Batch object close
     {
         "batch_name": "INORGANIC",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
-                "chapter_name": "Some Basic Conpts of Chemistry",
+                "chapter_name": "PERIODIC TABLE BY YASH GOYAL SIR [ YG SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Mole Conct", "video_id": 8100 },
-                    { "lec_no": "L-02", "title": "Stotry", "video_id": 8101 }
+                    { "lec_no": "L-01", "title": "Mole Conct", "video_id": 1196 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1197 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1198 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1199 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1200 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1201 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1202 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1203 },
+                    { "lec_no": "L-09", "title": "PERIODIC TABLE LAST 🚫 CHEMICAL BONDING FIRST 🔥 LECTURE 09", "video_id": 1204 }
                 ]
             },
             {
-                "chapter_name": "Atomic Structure",
+                "chapter_name": "CHEMICAL BONDING BY YASH GOYAL SIR [ YG SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Bohr's Model", "video_id": 8110 },
-                    { "lec_no": "L-02", "title": "Quantum Nbers", "video_id": 8111 }
+                    { "lec_no": "L-01", "title": "PERIODIC TABLE LAST 🚫 CHEMICAL BONDING FIRST 🔥 LECTURE 01", "video_id": 1207 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1208 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1209 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1210 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1211 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1212 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1213 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1214 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1215 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1216 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1217 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1218 },
+                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1219 },
+                    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1220 },
+                    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1221 }
+                ]
+            },
+            {
+                "chapter_name": "ELECTROCHEMISTRY BY YASH GOYAL SIR [ YG SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1224 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1225 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1226 },
+                    { "lec_no": "L-04", "title": "S BLOCK LAST 🚫 AND P BLOCK FIRST 🔥 LECTURE 04", "video_id": 1227 }
+                ]
+            },
+            {
+                "chapter_name": "S BLOCK BY YASH GOYAL SIR [ YG SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "S BLOCK LAST 🚫 AND P BLOCK FIRST 🔥 LECTURE 01", "video_id": 1230 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1231 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1232 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1233 },
+                    { "lec_no": "L-02", "title": "LECTURE 05", "video_id": 1234 },
+                    { "lec_no": "L-03", "title": "LECTURE 06", "video_id": 1235 },
+                    { "lec_no": "L-04", "title": "LECTURE 07", "video_id": 1236 },
+                    { "lec_no": "L-05", "title": "LECTURE 08", "video_id": 1237 },
+                    { "lec_no": "L-06", "title": "LECTURE 09", "video_id": 1238 },
+                    { "lec_no": "L-07", "title": "LECTURE 010", "video_id": 1239 },
+                    { "lec_no": "L-08", "title": "LECTURE 11", "video_id": 1240 },
+                    { "lec_no": "L-09", "title": "LECTURE 12", "video_id": 1241 },
+                    { "lec_no": "L-10", "title": "LECTURE 13", "video_id": 1242 },
+                    { "lec_no": "L-11", "title": "LECTURE 14", "video_id": 1243 },
+                    { "lec_no": "L-12", "title": "LECTURE 15", "video_id": 1244 },
+                    { "lec_no": "L-13", "title": "P BLOCK LAST 🚫 COORDINATION COMPOUND FIRST 🔥 LECTURE 16", "video_id": 1245 }
+                ]
+            },
+            {
+                "chapter_name": "COORDINATION COMPOUND BY YASH GOYAL SIR [ YG SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "P BLOCK LAST 🚫 COORDINATION COMPOUND FIRST 🔥 LECTURE 01", "video_id": 1248 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1249 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1250 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1251 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1252 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1253 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1254 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1255 },
+                    { "lec_no": "L-09", "title": "COORDINATION COMPOUND LAST 🚫 D AND F BLOCK FIRST 🔥 LECTURE 09", "video_id": 1256 }
+                ]
+            },
+            {
+                "chapter_name": "D & F BLOCK BY YASH GOYAL SIR [ YG SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "COORDINATION COMPOUND LAST 🚫 D AND F BLOCK FIRST 🔥 LECTURE 01", "video_id": 1258 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1259 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1260 }
+                ]
+            },
+            {
+                "chapter_name": "METALLURGY BY YASH GOYAL SIR [ YG SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1263 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1264 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1265 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1266 }
+                ]
+            },
+            {
+                "chapter_name": "HYDROGEN BY YASH GOYAL SIR [ YG SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1269 }
                 ]
             }
         ]
     },
     {
         "batch_name": "ORGANIC",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Some Basic Concepts of Chistry",
@@ -776,7 +863,7 @@ const allenClass11Data = [
     },
     {
         "batch_name": "ZOOLOGY",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Animal Kingdom",
@@ -789,7 +876,7 @@ const allenClass11Data = [
     },
     {
         "batch_name": "BOTANY",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "The Living World",
@@ -808,7 +895,7 @@ const allenClass11Data = [
 const allenClass12Data = [
     {
         "batch_name": "PHYSICS",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Electrostatics",
@@ -827,7 +914,7 @@ const allenClass12Data = [
     },
     {
         "batch_name": "CHEMISTRY",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Solid State",
@@ -839,7 +926,7 @@ const allenClass12Data = [
     },
     {
         "batch_name": "ZOOLOGY",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Human Reproduction",
@@ -851,7 +938,7 @@ const allenClass12Data = [
     },
     {
         "batch_name": "BOTANY",
-        "channel_id": "-1002011365587",
+        "channel_id": "-1001520421056",
         "chapters": [
             {
                 "chapter_name": "Sexual Reproduction in Flowering Plants",
