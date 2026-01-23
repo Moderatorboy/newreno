@@ -2324,3 +2324,38 @@ const allenClass12Data = [
         ]
     }
 ];
+
+// ==================================================
+// ALLEN NEET CLASSROOM - EXTRA DATA
+// ==================================================
+const allenMoreData = [
+    {
+        "batch_name": "PHYSICS",
+        "channel_id": "-1001593301986",
+        "chapters": [
+            {
+                "chapter_name": "ELECTROSTATICS BY YOGESH SIR [ YS SIR ]",
+    "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38317 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38318 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38319 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38320 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38321 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38322 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38323 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38324 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38325 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38326 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38327 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38328 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38329 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38330 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38331 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38332 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38333 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38334 }
+                ]
+            }
+        ]
+    }
+];
