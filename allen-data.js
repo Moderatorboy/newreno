@@ -1389,20 +1389,20 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "ENZYME [ YB SIR ]",
+        "chapter_name": "ENZYME JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1566 }
         ]
     },
     {
-        "chapter_name": "ENZYME [ JS SIR ]",
+        "chapter_name": "ENZYME JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1569 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1570 }
         ]
     },
     {
-        "chapter_name": "PHOTOSYNTHESIS",
+        "chapter_name": "PHOTOSYNTHESIS JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1573 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1574 },
@@ -1414,7 +1414,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "RESPIRATION IN PLANT",
+        "chapter_name": "RESPIRATION IN PLANT JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1582 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1583 },
@@ -1424,7 +1424,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "TRANSPORT IN PLANT",
+        "chapter_name": "TRANSPORT IN PLANT JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1589 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1590 },
@@ -1434,7 +1434,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "MINERAL NUTRITION",
+        "chapter_name": "MINERAL NUTRITION JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1596 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1597 },
@@ -1442,7 +1442,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "PLANT GROWTH",
+        "chapter_name": "PLANT GROWTH JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1601 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1602 }
