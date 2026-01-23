@@ -334,7 +334,193 @@ const allenClass11Data = [
         ]
     },
     {
-        "batch_name": "CHEMISTRY",
+        "batch_name": "PHYSICAL",
+        "channel_id": "-1002011365587",
+        "chapters": [
+            {
+                "chapter_name": "MOLE CONCEPT BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 718 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 719 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 720 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 721 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 722 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 723 },
+                    { "lec_no": "L-07", "title": "MOLE CONCEPT LAST 🚫 ATOMIC STRUCTURE FIRST 🔥| LEACTURE 07", "video_id": 724 }
+                ]
+            },
+            {
+                "chapter_name": "ATOMIC STRUCTURE BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "MOLE CONCEPT LAST 🚫 ATOMIC STRUCTURE FIRST 🔥| LEACTURE 01", "video_id": 727 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 728 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 729 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 730 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 731 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 732 },
+                    { "lec_no": "L-07", "title": "LEACTURE 07", "video_id": 733 },
+                    { "lec_no": "L-09", "title": "LEACTURE 08", "video_id": 734 },
+                    { "lec_no": "L-09", "title": "LEACTURE 09", "video_id": 735 },
+                    { "lec_no": "L-10", "title": "LEACTURE 10", "video_id": 736 },
+                    { "lec_no": "L-11", "title": "LEACTURE 11", "video_id": 737 },
+                    { "lec_no": "L-12", "title": "LEACTURE 12", "video_id": 738 },
+                    { "lec_no": "L-13", "title": "LEACTURE 13", "video_id": 739 },
+                    { "lec_no": "L-14", "title": "LEACTURE 14", "video_id": 740 },
+                    { "lec_no": "L-15", "title": "LEACTURE 15", "video_id": 741 },
+                    { "lec_no": "L-16", "title": "LEACTURE 16", "video_id": 742 }
+                ]
+            },
+            {
+                "chapter_name": "CHEMICAL EQUILIBRIUM BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 745 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 746 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 747 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 748 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 749 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 750 }
+                ]
+            },
+            {
+                "chapter_name": "IONIC EQUILIBRIUM BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 753 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 754 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 755 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 756 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 757 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 758 },
+                    { "lec_no": "L-07", "title": "LEACTURE 07", "video_id": 759 },
+                    { "lec_no": "L-09", "title": "LEACTURE 08", "video_id": 760 },
+                    { "lec_no": "L-09", "title": "LEACTURE 09", "video_id": 761 },
+                    { "lec_no": "L-10", "title": "LEACTURE 10", "video_id": 762 },
+                    { "lec_no": "L-11", "title": "LEACTURE 11", "video_id": 763 }
+                ]
+            },
+            {
+                "chapter_name": "THERMODYNAMICS BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 766 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 767 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 768 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 769 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 770 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 771 },
+                    { "lec_no": "L-07", "title": "LEACTURE 07", "video_id": 772 },
+                    { "lec_no": "L-09", "title": "LEACTURE 08", "video_id": 773 },
+                    { "lec_no": "L-09", "title": "LEACTURE 09", "video_id": 774 },
+                    { "lec_no": "L-10", "title": "LEACTURE 10", "video_id": 775 },
+                    { "lec_no": "L-11", "title": "THERMODYNAMICS LAST 🚫 SOLID STATE FIRST 🔥LEACTURE 11", "video_id": 776 }
+                ]
+            },
+            {
+                "chapter_name": "SOLID STATE BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "THERMODYNAMICS LAST 🚫 SOLID STATE FIRST 🔥LEACTURE 01", "video_id": 779 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 780 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 781 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 782 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 783 },
+                    { "lec_no": "L-06", "title": "SOLID STATE LAST 🚫 REDOX REACTION 🔥LEACTURE 06", "video_id": 784 }
+                ]
+            },
+            {
+                "chapter_name": "REDOX REACTION BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "SOLID STATE LAST 🚫 REDOX REACTION 🔥LEACTURE 01", "video_id": 787 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 788 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 789 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 790 }
+                ]
+            },
+            {
+                "chapter_name": "BEHAVIOR OF GAS BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 793 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 794 }
+                ]
+            },
+            {
+                "chapter_name": "CHEMICAL KINETICS BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 797 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 798 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 799 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 800 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 801 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 802 },
+                    { "lec_no": "L-07", "title": "LEACTURE 07", "video_id": 803 },
+                    { "lec_no": "L-09", "title": "LEACTURE 08", "video_id": 804 },
+                    { "lec_no": "L-09", "title": "LEACTURE 09", "video_id": 805 },
+                    { "lec_no": "L-10", "title": "LEACTURE 10", "video_id": 806 },
+                    { "lec_no": "L-11", "title": "LEACTURE 11", "video_id": 807 }
+                ]
+            },
+            {
+                "chapter_name": "SOLUTION BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 810 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 811 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 812 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 813 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 814 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 815 },
+                    { "lec_no": "L-07", "title": "LEACTURE 07", "video_id": 816 },
+                    { "lec_no": "L-09", "title": "LEACTURE 08", "video_id": 817 },
+                    { "lec_no": "L-09", "title": "LEACTURE 09", "video_id": 818 },
+                    { "lec_no": "L-10", "title": "LEACTURE 10", "video_id": 819 },
+                    { "lec_no": "L-11", "title": "LEACTURE 11", "video_id": 820 }
+                ]
+            },
+            {
+                "chapter_name": "ELECTROCHEMISTRY  BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 823 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 824 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 825 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 826 },
+                    { "lec_no": "L-05", "title": "LEACTURE 05", "video_id": 827 },
+                    { "lec_no": "L-06", "title": "LEACTURE 06", "video_id": 828 },
+                    { "lec_no": "L-07", "title": "LEACTURE 07", "video_id": 829 },
+                    { "lec_no": "L-09", "title": "LEACTURE 08", "video_id": 830 },
+                    { "lec_no": "L-09", "title": "LEACTURE 09", "video_id": 831 },
+                    { "lec_no": "L-10", "title": "LEACTURE 10", "video_id": 832 },
+                    { "lec_no": "L-11", "title": "LEACTURE 11", "video_id": 833 },
+                    { "lec_no": "L-12", "title": "LEACTURE 12", "video_id": 834 }
+                ]
+            },
+            {
+                "chapter_name": "SURFACE CHEMISTRY BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LEACTURE 01", "video_id": 837 },
+                    { "lec_no": "L-02", "title": "LEACTURE 02", "video_id": 838 },
+                    { "lec_no": "L-03", "title": "LEACTURE 03", "video_id": 839 },
+                    { "lec_no": "L-04", "title": "LEACTURE 04", "video_id": 840 }
+            }
+        ]
+    },
+    {
+        "batch_name": "INORGANIC",
+        "channel_id": "-1002011365587",
+        "chapters": [
+            {
+                "chapter_name": "Some Basic Concepts of Chemistry",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "Mole Concept", "video_id": 5100 },
+                    { "lec_no": "L-02", "title": "Stoichiometry", "video_id": 5101 }
+                ]
+            },
+            {
+                "chapter_name": "Atomic Structure",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "Bohr's Model", "video_id": 5110 },
+                    { "lec_no": "L-02", "title": "Quantum Numbers", "video_id": 5111 }
+                ]
+            }
+        ]
+    },
+    {
+        "batch_name": "ORGANIC",
         "channel_id": "-1002011365587",
         "chapters": [
             {
