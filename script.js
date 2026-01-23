@@ -158,13 +158,15 @@ function getSubjectIcon(name) {
     if(name.includes('physical')) return { text: 'PC', color: '#f59e0b', bg: '#fff' }; // Yellow
     if(name.includes('botany')) return { text: 'BOT', color: '#10b981', bg: '#fff' }; // Green
     if(name.includes('zoology')) return { text: 'ZOO', color: '#8b5cf6', bg: '#fff' }; // Purple
-    if(name.includes('organic')) return { text: 'OC', color: '#10b981', bg: '#fff' }; // Green
-    if(name.includes('inorganic')) return { text: 'IOC', color: '#8b5cf6', bg: '#fff' }; // Purple
+    if(name.includes('ORGANIC')) return { text: 'OC', color: '#10b981', bg: '#fff' }; // Green
+    if(name.includes('INORGANIC')) return { text: 'IOC', color: '#8b5cf6', bg: '#fff' }; // Purple
     
     // Existing logic
     if(name.includes('skm')) return { text: 'SKM', color: '#a855f7', bg: '#fff' };
     if(name.includes('vj')) return { text: 'VJ', color: '#a855f7', bg: '#fff' };
     if(name.includes('beast')) return { text: 'BG', color: '#a855f7', bg: '#fff' };
+    if(name.includes('2025')) return { text: '2025', color: '#a855f7', bg: '#fff' };
+    if(name.includes('2024')) return { text: '2024', color: '#a855f7', bg: '#fff' };
     return { text: 'OT', color: '#10b981', bg: '#fff' };
 }
 
