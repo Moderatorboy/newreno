@@ -168,6 +168,7 @@ function getSubjectIcon(name) {
     if(name.includes('jp sir')) return { text: 'JP', color: '#3b82f6', bg: '#fff' };
     if(name.includes('(NS sir)')) return { text: 'NS', color: '#3b82f6', bg: '#fff' };
     if(name.includes('gb sir')) return { text: 'GB', color: '#f59e0b', bg: '#fff' };
+    if(name.includes('BIOLOGY sir')) return { text: 'BIO', color: '#f59e0b', bg: '#fff' };
     if(name.includes('akk sir')) return { text: 'AKK', color: '#a855f7', bg: '#fff' };
     if(name.includes('vg sir')) return { text: 'VG', color: '#f59e0b', bg: '#fff' };
     if(name.includes('ms')) return { text: 'MS', color: '#f59e0b', bg: '#fff' };
