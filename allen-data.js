@@ -2515,6 +2515,823 @@ const allenMoreData = [
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39058 },
             { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39059 },
             { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39060 }
+        ]
+    },
+    {
+        "chapter_name": "PERIODIC TABLE BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38590 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38591 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38592 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38593 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38594 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38595 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38596 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38597 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38598 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38599 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38600 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38601 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38602 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38603 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL BONDING BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38603 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38604 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38605 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38606 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38607 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38608 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38609 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38610 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38611 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38612 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38613 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38614 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38615 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38616 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38617 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38618 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38619 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38620 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 38621 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 38622 }
+        ]
+    },
+    {
+        "chapter_name": "S BLOCK BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38623 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38624 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38625 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38626 }
+        ]
+    },
+    {
+        "chapter_name": "P BLOCK BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38626 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38627 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38628 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38629 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38630 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38631 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38632 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38633 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38634 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38635 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38636 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38637 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38638 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38639 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38640 }
+        ]
+    },
+    {
+        "chapter_name": "COORDINATION COMPOUND BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38641 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38642 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38643 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38644 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38645 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38646 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38647 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38648 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38649 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38650 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38651 }
+        ]
+    },
+    {
+        "chapter_name": "D & F BLOCK BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38651 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38652 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38653 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38654 }
+        ]
+    },
+    {
+        "chapter_name": "METALLURGY BY RAVI DUBEY SIR [ RD SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38654 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38655 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38656 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38657 }
+        ]
+    },
+    {
+        "chapter_name": "PERIODIC TABLE BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38144 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38145 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38146 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38147 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38148 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38149 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38150 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38151 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL BONDING BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38152 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38153 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38154 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38155 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38156 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38157 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38158 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38159 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38160 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38161 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38162 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38163 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38164 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38165 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38166 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38167 }
+        ]
+    },
+    {
+        "chapter_name": "S BLOCK BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38167 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38168 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38169 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38170 }
+        ]
+    },
+    {
+        "chapter_name": "HYDROGEN BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38171 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38172 }
+        ]
+    },
+    {
+        "chapter_name": "P BLOCK BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38172 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38173 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38174 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38175 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38176 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38177 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38178 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38179 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38180 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38181 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38182 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38183 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38184 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38185 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38186 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38187 }
+        ]
+    },
+    {
+        "chapter_name": "COORDINATION COMPOUND BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38187 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38188 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38189 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38190 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38191 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38192 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38193 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38194 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38195 }
+        ]
+    },
+    {
+        "chapter_name": "D & F BLOCK BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38195 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38196 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38197 }
+        ]
+    },
+    {
+        "chapter_name": "METALLURGY BY ROHIT SAINI SIR [ RS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38197 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38198 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38199 }
+        ]
+    },
+    {
+        "chapter_name": "ORGANIC [ ACID SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "IUPAC LECTURE 01", "video_id": 33863 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 33864 },
+    { "lec_no": "L-03", "title": "IUPAC END & ISOMERISM START LECTURE 03", "video_id": 33865 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 33866 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 33867 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 33868 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 33869 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 33870 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 33871 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 33872 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 33873 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 33874 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 33875 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 33876 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 33877 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 33878 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 33879 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 33880 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 33881 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 33882 },
+    { "lec_no": "L-21", "title": "ISOMERISM END & GOC 01 START LECTURE 21", "video_id": 33883 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 33884 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 33885 },
+    { "lec_no": "L-24", "title": "LECTURE 24", "video_id": 33886 },
+    { "lec_no": "L-25", "title": "LECTURE 25", "video_id": 33887 },
+    { "lec_no": "L-26", "title": "LECTURE 26", "video_id": 33888 },
+    { "lec_no": "L-27", "title": "LECTURE 27", "video_id": 33889 },
+    { "lec_no": "L-28", "title": "LECTURE 28", "video_id": 33890 },
+    { "lec_no": "L-29", "title": "LECTURE 29", "video_id": 33891 },
+    { "lec_no": "L-30", "title": "LECTURE 30", "video_id": 33892 },
+    { "lec_no": "L-31", "title": "LECTURE 31", "video_id": 33893 },
+    { "lec_no": "L-32", "title": "LECTURE 32", "video_id": 33894 },
+    { "lec_no": "L-33", "title": "LECTURE 33", "video_id": 33895 },
+    { "lec_no": "L-34", "title": "LECTURE 34", "video_id": 33896 },
+    { "lec_no": "L-35", "title": "LECTURE 35", "video_id": 33897 },
+    { "lec_no": "L-36", "title": "LECTURE 36", "video_id": 33898 },
+    { "lec_no": "L-37", "title": "LECTURE 37", "video_id": 33899 },
+    { "lec_no": "L-38", "title": "LECTURE 38", "video_id": 33900 },
+    { "lec_no": "L-39", "title": "GOC 01 END & GOC 02 START LECTURE 39", "video_id": 33901 },
+    { "lec_no": "L-40", "title": "LECTURE 40", "video_id": 33902 },
+    { "lec_no": "L-41", "title": "LECTURE 41", "video_id": 33903 },
+    { "lec_no": "L-42", "title": "LECTURE 42", "video_id": 33904 },
+    { "lec_no": "L-43", "title": "LECTURE 43", "video_id": 33905 },
+    { "lec_no": "L-44", "title": "LECTURE 44", "video_id": 33906 },
+    { "lec_no": "L-45", "title": "LECTURE 45", "video_id": 33907 },
+    { "lec_no": "L-46", "title": "LECTURE 46", "video_id": 33908 },
+    { "lec_no": "L-47", "title": "LECTURE 47", "video_id": 33909 },
+    { "lec_no": "L-48", "title": "LECTURE 48", "video_id": 33910 },
+    { "lec_no": "L-49", "title": "LECTURE 49", "video_id": 33911 },
+    { "lec_no": "L-50", "title": "LECTURE 50", "video_id": 33912 },
+    { "lec_no": "L-51", "title": "LECTURE 51", "video_id": 33913 },
+    { "lec_no": "L-52", "title": "LECTURE 52", "video_id": 33914 },
+    { "lec_no": "L-53", "title": "LECTURE 53", "video_id": 33915 },
+    { "lec_no": "L-54", "title": "LECTURE 54", "video_id": 33916 },
+    { "lec_no": "L-55", "title": "LECTURE 55", "video_id": 33917 },
+    { "lec_no": "L-56", "title": "LECTURE 56", "video_id": 33918 },
+    { "lec_no": "L-57", "title": "LECTURE 57", "video_id": 33919 },
+    { "lec_no": "L-58", "title": "LECTURE 58", "video_id": 33920 },
+    { "lec_no": "L-59", "title": "LECTURE 59", "video_id": 33921 },
+    { "lec_no": "L-60", "title": "LECTURE 60", "video_id": 33922 },
+    { "lec_no": "L-61", "title": "LECTURE 61", "video_id": 33923 },
+    { "lec_no": "L-62", "title": "LECTURE 62", "video_id": 33924 },
+    { "lec_no": "L-63", "title": "LECTURE 63", "video_id": 33925 },
+    { "lec_no": "L-64", "title": "LECTURE 64", "video_id": 33926 },
+    { "lec_no": "L-65", "title": "LECTURE 65", "video_id": 33927 },
+    { "lec_no": "L-66", "title": "LECTURE 66", "video_id": 33928 },
+    { "lec_no": "L-67", "title": "LECTURE 67", "video_id": 33929 },
+    { "lec_no": "L-68", "title": "LECTURE 68", "video_id": 33930 },
+    { "lec_no": "L-69", "title": "LECTURE 69", "video_id": 33931 },
+    { "lec_no": "L-70", "title": "LECTURE 70", "video_id": 33932 },
+    { "lec_no": "L-71", "title": "LECTURE 71", "video_id": 33933 },
+    { "lec_no": "L-72", "title": "LECTURE 72", "video_id": 33934 },
+    { "lec_no": "L-73", "title": "LECTURE 73", "video_id": 33935 },
+    { "lec_no": "L-74", "title": "LECTURE 74", "video_id": 33936 },
+    { "lec_no": "L-75", "title": "LECTURE 75", "video_id": 33937 },
+    { "lec_no": "L-76", "title": "LECTURE 76", "video_id": 33938 },
+    { "lec_no": "L-77", "title": "LECTURE 77", "video_id": 33939 },
+    { "lec_no": "L-78", "title": "LECTURE 78", "video_id": 33940 },
+    { "lec_no": "L-79", "title": "LECTURE 79", "video_id": 33941 },
+    { "lec_no": "L-80", "title": "LECTURE 80", "video_id": 33942 },
+    { "lec_no": "L-81", "title": "LECTURE 81", "video_id": 33943 }
+        ]
+    },
+    {
+        "chapter_name": "IUPAC & NOMENCLATURE BY DEEPAK CHATURVEDI [ DC BABA SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 33947 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 33948 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 33949 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 33950 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 33951 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 33952 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 33953 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 33954 }
+        ]
+    },
+    {
+        "chapter_name": "ISOMERISM BY DEEPAK CHATURVEDI [ DC BABA SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 33954 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 33955 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 33956 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 33957 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 33958 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 33959 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 33960 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 33961 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 33962 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 33963 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 33964 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 33965 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 33966 }
+        ]
+    },
+    {
+        "chapter_name": "GOC 01 BY DEEPAK CHATURVEDI [ DC BABA SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 33966 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 33967 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 33968 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 33969 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 33970 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 33971 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 33972 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 33973 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 33974 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 33975 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 33976 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 33977 }
+        ]
+    },
+    {
+        "chapter_name": "GOC 02 BY DEEPAK CHATURVEDI [ DC BABA SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 33977 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 33978 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 33979 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 33980 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 33981 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 33982 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 33983 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 33984 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 33985 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 33986 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 33987 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 33988 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 33989 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 33990 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 33991 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 33992 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 33993 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 33994 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 33995 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 33996 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 33997 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 33998 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 33999 },
+    { "lec_no": "L-24", "title": "LECTURE 24", "video_id": 34000 },
+    { "lec_no": "L-25", "title": "LECTURE 25", "video_id": 34001 },
+    { "lec_no": "L-26", "title": "LECTURE 26", "video_id": 34002 },
+    { "lec_no": "L-27", "title": "LECTURE 27", "video_id": 34003 },
+    { "lec_no": "L-28", "title": "LECTURE 28", "video_id": 34004 },
+    { "lec_no": "L-29", "title": "LECTURE 29", "video_id": 34005 }
+        ]
+    },
+    {
+        "chapter_name": "ISOMERISM [ RV SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38804 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38805 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38806 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38807 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38808 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38809 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38810 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38811 }
+        ]
+    },
+    {
+        "chapter_name": "GOC 01 [ RV SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38811 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38812 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38813 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38814 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38815 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38816 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38817 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38818 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38819 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38820 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38823 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38822 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38821 }
+        ]
+    },
+    {
+        "chapter_name": "GOC 02 [ RV SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38824 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38825 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38826 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38827 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38828 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38829 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38830 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38831 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38832 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38833 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38834 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38835 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38836 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38837 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38838 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38839 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38840 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38841 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 38842 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 38843 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 38844 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 38845 }
+        ]
+    },
+    {
+        "chapter_name": "ORGANIC [ YSY SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39149 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39150 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39151 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39152 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39153 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39154 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39155 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39156 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39157 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39158 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39159 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39160 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 39161 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 39162 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 39163 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 39164 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 39165 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 39166 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 39167 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 39168 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 39169 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 39170 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 39171 },
+    { "lec_no": "L-24", "title": "LECTURE 24", "video_id": 39172 },
+    { "lec_no": "L-25", "title": "LECTURE 25", "video_id": 39173 },
+    { "lec_no": "L-26", "title": "LECTURE 26", "video_id": 39174 },
+    { "lec_no": "L-27", "title": "LECTURE 27", "video_id": 39175 },
+    { "lec_no": "L-28", "title": "LECTURE 28", "video_id": 39176 },
+    { "lec_no": "L-29", "title": "LECTURE 29", "video_id": 39177 },
+    { "lec_no": "L-30", "title": "LECTURE 30", "video_id": 39178 },
+    { "lec_no": "L-31", "title": "LECTURE 31", "video_id": 39179 },
+    { "lec_no": "L-32", "title": "LECTURE 32", "video_id": 39180 },
+    { "lec_no": "L-33", "title": "LECTURE 33", "video_id": 39181 },
+    { "lec_no": "L-34", "title": "LECTURE 34", "video_id": 39182 },
+    { "lec_no": "L-35", "title": "LECTURE 35", "video_id": 39183 },
+    { "lec_no": "L-36", "title": "LECTURE 36", "video_id": 39184 },
+    { "lec_no": "L-37", "title": "LECTURE 37", "video_id": 39185 },
+    { "lec_no": "L-38", "title": "LECTURE 38", "video_id": 39186 },
+    { "lec_no": "L-39", "title": "LECTURE 39", "video_id": 39187 },
+    { "lec_no": "L-40", "title": "LECTURE 40", "video_id": 39188 },
+    { "lec_no": "L-41", "title": "LECTURE 41", "video_id": 39189 },
+    { "lec_no": "L-42", "title": "LECTURE 42", "video_id": 39190 },
+    { "lec_no": "L-43", "title": "LECTURE 43", "video_id": 39191 },
+    { "lec_no": "L-44", "title": "LECTURE 44", "video_id": 39192 },
+    { "lec_no": "L-45", "title": "LECTURE 45", "video_id": 39193 },
+    { "lec_no": "L-46", "title": "LECTURE 46", "video_id": 39194 },
+    { "lec_no": "L-47", "title": "LECTURE 47", "video_id": 39195 },
+    { "lec_no": "L-48", "title": "LECTURE 48", "video_id": 39196 },
+    { "lec_no": "L-49", "title": "LECTURE 49", "video_id": 39197 },
+    { "lec_no": "L-50", "title": "LECTURE 50", "video_id": 39198 },
+    { "lec_no": "L-51", "title": "LECTURE 51", "video_id": 39199 },
+    { "lec_no": "L-52", "title": "LECTURE 52", "video_id": 39200 },
+    { "lec_no": "L-53", "title": "LECTURE 53", "video_id": 39201 },
+    { "lec_no": "L-54", "title": "LECTURE 54", "video_id": 39202 },
+    { "lec_no": "L-55", "title": "LECTURE 55", "video_id": 39203 },
+    { "lec_no": "L-56", "title": "LECTURE 56", "video_id": 39204 },
+    { "lec_no": "L-57", "title": "LECTURE 57", "video_id": 39205 },
+    { "lec_no": "L-58", "title": "LECTURE 58", "video_id": 39206 },
+    { "lec_no": "L-59", "title": "LECTURE 59", "video_id": 39207 },
+    { "lec_no": "L-60", "title": "LECTURE 60", "video_id": 39208 },
+    { "lec_no": "L-61", "title": "LECTURE 61", "video_id": 39209 },
+    { "lec_no": "L-62", "title": "LECTURE 62", "video_id": 39210 },
+    { "lec_no": "L-63", "title": "LECTURE 63", "video_id": 39211 },
+    { "lec_no": "L-64", "title": "LECTURE 64", "video_id": 39212 },
+    { "lec_no": "L-65", "title": "LECTURE 65", "video_id": 39213 },
+    { "lec_no": "L-66", "title": "LECTURE 66", "video_id": 39214 },
+    { "lec_no": "L-67", "title": "LECTURE 67", "video_id": 39215 },
+    { "lec_no": "L-68", "title": "LECTURE 68", "video_id": 39216 },
+    { "lec_no": "L-69", "title": "LECTURE 69", "video_id": 39217 },
+    { "lec_no": "L-70", "title": "LECTURE 70", "video_id": 39218 },
+    { "lec_no": "L-71", "title": "LECTURE 71", "video_id": 39219 },
+    { "lec_no": "L-72", "title": "LECTURE 72", "video_id": 39220 },
+    { "lec_no": "L-73", "title": "LECTURE 73", "video_id": 39221 },
+    { "lec_no": "L-74", "title": "LECTURE 74", "video_id": 39222 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT DIVERSITY BY INSAF ALI[ IA SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38512 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38513 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38514 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38515 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38516 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38517 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38518 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38519 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38520 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38521 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38522 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38523 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38524 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38525 }
+        ]
+    },
+    {
+        "chapter_name": "ANIMAL DIVERSITY BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38920 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38921 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38922 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38923 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38924 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38925 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38926 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38927 }
+        ]
+    },
+    {
+        "chapter_name": "ANATOMY [ NK VYAS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38371 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38372 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38373 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38374 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38375 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38376 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38377 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38378 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38379 }
+        ]
+    },
+    {
+        "chapter_name": "ANIMAL TISSUE BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38936 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38937 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38938 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38939 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38940 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38941 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38942 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38943 }
+        ]
+    },
+    {
+        "chapter_name": "EYE BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38943 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38944 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38945 }
+        ]
+    },
+    {
+        "chapter_name": "EAR BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38945 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38946 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38947 }
+        ]
+    },
+    {
+        "chapter_name": "LOCOMOTION & MOVEMENT BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38947 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38948 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38949 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38950 }
+        ]
+    },
+    {
+        "chapter_name": "DIGESTION & ABSORPTION BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38953 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38954 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38955 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38956 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38957 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38958 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38959 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38960 }
+        ]
+    },
+    {
+        "chapter_name": "BREATHING & EXCHANGE OF GASES BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38963 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38964 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38965 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38966 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38967 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38968 }
+        ]
+    },
+    {
+        "chapter_name": "BODY FLUID & CIRCULATION BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38971 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38972 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38973 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38974 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38975 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38976 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38977 }
+        ]
+    },
+    {
+        "chapter_name": "EXCTETORY PRODUCTS & THEIR ELIMATION BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38980 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38981 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38982 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38983 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38984 }
+        ]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL & COORDINATION BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38987 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38988 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38989 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38990 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38991 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38992 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38993 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38994 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38995 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38996 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38997 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION & INTEGRATION BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39000 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39001 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39002 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39003 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39004 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39005 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39006 }
+        ]
+    },
+    {
+        "chapter_name": "COCKROACH BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38930 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38931 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38932 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38933 }
+        ]
+    },
+    {
+        "chapter_name": "CELL BIOLOGY [ MKG SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38391 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38392 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38393 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38394 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38395 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38396 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38397 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38398 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38399 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT PHYSIOLOGY [ MKG SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "PHOTOSYNTHESIS START LECTURE 01", "video_id": 37992 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 37993 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 37994 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 37995 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 37996 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 37997 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 37998 },
+    { "lec_no": "L-08", "title": "PHOTOSYNTHESIS END & RESPIRATION IN PLANT START LECTURE 08", "video_id": 37999 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38000 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38001 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38002 },
+    { "lec_no": "L-12", "title": "RESPIRATION IN PLANT END & ENZYME START LECTURE 12", "video_id": 38003 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38004 },
+    { "lec_no": "L-14", "title": "TRANSPORT IN PLANT START LECTURE 14", "video_id": 38005 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38006 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38007 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38008 },
+    { "lec_no": "L-18", "title": "TRANSPORT IN PLANT END & MINERAL AND NUTRITION LECTURE 18", "video_id": 38009 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 38010 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 38011 },
+    { "lec_no": "L-21", "title": "PLANT GROWTH AND DEVELOPMENT START LECTURE 21", "video_id": 38012 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 38013 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 38014 }
+        ]
+    },
+    {
+        "chapter_name": "ATOMIC STRUCTURE BY PULKIT JAIN [ PJ SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38359 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38360 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38361 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38362 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38363 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38364 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38365 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38366 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38367 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38368 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL EQUILIBRIUM [ VJ SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39289 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39290 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39291 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39292 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39293 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39294 }
+        ]
+    },
+    {
+        "chapter_name": "THERMODYNAMICS [ MB SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38018 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38019 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38020 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38021 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38022 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38023 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38024 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38025 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38026 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38027 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38028 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38029 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38030 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38031 }
+        ]
+    },
+    {
+        "chapter_name": "IONIC EQUILIBRIUM [ MB SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38034 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38035 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38036 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38037 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38038 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38039 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38040 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38041 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38042 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38043 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38044 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38045 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38046 }
+        ]
+    },
+    {
+        "chapter_name": "THERMODYNAMICS [ AC SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38337 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38338 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38339 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38340 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38341 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38342 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38343 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38344 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38345 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38346 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38347 }
+        ]
+    },
+    {
+        "chapter_name": "IONIC EQUILIBRIUM [ AC SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38347 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38348 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38349 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38350 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38351 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38352 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38353 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38354 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38355 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38356 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38357 }
                 ]
             }
         ]
