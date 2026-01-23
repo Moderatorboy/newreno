@@ -9895,9 +9895,5 @@ const dataClass11 = [
                 "dpps": []
             }
         ]
-    },
-    {
-        "batch_name": "Jee-11th Files",
-        "chapters": []
     }
 ];
