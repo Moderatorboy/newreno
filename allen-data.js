@@ -1446,6 +1446,92 @@ const allenClass11Data = [
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1601 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1602 }
+        ]
+    },
+    {
+        "chapter_name": "BREATHING AND EXCHANGE OF GASES BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1609 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1610 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1611 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1612 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1613 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1614 }
+        ]
+    },
+    {
+        "chapter_name": "BODY FLUIDS AND CIRCULATION BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1617 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1618 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1619 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1620 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1621 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1622 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1623 }
+        ]
+    },
+    {
+        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1626 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1627 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1628 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1629 }
+        ]
+    },
+    {
+        "chapter_name": "DIGESTION AND ABSORPTION BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1632 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1633 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1634 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1635 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1636 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1637 }
+        ]
+    },
+    {
+        "chapter_name": "LOCATION AND MOVEMENT BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1640 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1641 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1642 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1643 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1644 }
+        ]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL AND COORDINATION BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1647 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1648 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1649 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1650 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1651 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1652 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1655 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1656 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1657 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1658 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1659 }
+        ]
+    },
+    {
+        "chapter_name": "EYE AND EAR BY DR. SUNNY MEWARA SIR  [ DR. SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1662 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1663 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1664 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1665 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1666 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1667 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1668 }
                 ]
             }
         ]
