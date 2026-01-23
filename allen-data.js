@@ -879,25 +879,6 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "ELECTROCHEMISTRY BY [ MM SIR ]",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1009 },
-                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1010 },
-                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1011 },
-                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1012 },
-                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1013 },
-                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1014 },
-                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1015 },
-                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1016 },
-                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1017 },
-                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1018 },
-                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1019 },
-                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1020 },
-                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1021 },
-                    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1022 }
-                ]
-            },
-            {
                 "chapter_name": "S BLOCK BY [ MM SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1308 },
