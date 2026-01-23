@@ -1589,7 +1589,7 @@ const allenClass12Data = [
                 ]
             },
             {
-                "chapter_name": "ELECTROSTATICS BY SHRINATH GUPTA [SNG SIR]",
+                "chapter_name": "ELECTROSTATICS BY SHRINATH GUPTA [ SNG SIR ]",
     "lectures": [
         { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 310 },
         { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 311 },
@@ -1609,9 +1609,478 @@ const allenClass12Data = [
                 ]
             },
             {
-                "chapter_name": "Current Electricity",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "Ohm's Law", "video_id": 6010 }
+                "chapter_name": "CURRENT ELECTRICITY BY [DJ SIR]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 327 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 328 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 329 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 330 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 331 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 332 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 333 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 334 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 335 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 336 }
+        ]
+    },
+    {
+        "chapter_name": "CAPACITOR [ YS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 339 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 340 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 341 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 342 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 343 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 344 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 345 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 346 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 347 }
+        ]
+    },
+    {
+        "chapter_name": "MAGNETISM [ DJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 350 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 351 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 352 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 353 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 354 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 355 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 356 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 357 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 358 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 359 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 360 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 361 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 362 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 363 }
+        ]
+    },
+    {
+        "chapter_name": "MAGNETISM [ AG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 366 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 367 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 368 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 369 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 370 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 371 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 372 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 373 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 374 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 375 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 376 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 377 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 378 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 379 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 380 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 381 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 382 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 383 },
+            { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 384 },
+            { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 385 },
+            { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 386 },
+            { "lec_no": "L-22", "title": "MAGNETISM LAST 🚫 EMI FIRST 🔥LECTURE 22", "video_id": 387 }
+        ]
+    },
+    {
+        "chapter_name": "MAGNETISM [ JKY SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 390 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 391 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 392 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 393 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 394 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 395 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 396 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 397 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 398 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 399 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 400 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 401 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 402 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 403 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 404 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 405 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 406 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 407 }
+        ]
+    },
+    {
+        "chapter_name": "EMI [ AG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 410 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 411 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 412 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 413 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 414 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 415 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 416 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 417 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 418 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 419 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 420 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 421 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 422 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 423 }
+        ]
+    },
+    {
+        "chapter_name": "EMI BY YOGESH SIR [ YS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 426 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 427 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 428 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 429 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 430 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 431 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 432 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 433 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 434 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 435 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 436 }
+        ]
+    },
+    {
+        "chapter_name": "EMI [ JKY SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 439 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 440 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 441 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 442 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 443 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 444 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 445 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 446 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 447 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 448 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 449 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 450 }
+        ]
+    },
+    {
+        "chapter_name": "EMI [ AKS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 453 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 454 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 455 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 456 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 457 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 458 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 459 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 460 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 461 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 462 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 463 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 464 }
+        ]
+    },
+    {
+        "chapter_name": "ALTERNATING CURRENT [ DJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 467 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 468 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 469 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 470 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 471 }
+        ]
+    },
+    {
+        "chapter_name": "ALTERNATING CURRENT [ AG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 474 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 475 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 476 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 477 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 478 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 479 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 480 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 481 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 482 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 483 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 484 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 485 }
+        ]
+    },
+    {
+        "chapter_name": "ALTERNATING CURRENT BY YOGESH SIR [ YS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 488 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 489 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 490 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 491 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 492 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 493 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 494 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 495 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 496 }
+        ]
+    },
+    {
+        "chapter_name": "ALTERNATING CURRENT [ JKY SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 499 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 500 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 501 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 502 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 503 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 504 }
+        ]
+    },
+    {
+        "chapter_name": "ALTERNATING CURRENT BY KUMAR GAURAV SIR [ KG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 507 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 508 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 509 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 510 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 511 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 512 }
+        ]
+    },
+    {
+        "chapter_name": "ALTERNATING CURRENT [ AKS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 515 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 516 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 517 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 518 }
+        ]
+    },
+    {
+        "chapter_name": "ELECTROMAGNETIC WAVE BY YOGESH SIR [ YS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 521 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 522 }
+        ]
+    },
+    {
+        "chapter_name": "ELECTROMAGNETIC WAVE [ AG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1225 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1226 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1227 }
+        ]
+    },
+    {
+        "chapter_name": "RAY OPTICS BY SUNIL CHATURVEDI [ SC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 530 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 531 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 532 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 533 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 534 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 535 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 536 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 537 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 538 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 539 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 540 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 541 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 542 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 543 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 544 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 545 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 546 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 547 },
+            { "lec_no": "L-19", "title": "🔥RAY OPTICS LAST🚫WAVE OPTICS 🔥LECTURE 19", "video_id": 548 }
+        ]
+    },
+    {
+        "chapter_name": "RAY OPTICS [ PMP SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 551 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 552 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 553 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 554 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 555 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 556 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 557 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 558 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 559 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 560 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 561 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 562 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 563 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 564 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 565 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 566 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 567 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 568 },
+            { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 569 },
+            { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 570 },
+            { "lec_no": "L-21", "title": "RAY OPTICS LAST 🚫 WAVE OPTICS FIRST 🔥 LECTURE 21", "video_id": 571 }
+        ]
+    },
+    {
+        "chapter_name": "WAVE OPTICS [ PMP SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "RAY OPTICS LAST 🚫 WAVE OPTICS FIRST 🔥 LECTURE 01", "video_id": 574 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 575 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 576 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 577 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 578 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 579 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 580 },
+            { "lec_no": "L-08", "title": "WAVE OPTICS LAST🚫 MODERN PHYSICS FIRST 🔥 LECTURE 08", "video_id": 581 }
+        ]
+    },
+    {
+        "chapter_name": "WAVE OPTICS [ SC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "🔥RAY OPTICS LAST🚫 WAVE OPTICS 🔥LECTURE 01", "video_id": 584 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 585 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 586 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 587 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 588 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 589 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 590 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 591 }
+        ]
+    },
+    {
+        "chapter_name": "MODERN PHYSICS [ PMP SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "WAVE OPTICS LAST🚫 MODERN PHYSICS FIRST🔥 LECTURE 01", "video_id": 594 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 595 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 596 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 597 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 598 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 599 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 600 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 601 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 602 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 603 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 604 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 605 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 606 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 607 }
+        ]
+    },
+    {
+        "chapter_name": "MODERN PHYSICS BY SUMIT VIJAY SIR [ SV SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 610 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 611 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 612 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 613 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 614 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 615 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 616 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 617 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 618 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 619 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 620 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 621 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 622 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 623 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 624 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 625 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 626 }
+        ]
+    },
+    {
+        "chapter_name": "MODERN PHYSICS BY KUMAR GAURAV SIR [ KG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 629 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 630 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 631 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 632 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 633 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 634 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 635 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 636 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 637 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 638 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 639 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 640 }
+        ]
+    },
+    {
+        "chapter_name": "MODERN PHYSICS BY SANDEEP JHANWAR SIR [ SJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 643 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 644 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 645 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 646 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 647 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 648 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 649 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 650 },
+            { "lec_no": "L-09", "title": "NUCLEAR PHYSICS STARTS 🌟 LECTURE 09", "video_id": 651 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 652 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 653 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 654 },
+            { "lec_no": "L-13", "title": "RADIOACTIVITY STARTS 🌟 LECTURE 13", "video_id": 655 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 656 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1657 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1658 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1659 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 1660 },
+            { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 1661 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR BY SUMIT VIJAY SIR [ SV SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 664 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 665 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 666 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 667 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 668 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 669 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 670 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 671 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 672 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 673 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 674 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 675 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR BY KUMAR GAURAV [ KG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 678 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 679 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 680 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 681 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 682 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 683 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 684 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 685 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 686 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 687 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR BY SANDEEP JHANWAR SIR [ SJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 690 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 691 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 692 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 693 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 694 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 695 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 696 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 697 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 698 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 699 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 700 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
                 ]
             }
         ]
