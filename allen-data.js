@@ -838,6 +838,124 @@ const allenClass11Data = [
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1269 }
                 ]
+            },
+            {
+                "chapter_name": "PERIODIC TABLE BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1275 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1276 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1277 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1278 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1279 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1280 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1281 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1282 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1283 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1284 },
+                    { "lec_no": "L-11", "title": "PERIOD TABLE LAST 🚫 CHEMICAL BONDING FIRST 🔥 LECTURE 11", "video_id": 1285 }
+                ]
+            },
+            {
+                "chapter_name": "CHEMICAL BONDING BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "PERIOD TABLE LAST 🚫 CHEMICAL BONDING FIRST 🔥 LECTURE 01", "video_id": 1288 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1289 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1290 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1291 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1292 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1293 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1294 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1295 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1296 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1297 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1298 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1299 },
+                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1300 },
+                    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1301 },
+                    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1302 },
+                    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1303 },
+                    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1304 },
+                    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 1305 }
+                ]
+            },
+            {
+                "chapter_name": "ELECTROCHEMISTRY BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1009 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1010 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1011 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1012 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1013 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1014 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1015 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1016 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1017 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1018 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1019 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1020 },
+                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1021 },
+                    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1022 }
+                ]
+            },
+            {
+                "chapter_name": "S BLOCK BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1308 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1309 },
+                    { "lec_no": "L-03", "title": "S BLOCK LAST 🚫 COORDINATION COMPOUND FIRST 🔥 LECTURE 03", "video_id": 1310 }
+                ]
+            },
+            {
+                "chapter_name": "COORDINATION COMPOUND BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "S BLOCK LAST 🚫 COORDINATION COMPOUND FIRST 🔥 LECTURE 01", "video_id": 1313 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1314 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1315 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1316 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1317 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1318 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1319 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1320 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1321 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1322 },
+                    { "lec_no": "L-11", "title": "COORDINATION COMPOUND LAST 🚫 D AND F BLOCK FIRST 🔥 LECTURE 11", "video_id": 1323 }
+                ]
+            },
+            {
+                "chapter_name": "D & F BLOCK BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "COORDINATION COMPOUND LAST 🚫 D AND F BLOCK FIRST 🔥 LECTURE 01", "video_id": 1326 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1327 }
+                ]
+            },
+            {
+                "chapter_name": "METALLURGY BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1330 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1331 }
+                ]
+            },
+            {
+                "chapter_name": "HYDROGEN AND IT'S COMPOUNDS BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1334 }
+                ]
+            },
+            {
+                "chapter_name": "P BLOCK BY [ MM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1337 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1338 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1339 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1340 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1341 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1342 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1343 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1344 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1345 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1346 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1347 }
+                ]
             }
         ]
     },
