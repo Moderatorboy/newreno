@@ -4,7 +4,7 @@ const dataClass11 = [
         "resources": {"title": "syllabus",
                         "notes_id": 04
                     },
-        "batch_name": "ORGANIC (SKM Sir)",
+        "batch_name": "ORGANIC (SKM SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -476,7 +476,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "PHYSICAL (AKK Sir)",
+        "batch_name": "PHYSICAL (AKK SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -1170,7 +1170,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "INORAGNIC (VJ Sir)",
+        "batch_name": "INORAGNIC (VJ SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -1877,7 +1877,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "PHYSICS (JP Sir)",
+        "batch_name": "PHYSICS (JP SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -3689,7 +3689,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "PHYSICS (NS Sir)",
+        "batch_name": "PHYSICS (NS SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -5499,7 +5499,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "MATHS (GB Sir)",
+        "batch_name": "MATHS (GB SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -7073,7 +7073,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "MATHS (VG Sir)",
+        "batch_name": "MATHS (VG SIR)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -9886,7 +9886,7 @@ const dataClass11 = [
                 "lectures": [
                     {
                         "lec_no": "L-01",
-                        "title": "Introduction  By VG Sir",
+                        "title": "Introduction  By VG SIR",
                         "video_id": 10,
                         "notes_id": null
                     }
