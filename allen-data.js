@@ -2334,7 +2334,7 @@ const allenMoreData = [
         "channel_id": "-1001593301986",
         "chapters": [
             {
-                "chapter_name": "KINEMATICS BY [ PMP SIR ]",
+                "chapter_name": "KINEMATICS [ PMP SIR ]",
     "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38317 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38318 },
