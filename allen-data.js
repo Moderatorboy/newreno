@@ -46,45 +46,9 @@ const allenClass11Data = [
                     { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 25 },
                     { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 26 },
                     { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 27 },
-                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 28 }]
-            }
-        ]
-    },
-    // NAYA BATCH: Kinematics by PMP Sir (Different Channel ID)
-    {
-        "batch_name": "PHYSICS (PMP SIR)",
-        "channel_id": "-1001737139588",
-        "chapters": [
-            {
-                "chapter_name": "KINEMATICS BY [ PMP SIR ]",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1577 },
-                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1578 },
-                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1579 },
-                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1580 },
-                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1581 },
-                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1582 },
-                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1583 },
-                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1584 },
-                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1585 },
-                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1586 },
-                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1587 },
-                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1588 },
-                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1589 },
-                    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1590 },
-                    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1591 },
-                    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1592 },
-                    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1593 },
-                    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 1594 }
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 28 }
                 ]
-            }
-        ]
-    },
-    // Wapis purane Channel ID par continue
-    {
-        "batch_name": "PHYSICS",
-        "channel_id": "-1001520421056",
-        "chapters": [
+            },
             {
                 "chapter_name": "KINEMATICS  BY [ SV SIR ]",
                 "lectures": [
