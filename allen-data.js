@@ -1399,6 +1399,53 @@ const allenClass11Data = [
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1569 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1570 }
+        ]
+    },
+    {
+        "chapter_name": "PHOTOSYNTHESIS",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1573 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1574 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1575 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1576 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1577 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1578 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1579 }
+        ]
+    },
+    {
+        "chapter_name": "RESPIRATION IN PLANT",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1582 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1583 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1584 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1585 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1586 }
+        ]
+    },
+    {
+        "chapter_name": "TRANSPORT IN PLANT",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1589 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1590 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1591 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1592 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1593 }
+        ]
+    },
+    {
+        "chapter_name": "MINERAL NUTRITION",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1596 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1597 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1598 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT GROWTH",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1601 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1602 }
                 ]
             }
         ]
