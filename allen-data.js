@@ -2086,37 +2086,239 @@ const allenClass12Data = [
         ]
     },
     {
-        "batch_name": "CHEMISTRY",
+        "batch_name": "BIOLOGY",
         "channel_id": "-1001520421056",
         "chapters": [
             {
-                "chapter_name": "Solid State",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "Unit Cells", "video_id": 6020 }
-                ]
-            }
+                "chapter_name": "SEXUAL REPRODUCTION IN FLOWERING PLANTS [ RSK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1674 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1675 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1676 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1677 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1678 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1679 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1680 }
         ]
     },
     {
-        "batch_name": "ZOOLOGY",
-        "channel_id": "-1001520421056",
-        "chapters": [
-            {
-                "chapter_name": "Human Reproduction",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "Male Reproductive System", "video_id": 6030 }
-                ]
-            }
+        "chapter_name": "SEXUAL REPRODUCTION IN FLOWERING PLANTS [ DA SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1683 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1684 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1685 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1686 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1687 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1688 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1689 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1690 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1691 }
         ]
     },
     {
-        "batch_name": "BOTANY",
-        "channel_id": "-1001520421056",
-        "chapters": [
-            {
-                "chapter_name": "Sexual Reproduction in Flowering Plants",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "Flower Structure", "video_id": 6040 }
+        "chapter_name": "HUMAN REPRODUCTION [ PC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1694 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1695 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1696 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1697 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1698 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1699 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1700 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1701 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1702 }
+        ]
+    },
+    {
+        "chapter_name": "HUMAN REPRODUCTION [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1708 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1709 }
+        ]
+    },
+    {
+        "chapter_name": "REPRODUCTIVE HEALTH [ PC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1712 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1713 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1714 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1715 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1716 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1717 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1718 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1719 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1720 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1721 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1722 }
+        ]
+    },
+    {
+        "chapter_name": "REPRODUCTIVE HEALTH [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1725 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1726 }
+        ]
+    },
+    {
+        "chapter_name": "PRINCIPLES OF INHERITANCE AND VARIATION [ MP SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1729 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1730 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1731 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1732 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1733 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1734 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1735 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1736 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1737 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1738 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1739 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1740 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1741 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1742 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1743 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1744 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1745 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 1746 },
+            { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 1747 }
+        ]
+    },
+    {
+        "chapter_name": "MOLECULAR BASIS OF INHERITANCE [ MP SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1750 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1751 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1752 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1753 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1754 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1755 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1756 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1757 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1758 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1759 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1760 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1761 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1762 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1763 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1764 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1765 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1766 }
+        ]
+    },
+    {
+        "chapter_name": "HUMAN HEALTH AND DISEASE [ MOH SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1769 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1770 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1771 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1772 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1773 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1774 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1775 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1776 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1777 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1778 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1779 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1780 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1781 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1782 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1783 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1784 }
+        ]
+    },
+    {
+        "chapter_name": "HUMAN HEALTH AND DISEASE [ PG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1787 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1788 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1789 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1790 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1791 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1792 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1793 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1794 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1795 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1796 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1797 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1798 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1799 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1800 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1801 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1802 }
+        ]
+    },
+    {
+        "chapter_name": "STRATEGIES FOR ENHANCEMENT IN FOOD PRODUCTION [ SK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1805 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1806 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1807 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1808 }
+        ]
+    },
+    {
+        "chapter_name": "STRATEGIES FOR ENHANCEMENT IN FOOD PRODUCTION [ LV SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1811 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1812 }
+        ]
+    },
+    {
+        "chapter_name": "MICROBES IN HUMAN WELFARE [ MKG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1815 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1816 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1817 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1818 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1819 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1820 }
+        ]
+    },
+    {
+        "chapter_name": "BIOTECHNOLOGY [ MKG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1823 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1824 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1825 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1826 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1827 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1828 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1829 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1830 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1831 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1832 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1833 }
+        ]
+    },
+    {
+        "chapter_name": "ECOLOGY [ IA SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1836 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1837 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1838 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1839 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1840 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1841 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1842 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1843 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1844 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1845 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1846 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1847 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1848 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1849 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1850 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1851 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1852 },
+            { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 1853 },
+            { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 1854 },
+            { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 1855 },
+            { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 1856 },
+            { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 1857 },
+            { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 1858 },
+            { "lec_no": "L-24", "title": "LECTURE 24", "video_id": 1859 },
+            { "lec_no": "L-25", "title": "LECTURE 25", "video_id": 1860 },
+            { "lec_no": "L-26", "title": "LECTURE 26", "video_id": 1861 }
                 ]
             }
         ]
