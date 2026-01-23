@@ -4,7 +4,7 @@ const dataClass11 = [
         "resources": {"title": "syllabus",
                         "notes_id": 04
                     },
-        "batch_name": "Jee-11th Chem (SKM Sir)",
+        "batch_name": "ORGANIC (SKM Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -476,7 +476,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "Jee-11th Chem (AKK Sir)",
+        "batch_name": "PHYSICAL (AKK Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -1170,7 +1170,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "Jee-11th Chem (VJ Sir)",
+        "batch_name": "INORAGNIC (VJ Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -1877,7 +1877,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "Jee-11th Phy (JP Sir)",
+        "batch_name": "PHYSICS (JP Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
