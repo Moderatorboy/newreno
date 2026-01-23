@@ -1111,27 +1111,292 @@ const allenClass11Data = [
         ]
     },
     {
-        "batch_name": "ZOOLOGY",
+        "batch_name": "BIOLOGY",
         "channel_id": "-1001520421056",
-        "chapters": [
-            {
-                "chapter_name": "Animal Kingdom",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "Basis of Classification", "video_id": 5200 },
-                    { "lec_no": "L-02", "title": "Porifera & Coelenterata", "video_id": 5201 }
-                ]
-            }
+        "chapter_name": "PLANT DIVERSITY [ SKJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1355 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1356 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1357 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1358 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1359 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1360 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1361 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1362 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1363 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1364 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1365 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1366 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1367 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1368 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1369 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1370 },
+            { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 1371 }
         ]
     },
     {
-        "batch_name": "BOTANY",
-        "channel_id": "-1001520421056",
-        "chapters": [
-            {
-                "chapter_name": "The Living World",
-                "lectures": [
-                    { "lec_no": "L-01", "title": "What is Living?", "video_id": 5300 },
-                    { "lec_no": "L-02", "title": "Taxonomic Categories", "video_id": 5301 }
+        "chapter_name": "PLANT DIVERSITY [ RM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1374 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1375 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1376 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1377 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1378 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1379 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT DIVERSITY [ JS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1382 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1383 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1384 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1385 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1386 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1387 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1388 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1389 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1390 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1391 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1392 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1393 }
+        ]
+    },
+    {
+        "chapter_name": "ANIMAL DIVERSITY [ RS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1396 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1397 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1398 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1399 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1400 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1401 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1402 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1403 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1404 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1405 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1406 }
+        ]
+    },
+    {
+        "chapter_name": "ANIMAL DIVERSITY [ AO SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1409 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1410 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1411 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1412 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1413 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1414 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1415 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1416 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1417 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1418 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1419 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1420 }
+        ]
+    },
+    {
+        "chapter_name": "MORPHOLOGY [ RSK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1423 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1424 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1425 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1426 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1427 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1428 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1429 }
+        ]
+    },
+    {
+        "chapter_name": "MORPHOLOGY [ DA SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1432 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1433 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1434 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1435 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1436 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1437 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1438 }
+        ]
+    },
+    {
+        "chapter_name": "MORPHOLOGY [ SKJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1441 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1442 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1443 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1444 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1445 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1446 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1447 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT ANATOMY [ DA SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1450 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1451 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1452 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1453 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1454 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1455 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1456 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1457 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1458 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT ANATOMY [ RSK SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1461 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1462 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1463 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1464 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1465 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1466 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1467 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1468 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT ANATOMY [ SKJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1471 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1472 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1473 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1474 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1475 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1476 }
+        ]
+    },
+    {
+        "chapter_name": "ANIMAL TISSUE [ SM SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1479 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1480 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1481 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1482 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1483 }
+        ]
+    },
+    {
+        "chapter_name": "COCKROACH [ RS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1486 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1487 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1488 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1489 }
+        ]
+    },
+    {
+        "chapter_name": "COCKROACH [ AO SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1492 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1493 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1494 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1495 }
+        ]
+    },
+    {
+        "chapter_name": "EARTHWORM",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1498 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1499 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1500 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1501 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1502 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1503 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1504 }
+        ]
+    },
+    {
+        "chapter_name": "FROG",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1507 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1508 }
+        ]
+    },
+    {
+        "chapter_name": "CELL BIOLOGY [ YB SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1511 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1512 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1513 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1514 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1515 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1516 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1517 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1518 }
+        ]
+    },
+    {
+        "chapter_name": "CELL BIOLOGY [ JS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1521 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1522 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1523 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1524 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1525 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1526 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1527 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1528 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1529 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1530 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1531 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1532 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1533 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1534 },
+            { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 1535 },
+            { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 1536 }
+        ]
+    },
+    {
+        "chapter_name": "CELL BIOLOGY [ PG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1539 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1540 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1541 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1542 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1543 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1544 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1545 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1546 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1547 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1548 },
+            { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1549 },
+            { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1550 },
+            { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1551 },
+            { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1552 }
+        ]
+    },
+    {
+        "chapter_name": "BIOMOLECULES [ ATR SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1555 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1556 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1557 }
+        ]
+    },
+    {
+        "chapter_name": "BIOMOLECULES [ MKG SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1560 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1561 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1562 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1563 }
+        ]
+    },
+    {
+        "chapter_name": "ENZYME [ YB SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1566 }
+        ]
+    },
+    {
+        "chapter_name": "ENZYME [ JS SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1569 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1570 }
                 ]
             }
         ]
