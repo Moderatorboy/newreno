@@ -3689,7 +3689,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "Jee-11th Phy (NS Sir)",
+        "batch_name": "PHYSICS (NS Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -5499,7 +5499,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "Jee-11th Maths (GB Sir)",
+        "batch_name": "MATHS (GB Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
@@ -7073,7 +7073,7 @@ const dataClass11 = [
         ]
     },
     {
-        "batch_name": "Jee-11th Maths (VG Sir)",
+        "batch_name": "MATHS (VG Sir)",
         // 👇 YEH LINE ADD KARO (Comma zaroor lagana)
         "channel_id": "-1002011365587",
         "chapters": [
