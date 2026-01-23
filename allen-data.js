@@ -1137,9 +1137,9 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "PLANT DIVERSITY [ RM SIR ]",
+        "chapter_name": "PLANT DIVERSITY BY RAMESH CHAND MAHAWAR [ RM SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1374 },
+            { "lec_no": "L-01", "title": "BIOLOGICAL CLASSIFICATION LAST 🚫 ISOMERISM START 🔥 LECTURE 01", "video_id": 1374 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1375 },
             { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1376 },
             { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1377 },
@@ -1165,7 +1165,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "ANIMAL DIVERSITY [ RS SIR ]",
+        "chapter_name": "ANIMAL DIVERSITY BY RAVINDRA  SHARMA [ RS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1396 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1397 },
@@ -1181,7 +1181,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "ANIMAL DIVERSITY [ AO SIR ]",
+        "chapter_name": "ANIMAL DIVERSITY BY Dr. ANIL OJHA [ Dr. AO SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1409 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1410 },
@@ -1272,7 +1272,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "ANIMAL TISSUE [ SM SIR ]",
+        "chapter_name": "ANIMAL TISSUE BY SUNNY MEWARA SIR [ SM SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1479 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1480 },
@@ -1282,7 +1282,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "COCKROACH [ RS SIR ]",
+        "chapter_name": "COCKROACH BY RAVINDRA SHARMA [ RS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1486 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1487 },
@@ -1291,7 +1291,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "COCKROACH [ AO SIR ]",
+        "chapter_name": "COCKROACH BY DR ANIL OJHA SIR [ DR AO SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1492 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1493 },
@@ -1332,7 +1332,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "CELL BIOLOGY [ JS SIR ]",
+        "chapter_name": "CELL BIOLOGY JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1521 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1522 },
@@ -1353,7 +1353,7 @@ const allenClass11Data = [
         ]
     },
     {
-        "chapter_name": "CELL BIOLOGY [ PG SIR ]",
+        "chapter_name": "CELL BIOLOGY BY PIYUSH GUPTA [ PG SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1539 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1540 },
