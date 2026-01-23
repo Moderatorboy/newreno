@@ -165,6 +165,12 @@ function getSubjectIcon(name) {
     if(name.includes('skm')) return { text: 'SKM', color: '#a855f7', bg: '#fff' };
     if(name.includes('vj')) return { text: 'VJ', color: '#a855f7', bg: '#fff' };
     if(name.includes('beast')) return { text: 'BG', color: '#a855f7', bg: '#fff' };
+    if(name.includes('jp')) return { text: 'JP', color: '#3b82f6', bg: '#fff' };
+    if(name.includes('ns')) return { text: 'NS', color: '#3b82f6', bg: '#fff' };
+    if(name.includes('gb')) return { text: 'GB', color: '#f59e0b', bg: '#fff' };
+    if(name.includes('akk')) return { text: 'AKK', color: '#a855f7', bg: '#fff' };
+    if(name.includes('vg')) return { text: 'VG', color: '#f59e0b', bg: '#fff' };
+    if(name.includes('ms')) return { text: 'MS', color: '#f59e0b', bg: '#fff' };
     if(name.includes('2025')) return { text: '2025', color: '#a855f7', bg: '#fff' };
     if(name.includes('2024')) return { text: '2024', color: '#a855f7', bg: '#fff' };
     return { text: 'OT', color: '#10b981', bg: '#fff' };
