@@ -1113,6 +1113,8 @@ const allenClass11Data = [
     {
         "batch_name": "BIOLOGY",
         "channel_id": "-1001520421056",
+        "chapters": [
+            {
         "chapter_name": "PLANT DIVERSITY [ SKJ SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1355 },
