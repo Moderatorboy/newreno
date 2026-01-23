@@ -495,9 +495,10 @@ const allenClass11Data = [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 837 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 838 },
                     { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 839 },
-                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 840 }
-        ]
-    },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 840 }]
+            } // Chapter close
+        ] // Chapters array close
+    }, // Physical Batch object close
     {
         "batch_name": "INORGANIC",
         "channel_id": "-1002011365587",
