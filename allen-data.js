@@ -495,7 +495,242 @@ const allenClass11Data = [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 837 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 838 },
                     { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 839 },
-                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 840 }]
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 840 }
+                ]
+            },
+            {
+                "chapter_name": "MOLE   BY [ RSR SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 847 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 848 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 849 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 850 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 851 },
+                    { "lec_no": "L-06", "title": "MOLE LAST 🚫 BEHAVIOR OF GASES FISRT 🔥 LECTURE 06", "video_id": 852 }
+                ]
+            },
+            {
+                "chapter_name": "ATOMIC STRUCTURE  BY [ TCS SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 855 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 856 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 857 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 858 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 859 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 860 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 861 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 862 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 863 }
+                ]
+            },
+            {
+                "chapter_name": "CHEMICAL EQUILIBRIUM  BY [ RSR SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 866 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 867 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 868 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 869 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 870 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 871 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 872 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 873 },
+                    { "lec_no": "L-09", "title": "CHEMICAL EQUILIBRIUM LAST 🚫 IONIC FIRST 🔥 LECTURE 09", "video_id": 874 }
+                ]
+            },
+            {
+                "chapter_name": "IONIC EQUILIBRIUM  BY [ RSR SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "CHEMICAL EQUILIBRIUM LAST 🚫 IONIC FIRST 🔥 LECTURE 01", "video_id": 877 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 878 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 879 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 880 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 881 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 882 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 883 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 884 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 885 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 886 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 887 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 888 },
+                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 889 }
+                ]
+            },
+            {
+                "chapter_name": "IONIC EQUILIBRIUM  BY [ VJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 892 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 893 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 894 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 895 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 896 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 897 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 898 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 899 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 900 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 901 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 902 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 903 }
+                ]
+            },
+            {
+                "chapter_name": "THERMODYNAMICS   BY [ VJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 906 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 907 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 908 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 909 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 910 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 911 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 912 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 913 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 914 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 915 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 916 }
+                ]
+            },
+            {
+                "chapter_name": "REDOX REACTION BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 919 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 920 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 921 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 922 }
+                ]
+            },
+            {
+                "chapter_name": "BEHAVIOUR OF GASES BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 925 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 926 }
+                ]
+            },
+            {
+                "chapter_name": "SOLID STATE BY [ DP SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 929 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 930 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 931 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 932 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 933 }
+                ]
+            },
+            {
+                "chapter_name": "SOLID STATE   BY [ VJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 936 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 937 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 938 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 939 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 940 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 941 }
+                ]
+            },
+            {
+                "chapter_name": "SOLID STATE   BY [ RSR SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 944 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 945 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 946 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 947 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 948 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 950 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 949 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 951 }
+                ]
+            },
+            {
+                "chapter_name": "CHEMICAL KINETICS  BY [ DP SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 954 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 955 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 956 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 957 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 958 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 959 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 960 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 961 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 962 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 963 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 964 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 965 }
+                ]
+            },
+            {
+                "chapter_name": "SOLUTION  BY [ DSS SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 968 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 969 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 970 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 971 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 972 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 973 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 974 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 975 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 976 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 977 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 978 }
+                ]
+            },
+            {
+                "chapter_name": "SOLUTION  BY [ RJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 981 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 982 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 983 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 984 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 985 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 986 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 987 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 988 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 989 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 990 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 991 }
+                ]
+            },
+            {
+                "chapter_name": "ELECTROCHEMISTRY  BY [ VJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 994 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 995 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 996 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 997 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 998 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 999 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1000 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1001},
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1002 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1003 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1004 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1005 },
+                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1006 }
+                ]
+            },
+            {
+                "chapter_name": "ELECTROCHEMISTRY  BY [ VM SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1009 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1010 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1011 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1012 },
+                    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 1013 },
+                    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 1014 },
+                    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 1015 },
+                    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 1016 },
+                    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 1017 },
+                    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 1018 },
+                    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 1019 },
+                    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 1020 },
+                    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 1021 },
+                    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 1022 }
+                ]
+            },
+            {
+                "chapter_name": "SURFACE CHEMISTRY BY [ RKJ SIR ]",
+                "lectures": [
+                    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1025 },
+                    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1026 },
+                    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1027 },
+                    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1028 }]
             } // Chapter close
         ] // Chapters array close
     }, // Physical Batch object close
