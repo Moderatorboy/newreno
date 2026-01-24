@@ -4101,6 +4101,17 @@ const allenMoreData = [
         ]
     },
     {
+        "chapter_name": "CIRCULAR MOTION [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39492 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39493 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39494 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39495 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39496 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39497 }
+        ]
+    },
+    {
         "chapter_name": "ROTATION MOTION [ ASP SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39401 },
