@@ -4373,7 +4373,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "GRAVITATION BY BALRAJ RANDWAYA SIR [ BRS SIR ]",
+        "chapter_name": "GRAVITATION DIGITAL BY BALRAJ RANDWAYA SIR [ BRS SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7629 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7630 },
@@ -4383,7 +4383,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "CURRENT ELECTRICITY BY YOGESH SIR[ YS SIR ]",
+        "chapter_name": "CURRENT ELECTRICITY DIGITAL BY YOGESH SIR[ YS SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7635 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7636 },
@@ -4420,7 +4420,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "CAPACITOR BY YOGESH SIR [ YS SIR ]",
+        "chapter_name": "CAPACITOR DIGITAL BY YOGESH SIR [ YS SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7668 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7669 },
@@ -4445,7 +4445,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "MAGNETISM BY YOGESH SIR [ YS SIR ]",
+        "chapter_name": "MAGNETISM DIGITAL BY YOGESH SIR [ YS SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7688 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7689 },
@@ -4492,7 +4492,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "RAY OPTICS [ MAHESHWARI SIR ]",
+        "chapter_name": "RAY OPTICS DIGITAL [ MAHESHWARI SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7759 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7760 },
@@ -4536,7 +4536,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "WAVE OPTICS [ MAHESHWARI SIR ]",
+        "chapter_name": "WAVE OPTICS DIGITAL [ MAHESHWARI SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7799 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7800 },
@@ -4558,7 +4558,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "SHM [ MAHESHWARI SIR ]",
+        "chapter_name": "SHM DIGITAL [ MAHESHWARI SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 7817 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 7818 },
@@ -4742,7 +4742,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "HUMAN HEALTH AND DISEASES BY PIYUSH GUPTA SIR [ PG SIR ]",
+        "chapter_name": "HUMAN HEALTH AND DISEASES DIGITAL BY PIYUSH GUPTA SIR [ PG SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8017 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8018 },
@@ -4769,7 +4769,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "HUMAN REPRODUCTION BY  PIYUSH CHAUDHARY SIR [ PC SIR ]",
+        "chapter_name": "HUMAN REPRODUCTION DIGITAL BY PIYUSH CHAUDHARY SIR [ PC SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8041 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8042 },
@@ -4789,7 +4789,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "REPRODUCTIVE HEALTH BY PIYUSH CHAUDHARY SIR [ PC SIR ]",
+        "chapter_name": "REPRODUCTIVE HEALTH DIGITAL BY PIYUSH CHAUDHARY SIR [ PC SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8058 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8059 },
@@ -4797,7 +4797,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "EVOLUTION BY SUNIL RUHELA SIR [ SR SIR ]",
+        "chapter_name": "EVOLUTION DIGITAL BY SUNIL RUHELA SIR [ SR SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8063 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8064 },
