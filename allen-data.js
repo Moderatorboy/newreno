@@ -50,7 +50,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "KINEMATICS  BY [ SV SIR ]",
+                "chapter_name": "KINEMATICS BY SURESH VERMA [ SV SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 31 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 32 },
@@ -217,7 +217,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "GRAVITATION [ CG SIR ]",
+                "chapter_name": "GRAVITATION BY CHIRAG GOVIL [ CG SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "ROTATIONAL LAST 🚫 GRAVITATION FIRST 🔥 | LECTURE 01", "video_id": 162 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 163 },
@@ -233,7 +233,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "FLUID MECHANICS BY [ MG SIR ]",
+                "chapter_name": "FLUID MECHANICS BY MANISH GUPTA [ MG SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 175 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 176 },
@@ -4334,6 +4334,38 @@ const allenMoreData = [
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36188 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36189 }
+        ]
+    },
+    {
+        "chapter_name": "FLUID MECHANICS BY PRAVEZ KHAN [ PK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39225 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39226 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39227 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39228 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39229 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39230 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39231 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39232 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39233 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39234 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39235 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39236 }
+        ]
+    },
+    {
+        "chapter_name": "MOLE CONCEPT [ VJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
                 ]
             }
         ]
