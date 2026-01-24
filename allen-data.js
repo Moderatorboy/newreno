@@ -3906,108 +3906,251 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "WAVE OPTICS [ MKS SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38402 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38403 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38404 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38405 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38406 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38407 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38408 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38409 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "RAY OPTICS [ MKS SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38409 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38410 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38411 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38412 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38413 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38414 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38415 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38416 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38417 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38418 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38419 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38420 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38421 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38422 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38423 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38424 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38425 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38426 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "RAY OPTICS [ SM SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38725 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38726 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38727 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38728 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38729 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38730 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38731 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38732 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38733 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38734 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38735 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38736 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38737 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38738 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38739 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38740 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "WAVE OPTICS [ SM SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38743 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38744 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38745 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38746 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38747 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38748 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "RAY OPTICS [ AG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39063 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39064 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39065 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39066 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39067 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39068 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39069 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39070 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39071 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39072 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39073 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39074 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 39075 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 39076 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 39077 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 39078 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 39079 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 39080 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 39081 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "WAVE OPTICS [ AG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39084 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39085 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39086 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39087 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39088 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39089 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39090 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39091 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "MODERN PHYSICS [ ASP SIR SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38201 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38202 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38203 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38204 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38205 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38206 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38207 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38208 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38209 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38210 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38211 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38212 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38213 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38214 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 38215 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 38216 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 38217 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 38218 }
+        ]
+    },
+    {
+        "chapter_name": "CHEMICAL EQUILIBRIUM [ AC SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 32594 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 32595 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 32596 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 32597 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 32598 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 32599 }
+        ]
+    },
+    {
+        "chapter_name": "REDOX REACTION [ AC SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 32602 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 32603 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 32604 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 32605 }
+        ]
+    },
+    {
+        "chapter_name": "MOLE CONCEPT [ AC SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 32605 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 32606 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 32607 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 32608 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 32609 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 32610 }
+        ]
+    },
+    {
+        "chapter_name": "BEHAVIOR OF GASES [ AC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 32610 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 32611 }
+        ]
+    },
+    {
+        "chapter_name": "NLM [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39376 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39377 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39378 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39379 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39380 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39382 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39383 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39384 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39385 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39386 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39387 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39388 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 39389 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 39390 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 39391 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 39392 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 39393 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 39394 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 39395 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 39396 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 39397 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 39398 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 39399 },
+    { "lec_no": "L-24", "title": "LECTURE 24", "video_id": 39400 }
+        ]
+    },
+    {
+        "chapter_name": "ROTATION MOTION [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39401 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39402 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39403 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39404 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39405 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39406 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39407 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39408 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39409 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39410 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39411 }
+        ]
+    },
+    {
+        "chapter_name": "COM [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39412 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39413 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39414 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39415 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39416 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39417 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39418 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39419 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39420 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39421 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39422 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39423 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 39424 }
+        ]
+    },
+    {
+        "chapter_name": "WPE [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39425 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39426 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39427 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39428 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39429 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39430 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39431 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39432 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39433 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39434 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 39435 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 39436 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 39437 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 39438 }
                 ]
             }
         ]
