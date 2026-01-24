@@ -1620,7 +1620,7 @@ const allenClass12Data = [
         ]
     },
     {
-        "chapter_name": "CAPACITOR [ YS SIR ]",
+        "chapter_name": "CAPACITOR BY YOGESH SIR [ YS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 339 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 340 },
@@ -1922,7 +1922,7 @@ const allenClass12Data = [
         ]
     },
     {
-        "chapter_name": "WAVE OPTICS [ SC SIR ]",
+        "chapter_name": "WAVE OPTICS BY SUNIL CHATURVEDI [ SC SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "🔥RAY OPTICS LAST🚫 WAVE OPTICS 🔥LECTURE 01", "video_id": 584 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 585 },
@@ -3652,7 +3652,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "CURRENT ELECTRICITY [ DJ SIR ]",
+        "chapter_name": "CURRENT ELECTRICITY NEW [ DJ SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39126 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39127 },
@@ -3681,7 +3681,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "MAGNETISM [ SC SIR ]",
+        "chapter_name": "MAGNETISM BY SUNIL CHATURVEDI [ SC SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38221 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38222 },
@@ -3710,7 +3710,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "EMI [ SC SIR ]",
+        "chapter_name": "EMI BY SUNIL CHATURVEDI [ SC SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38244 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38245 },
@@ -3728,7 +3728,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "ALTERNATING CURRENT [ SC SIR ]",
+        "chapter_name": "ALTERNATING CURRENT BY SUNIL CHATURVEDI [ SC SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38257 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38258 },
@@ -3742,14 +3742,14 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "EMW [ SC SIR ]",
+        "chapter_name": "EMW BY SUNIL CHATURVEDI [ SC SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38265 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38266 }
         ]
     },
     {
-        "chapter_name": "CURRENT ELECTRICITY [ SC SIR ]",
+        "chapter_name": "CURRENT ELECTRICITY BY SUNIL CHATURVEDI [ SC SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38268 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38269 },
