@@ -338,7 +338,7 @@ const allenClass11Data = [
         "channel_id": "-1001520421056",
         "chapters": [
             {
-                "chapter_name": "MOLE CONCEPT BY [ RKJ SIR ]",
+                "chapter_name": "MOLE CONCEPT BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 718 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 719 },
@@ -350,7 +350,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "ATOMIC STRUCTURE BY [ RKJ SIR ]",
+                "chapter_name": "ATOMIC STRUCTURE BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "MOLE CONCEPT LAST 🚫 ATOMIC STRUCTURE FIRST 🔥| LECTURE 01", "video_id": 727 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 728 },
@@ -371,7 +371,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "CHEMICAL EQUILIBRIUM BY [ RKJ SIR ]",
+                "chapter_name": "CHEMICAL EQUILIBRIUM BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 745 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 746 },
@@ -382,7 +382,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "IONIC EQUILIBRIUM BY [ RKJ SIR ]",
+                "chapter_name": "IONIC EQUILIBRIUM BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 753 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 754 },
@@ -398,7 +398,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "THERMODYNAMICS BY [ RKJ SIR ]",
+                "chapter_name": "THERMODYNAMICS BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 766 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 767 },
@@ -414,7 +414,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SOLID STATE BY [ RKJ SIR ]",
+                "chapter_name": "SOLID STATE BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "THERMODYNAMICS LAST 🚫 SOLID STATE FIRST 🔥LECTURE 01", "video_id": 779 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 780 },
@@ -425,7 +425,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "REDOX REACTION BY [ RKJ SIR ]",
+                "chapter_name": "REDOX REACTION BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "SOLID STATE LAST 🚫 REDOX REACTION 🔥LECTURE 01", "video_id": 787 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 788 },
@@ -434,14 +434,14 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "BEHAVIOR OF GAS BY [ RKJ SIR ]",
+                "chapter_name": "BEHAVIOR OF GAS BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 793 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 794 }
                 ]
             },
             {
-                "chapter_name": "CHEMICAL KINETICS BY [ RKJ SIR ]",
+                "chapter_name": "CHEMICAL KINETICS BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 797 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 798 },
@@ -457,7 +457,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SOLUTION BY [ RKJ SIR ]",
+                "chapter_name": "SOLUTION BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 810 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 811 },
@@ -473,7 +473,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "ELECTROCHEMISTRY  BY [ RKJ SIR ]",
+                "chapter_name": "ELECTROCHEMISTRY  BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 823 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 824 },
@@ -490,7 +490,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SURFACE CHEMISTRY BY [ RKJ SIR ]",
+                "chapter_name": "SURFACE CHEMISTRY BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 837 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 838 },
@@ -656,7 +656,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SOLUTION  BY [ DSS SIR ]",
+                "chapter_name": "SOLUTION BY DHARAM SINGH SOLANKI [ DSS SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 968 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 969 },
@@ -672,7 +672,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SOLUTION  BY [ RJ SIR ]",
+                "chapter_name": "SOLUTION BY RISHI JAIN [ RJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 981 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 982 },
@@ -4235,123 +4235,105 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "PERIODIC TABLE BY YASH GOYAL [ YG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36466 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36467 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 36468 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 36469 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 36470 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 36471 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 36472 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 36473 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 36474 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "CHEMICAL BONDING BY YASH GOYAL [ YG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36474 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36475 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 36476 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 36477 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 36478 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 36479 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 36480 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 36481 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 36482 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 36483 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 36484 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 36485 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 36486 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 36487 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 36488 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "S BLOCK BY YASH GOYAL [ YG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36489 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36490 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 36491 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 36492 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "P BLOCK BY YASH GOYAL [ YG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36492 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36493 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 36494 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 36495 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 36496 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 36497 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 36498 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 36499 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 36500 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 36501 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 36502 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 36503 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 36504 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 36505 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 36506 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 36507 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "COORDINATION COMPOUND BY YASH GOYAL [ YG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36507 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36508 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 36509 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 36510 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 36511 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 36512 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 36513 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 36368 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 36369 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "D & F BLOCK BY YASH GOYAL [ YG SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36369 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36370 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 36371 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "MOLE CONCEPT [ VJ SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39297 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39298 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39299 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39300 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "BEHAVIOR OF GASES [ RSR SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 36188 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 36189 }
                 ]
             }
         ]
