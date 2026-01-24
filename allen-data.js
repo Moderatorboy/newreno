@@ -589,7 +589,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "REDOX REACTION BY [ RKJ SIR ]",
+                "chapter_name": "REDOX REACTION BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 919 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 920 },
@@ -598,7 +598,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "BEHAVIOUR OF GASES BY [ RKJ SIR ]",
+                "chapter_name": "BEHAVIOUR OF GASES BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 925 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 926 }
@@ -725,7 +725,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SURFACE CHEMISTRY BY [ RKJ SIR ]",
+                "chapter_name": "SURFACE CHEMISTRY BY RAHUL KUMAR JAIN [ RKJ SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1025 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1026 },
