@@ -300,7 +300,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "SHM [ SNG SIR ]",
+                "chapter_name": "SHM BY SHRINATH GUPTA [ SNG SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 233 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 234 },
@@ -316,7 +316,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "WAVE THEORY BY [ SNG SIR ]",
+                "chapter_name": "WAVE THEORY BY BY SHRINATH GUPTA [ SNG SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 246 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 247 },
@@ -499,7 +499,7 @@ const allenClass11Data = [
                 ]
             },
             {
-                "chapter_name": "MOLE   BY [ RSR SIR ]",
+                "chapter_name": "MOLE CONCEPT BY [ RSR SIR ]",
                 "lectures": [
                     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 847 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 848 },
@@ -741,7 +741,7 @@ const allenClass11Data = [
             {
                 "chapter_name": "PERIODIC TABLE BY YASH GOYAL SIR [ YG SIR ]",
                 "lectures": [
-                    { "lec_no": "L-01", "title": "Mole Conct", "video_id": 1196 },
+                    { "lec_no": "L-01", "title": "MOLE CONCEPT", "video_id": 1196 },
                     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1197 },
                     { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 1198 },
                     { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 1199 },
@@ -2380,7 +2380,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "SHM NEW [ SNG SIR ]",
+        "chapter_name": "SHM NEW BY SHRINATH GUPTA [ SNG SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38695 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38696 },
@@ -2395,7 +2395,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "WAVE MOTION [ SNG SIR ]",
+        "chapter_name": "WAVE MOTION NEW BY SHRINATH GUPTA [ SNG SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38707 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38708 },
@@ -4354,18 +4354,22 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "MOLE CONCEPT [ VJ SIR ]",
+        "chapter_name": "THERMAL PHYSICS [ RJ SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38886 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38887 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38888 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38889 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38890 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38891 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38892 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38893 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38894 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38895 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38896 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 38897 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 38898 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 38899 }
                 ]
             }
         ]
