@@ -5466,7 +5466,7 @@ const allenMoreData = [
         ]
     },
     {
-        "chapter_name": "MODERN DIGITAL [ ASP SIR ]",
+        "chapter_name": "MODERN PHYSICS DIGITAL [ ASP SIR ]",
         "lectures": [
     { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39536 },
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39537 },
@@ -5478,6 +5478,469 @@ const allenMoreData = [
     { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39543 },
     { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39544 },
     { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39545 }
+        ]
+    },
+    {
+        "chapter_name": "KINEMATICS [ MJ SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 12350 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 12351 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 12352 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 12353 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 12354 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 12355 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 12356 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 12357 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 12358 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 12359 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 12361 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 12360 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 12362 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 12365 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 12363 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 12364 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 12366 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 12368 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 12367 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 12369 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 12370 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 12371 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 12372 }
+        ]
+    },
+    {
+        "chapter_name": "VECTOR [ MJ SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 4442 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 4440 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 4439 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 4441 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 4438 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 4437 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 4436 }
+        ]
+    },
+    {
+        "chapter_name": "ELECTROSTATIC [ MJ SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39547 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39548 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39549 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39550 },
+    { "lec_no": "L-05", "title": "LECTURE 05 PART 01", "video_id": 39551 },
+    { "lec_no": "L-06", "title": "LECTURE 05 PART 02", "video_id": 39552 },
+    { "lec_no": "L-07", "title": "LECTURE 06", "video_id": 39553 },
+    { "lec_no": "L-08", "title": "LECTURE 07", "video_id": 39554 },
+    { "lec_no": "L-09", "title": "LECTURE 08", "video_id": 39555 },
+    { "lec_no": "L-10", "title": "LECTURE 09", "video_id": 39556 },
+    { "lec_no": "L-11", "title": "LECTURE 10", "video_id": 39557 },
+    { "lec_no": "L-12", "title": "LECTURE 11", "video_id": 39558 },
+    { "lec_no": "L-13", "title": "LECTURE 12", "video_id": 39559 },
+    { "lec_no": "L-14", "title": "LECTURE 13", "video_id": 39560 },
+    { "lec_no": "L-15", "title": "LECTURE 14", "video_id": 39561 },
+    { "lec_no": "L-16", "title": "LECTURE 15", "video_id": 39562 },
+    { "lec_no": "L-17", "title": "LECTURE 16", "video_id": 39563 },
+    { "lec_no": "L-18", "title": "LECTURE 17", "video_id": 39564 },
+    { "lec_no": "L-19", "title": "LECTURE 18", "video_id": 39565 },
+    { "lec_no": "L-20", "title": "LECTURE 19", "video_id": 39566 },
+    { "lec_no": "L-21", "title": "LECTURE 20", "video_id": 39567 },
+    { "lec_no": "L-22", "title": "LECTURE 21", "video_id": 39568 }
+        ]
+    },
+    {
+        "chapter_name": "PLANT DIVERSITY BY LAXMIKANT SEN SIR [ LS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 26794 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 26795 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 26796 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 26797 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 26798 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 26799 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 26800 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 26801 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 26802 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 26803 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 26804 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 26805 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 26806 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 26807 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 26808 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 26809 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 26810 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 26811 },
+    { "lec_no": "L-19", "title": "LECTURE 19", "video_id": 26812 },
+    { "lec_no": "L-20", "title": "LECTURE 20", "video_id": 26813 },
+    { "lec_no": "L-21", "title": "LECTURE 21", "video_id": 26814 },
+    { "lec_no": "L-22", "title": "LECTURE 22", "video_id": 26815 },
+    { "lec_no": "L-23", "title": "LECTURE 23", "video_id": 26816 },
+    { "lec_no": "L-24", "title": "LECTURE 24", "video_id": 26817 },
+    { "lec_no": "L-25", "title": "LECTURE 25", "video_id": 26818 },
+    { "lec_no": "L-26", "title": "LECTURE 26", "video_id": 26819 },
+    { "lec_no": "L-27", "title": "LECTURE 27", "video_id": 26820 },
+    { "lec_no": "L-28", "title": "LECTURE 28", "video_id": 26821 },
+    { "lec_no": "L-29", "title": "LECTURE 29", "video_id": 26822 },
+    { "lec_no": "L-30", "title": "LECTURE 30", "video_id": 26823 },
+    { "lec_no": "L-31", "title": "LECTURE 31", "video_id": 26824 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+        ]
+    },
+    {
+        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "lectures": [
+            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
+            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
+            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
+            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
+            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
+            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
+            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
+            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
+            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
                 ]
             }
         ]
