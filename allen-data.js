@@ -1445,7 +1445,9 @@ const allenClass11Data = [
         "chapter_name": "PLANT GROWTH JAGDEEP SINGH SIR [ JS SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 1601 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1602 }
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 1602 },
+            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8273 }
+
         ]
     },
     {
