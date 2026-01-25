@@ -5322,6 +5322,162 @@ const allenMoreData = [
     { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8233 },
     { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 8234 },
     { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 8235 }
+        ]
+    },
+    {
+        "chapter_name": "ANATOMY OF FLOWERING PLANTS BY ALOK DANI SIR [ AD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8276 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8277 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 8279 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 8280 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 8281 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 8282 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 8283 }
+        ]
+    },
+    {
+        "chapter_name": "MORPHOLOGY OF FLOWERING PLANTS BY ALOK DANI SIR [ AD SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8283 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8284 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 8285 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 8286 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 8287 }
+        ]
+    },
+    {
+        "chapter_name": "BASIC MATHS & VECTOR DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 30715 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 30716 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 30717 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 30718 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 30719 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 30720 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 30721 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 30722 }
+        ]
+    },
+    {
+        "chapter_name": "KINEMATICS DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 30724 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 30725 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 30726 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 30727 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 30728 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 30729 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 30730 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 30731 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 30732 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 30733 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 30734 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 30735 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 30736 }
+        ]
+    },
+    {
+        "chapter_name": "KINEMATICS DIGITAL ASISH GUPTA [ AG SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 30738 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 30739 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 30740 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 30741 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 30742 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 30743 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 30744 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 30745 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 30746 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 30747 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 30748 }
+        ]
+    },
+    {
+        "chapter_name": "NLM DIGITAL [ ASP SIR ]",
+        "lectures": [
+   { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 30764 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 30765 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 30766 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 30767 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 30768 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 30769 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 30770 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 30771 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 30772 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 30773 }
+        ]
+    },
+    {
+        "chapter_name": "WPE DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39499 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39500 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39501 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39502 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39503 }
+        ]
+    },
+    {
+        "chapter_name": "COM  DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39505 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39506 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39507 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39508 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39509 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39510 }
+        ]
+    },
+    {
+        "chapter_name": "ROTATIONAL MOTION DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39512 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39513 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39514 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39515 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39516 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39517 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39518 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39519 }
+        ]
+    },
+    {
+        "chapter_name": "GRAVITATION DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39522 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39521 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39523 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39524 }
+        ]
+    },
+    {
+        "chapter_name": "FLUID DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39526 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39527 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39528 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39529 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39530 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39531 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39532 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39533 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39534 }
+        ]
+    },
+    {
+        "chapter_name": "MODERN DIGITAL [ ASP SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39536 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39537 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39538 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39539 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39540 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39541 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39542 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 39543 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 39544 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 39545 }
                 ]
             }
         ]
