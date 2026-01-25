@@ -185,33 +185,34 @@ function updateURL(hash) { window.location.hash = hash; }
 
 // ✅ BACK BUTTON LOGIC FOR ALLEN MENU
 document.getElementById('back-btn').onclick = () => {
-    // 1. If Player Open -> Close it
-    if (appState.view === 'player') {
-        if(typeof player !== 'undefined') {
-            player.stop();
-            player.source = { type: 'video', sources: [] };
+    // 1. If Player Open -> Close and STOP video strictly
+    if (appState.view === 'player' || !document.getElementById('video-player-modal').classList.contains('hidden')) {
+        if (typeof player !== 'undefined') {
+            player.pause(); // Pehle pause karein
+            player.stop();  // Phir stop
+            player.source = { type: 'video', sources: [] }; // Source clear karein taaki background mein na chale
         }
         document.getElementById('video-player-modal').classList.add('hidden');
+        
+        // Modal hide hone par pause ensure karein
+        const videoTag = document.getElementById('active-player');
+        if(videoTag) { videoTag.pause(); videoTag.src = ""; videoTag.load(); }
+
         updateURL(`/class/${appState.classId}/batch/${appState.batchIdx}`);
     } 
-    // 2. If Inside Chapters -> Go to Subjects (Batches)
     else if (appState.view === 'chapters') {
         updateURL(`/class/${appState.classId}`);
     } 
-    // 3. ✅ If Inside Subjects (Allen) -> Go to Allen Menu
     else if (appState.view === 'batches' && appState.classId.startsWith('allen-')) {
         updateURL('allen-menu');
     }
-    // 4. ✅ If Inside Allen Menu -> Go to Home
     else if (appState.view === 'allen-menu') {
         updateURL('/');
     }
-    // 5. Default Back -> Home
     else {
         updateURL('/');
     }
 };
-
 function handleRouting() {
     const hash = window.location.hash.slice(1); 
     const parts = hash.split('/'); 
@@ -825,12 +826,14 @@ function openPlayer(channelId, vidId, title) {
 
 document.getElementById('close-player').onclick = () => {
     if(typeof player !== 'undefined') {
-        player.stop(); 
+        player.pause();
         player.source = { type: 'video', sources: [] }; 
     }
+    const videoTag = document.getElementById('active-player');
+    if(videoTag) { videoTag.src = ""; videoTag.load(); }
+    
     document.getElementById('video-player-modal').classList.add('hidden');
 };
-
 function openPDF(channelId, id) { 
     if(!id) return alert("PDF not available");
     
