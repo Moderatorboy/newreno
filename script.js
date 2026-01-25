@@ -206,26 +206,28 @@ function updateURL(hash) { window.location.hash = hash; }
 
 // ✅ BACK BUTTON LOGIC FOR ALLEN MENU
 document.getElementById('back-btn').onclick = () => {
-    // 1. If Player Open -> Close it
+
+    // 1️⃣ Player open hai → close player
     if (appState.view === 'player') {
-        if(typeof player !== 'undefined') {
-            if (appState.view === 'player') {
-    stopAndResetPlayer();
-    updateURL(`/class/${appState.classId}/batch/${appState.batchIdx}`);
-}
-    } 
-    // 3. ✅ If Inside Subjects (Allen) -> Go to Allen Menu
-    else if (appState.view === 'batches' && appState.classId.startsWith('allen-')) {
+        stopAndResetPlayer();
+        updateURL(`/class/${appState.classId}/batch/${appState.batchIdx}`);
+        return;
+    }
+
+    // 2️⃣ Allen subjects ke andar ho → Allen menu
+    if (appState.view === 'batches' && appState.classId && appState.classId.startsWith('allen-')) {
         updateURL('allen-menu');
+        return;
     }
-    // 4. ✅ If Inside Allen Menu -> Go to Home
-    else if (appState.view === 'allen-menu') {
+
+    // 3️⃣ Allen menu → Home
+    if (appState.view === 'allen-menu') {
         updateURL('/');
+        return;
     }
-    // 5. Default Back -> Home
-    else {
-        updateURL('/');
-    }
+
+    // 4️⃣ Default → Home
+    updateURL('/');
 };
 
 function handleRouting() {
