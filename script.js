@@ -181,6 +181,27 @@ function getSubjectIcon(name) {
 /* 4. ROUTING                                */
 /* ========================================= */
 
+function stopAndResetPlayer() {
+    try {
+        if (typeof player !== 'undefined' && player) {
+    player.stop(); // pause + time reset
+    player.source = { type: 'video', sources: [] };
+}
+
+
+        const videoEl = document.getElementById('active-player');
+        if (videoEl) {
+            videoEl.pause();
+            videoEl.removeAttribute('src');
+            videoEl.load();
+        }
+    } catch (e) {
+        console.log("Player cleanup error:", e);
+    }
+
+    document.getElementById('video-player-modal').classList.add('hidden');
+}
+
 function updateURL(hash) { window.location.hash = hash; }
 
 // ✅ BACK BUTTON LOGIC FOR ALLEN MENU
@@ -188,15 +209,10 @@ document.getElementById('back-btn').onclick = () => {
     // 1. If Player Open -> Close it
     if (appState.view === 'player') {
         if(typeof player !== 'undefined') {
-            player.stop();
-            player.source = { type: 'video', sources: [] };
-        }
-        document.getElementById('video-player-modal').classList.add('hidden');
-        updateURL(`/class/${appState.classId}/batch/${appState.batchIdx}`);
-    } 
-    // 2. If Inside Chapters -> Go to Subjects (Batches)
-    else if (appState.view === 'chapters') {
-        updateURL(`/class/${appState.classId}`);
+            if (appState.view === 'player') {
+    stopAndResetPlayer();
+    updateURL(`/class/${appState.classId}/batch/${appState.batchIdx}`);
+}
     } 
     // 3. ✅ If Inside Subjects (Allen) -> Go to Allen Menu
     else if (appState.view === 'batches' && appState.classId.startsWith('allen-')) {
@@ -691,6 +707,23 @@ function renderResources(chapter) {
     });
 }
 
+player.on('fullscreenchange', event => {
+    if (player.fullscreen.active) {
+        try {
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock('landscape').catch(() => {});
+            }
+        } catch (e) {}
+    } else {
+        try {
+            if (screen.orientation && screen.orientation.unlock) {
+                screen.orientation.unlock();
+            }
+        } catch (e) {}
+    }
+});
+
+
 // ✅ UPDATED OPEN PLAYER (Fixes Sidebar PDF Issue)
 function openPlayer(channelId, vidId, title) {
     const modal = document.getElementById('video-player-modal');
@@ -730,7 +763,7 @@ function openPlayer(channelId, vidId, title) {
     `;
 
     // Video Play Logic
-    const streamUrl = `${BASE_API}${channelId}/${vidId}`;
+    const streamUrl = `${BASE_API}${channelId}/${vidId}?t=${Date.now()}`;
     const activePlayerEl = document.getElementById('active-player');
     
     if (activePlayerEl) {
@@ -824,13 +857,8 @@ function openPlayer(channelId, vidId, title) {
 }
 
 document.getElementById('close-player').onclick = () => {
-    if(typeof player !== 'undefined') {
-        player.stop(); 
-        player.source = { type: 'video', sources: [] }; 
-    }
-    document.getElementById('video-player-modal').classList.add('hidden');
+    stopAndResetPlayer();
 };
-
 function openPDF(channelId, id) { 
     if(!id) return alert("PDF not available");
     
