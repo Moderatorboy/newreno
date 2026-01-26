@@ -35,9 +35,91 @@ player.on('enterfullscreen', event => {
     }
 });
 
+let currentVideoId = null;
+
+player.on('timeupdate', () => {
+    if (currentVideoId) {
+        saveWatchTime(currentVideoId, player.currentTime);
+    }
+});
+
+
 /* ========================================= */
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
+
+const params = new URLSearchParams(window.location.search);
+const seekTime = params.get('t');
+if (seekTime) {
+    player.once('loadedmetadata', () => {
+        player.currentTime = parseInt(seekTime);
+    });
+}
+
+
+function shareLecture(vidId) {
+    const t = Math.floor(player.currentTime || 0);
+    const url = `${location.origin}${location.pathname}#${location.hash}?t=${t}`;
+    navigator.clipboard.writeText(url);
+    alert("Link copied with timestamp!");
+}
+
+
+function saveDailyTime(seconds) {
+    const today = new Date().toISOString().slice(0,10);
+    const data = JSON.parse(localStorage.getItem('daily_progress')) || {};
+    data[today] = (data[today] || 0) + seconds;
+    localStorage.setItem('daily_progress', JSON.stringify(data));
+}
+
+
+let lastTick = 0;
+
+player.on('timeupdate', () => {
+    if (player.currentTime - lastTick >= 10) {
+        saveDailyTime(10);
+        lastTick = player.currentTime;
+    }
+});
+
+
+function getBookmarks() {
+    return JSON.parse(localStorage.getItem('bookmarks')) || [];
+}
+
+function toggleBookmark(vidId) {
+    let bm = getBookmarks();
+    bm.includes(vidId) ? bm = bm.filter(v => v !== vidId) : bm.push(vidId);
+    localStorage.setItem('bookmarks', JSON.stringify(bm));
+}
+
+
+function saveLastVideo(vidId) {
+    localStorage.setItem('last_video', JSON.stringify({
+        classId: appState.classId,
+        batchIdx: appState.batchIdx,
+        chapterIdx: appState.chapterIdx,
+        videoId: vidId
+    }));
+}
+
+function getLastVideo() {
+    return JSON.parse(localStorage.getItem('last_video'));
+}
+
+
+function getWatchKey(vidId) {
+    return `watch_${appState.classId}_${appState.batchIdx}_${appState.chapterIdx}_${vidId}`;
+}
+
+function saveWatchTime(vidId, time) {
+    localStorage.setItem(getWatchKey(vidId), time);
+}
+
+function getWatchTime(vidId) {
+    return parseFloat(localStorage.getItem(getWatchKey(vidId))) || 0;
+}
+
 
 if (player) {
     player.stop();
@@ -628,7 +710,13 @@ function renderResources(chapter) {
 if (!container) return;
 container.innerHTML = '';
 
-    
+    const bookmarks = getBookmarks();
+const isBookmarked = vidId && bookmarks.includes(vidId);
+
+<button onclick="toggleBookmark('${vidId}')">
+   <i class="${isBookmarked ? 'ri-star-fill' : 'ri-star-line'}"></i>
+</button>
+
     // ✅ STEP 1: Sahi Channel ID nikalo
     const batch = DB[appState.classId].batches[appState.batchIdx];
     const channelID = batch.channel_id || "-1003345907635"; 
@@ -752,6 +840,16 @@ function openPlayer(channelId, vidId, title) {
          // Data se Channel ID lo (Backup)
          if(batch.channel_id) currentBatchChannelId = batch.channel_id; 
     }
+
+currentVideoId = vidId;
+
+const lastTime = getWatchTime(vidId);
+if (lastTime > 5) {
+    player.once('loadedmetadata', () => {
+        player.currentTime = lastTime;
+    });
+}
+
     
     document.getElementById('vp-title').innerText = batchName; 
     document.getElementById('vp-lecture-name').innerText = title; 
