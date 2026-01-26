@@ -39,6 +39,12 @@ player.on('enterfullscreen', event => {
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
 
+if (player) {
+    player.stop();
+    player.source = { type: 'video', sources: [] };
+}
+
+
 function setupPlayerModalControls() {
     const notesBtn = document.getElementById('vp-menu-btn');
     const closeSidebarBtn = document.getElementById('close-sidebar');
@@ -183,10 +189,11 @@ function getSubjectIcon(name) {
 
 function stopAndResetPlayer() {
     try {
-        if (typeof player !== 'undefined' && player) {
-    player.stop(); // pause + time reset
+        if (player) {
+    player.stop();
     player.source = { type: 'video', sources: [] };
 }
+
 
 
         const videoEl = document.getElementById('active-player');
@@ -606,10 +613,11 @@ function renderPlayerView() {
     }, 200);
 }
 
-function setTab(tab) {
+function setTab(tab, el) {
     appState.tab = tab;
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    event.target.classList.add('active');
+    if (el) el.classList.add('active');
+
     const batch = DB[appState.classId].batches[appState.batchIdx];
     const chapter = batch.chapters[appState.chapterIdx];
     renderResources(chapter);
@@ -617,7 +625,9 @@ function setTab(tab) {
 
 function renderResources(chapter) {
     const container = document.getElementById('content-list-container');
-    container.innerHTML = '';
+if (!container) return;
+container.innerHTML = '';
+
     
     // ✅ STEP 1: Sahi Channel ID nikalo
     const batch = DB[appState.classId].batches[appState.batchIdx];
