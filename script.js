@@ -48,13 +48,6 @@ player.on('timeupdate', () => {
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
 
-const params = new URLSearchParams(window.location.search);
-const seekTime = params.get('t');
-if (seekTime) {
-    player.once('loadedmetadata', () => {
-        player.currentTime = parseInt(seekTime);
-    });
-}
 
 
 function shareLecture(vidId) {
