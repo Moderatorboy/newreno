@@ -48,12 +48,6 @@ player.on('timeupdate', () => {
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
 
-function shareLecture(vidId) {
-    const t = Math.floor(player.currentTime || 0);
-    const url = `${location.origin}${location.pathname}#${location.hash}?t=${t}`;
-    navigator.clipboard.writeText(url);
-    alert("Link copied with timestamp!");
-}
 
 
 function saveDailyTime(seconds) {
