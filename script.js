@@ -39,8 +39,6 @@ player.on('enterfullscreen', event => {
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
 
-
-
 function setupPlayerModalControls() {
     const notesBtn = document.getElementById('vp-menu-btn');
     const closeSidebarBtn = document.getElementById('close-sidebar');
