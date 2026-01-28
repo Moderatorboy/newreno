@@ -6394,6 +6394,154 @@ const allenMoreData = [
     { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39999 },
     { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40000 },
     { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40001 }
+        ]
+    },
+    {
+        "chapter_name": "BIOMOLECULES [ AA MA'AM ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40004 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40005 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40006 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40007 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40008 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40009 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40010 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40011 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40012 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40013 }
+]
+    },
+    {
+        "chapter_name": "BIOMOLECULES [ SS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 13088 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 13089 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 13090 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 13091 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 13092 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 13093 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 13094 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 13095 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 13096 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 13097 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 13098 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 13099 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 13102 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 13100 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 13101 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 13103 },
+    { "lec_no": "L-17", "title": "LECTURE 17", "video_id": 13104 },
+    { "lec_no": "L-18", "title": "LECTURE 18", "video_id": 13105 }
+]
+    },
+    {
+        "chapter_name": "BIOMOLECULES BY SAGAR MOHANTY [ SM SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 26912 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 26913 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 26914 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 26915 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 26916 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 26917 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 26918 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 26919 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 26920 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 26921 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 26922 }
+]
+    },
+    {
+        "chapter_name": "BIOMOLECULES BY ABHISHEK SHUKLA [ AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40016 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40017 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40018 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40019 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40020 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40021 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40022 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40023 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40024 }
+]
+    },
+    {
+        "chapter_name": "BIOMOLECULES [ MKG SIR IHL ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 31104 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 31105 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 31106 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 31107 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 31108 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 31109 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 31110 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 31111 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 31112 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 31113 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 31114 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 31115 }
+]
+    },
+    {
+        "chapter_name": "ENZYME BY ABHISHEK SHARMA [ AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40027 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40028 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40029 }
+]
+    },
+    {
+        "chapter_name": "ENZYME BY ABHISHEK SHUKLA [ AS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40032 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40033 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40034 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40035 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40036 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40037 }
+        ]
+    },
+    {
+        "chapter_name": "ENZYME [ MKG SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38003 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38004 }
+]
+    },
+    {
+        "chapter_name": "ENZYME [ SM SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 24945 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 24946 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 24947 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 24948 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 24949 }
+]
+    },
+    {
+        "chapter_name": "ENZYME [ ATR SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40040 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40041 }
+]
+    },
+    {
+        "chapter_name": "ENZYME BY JAGDEEP SINGH [ JS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40044 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40045 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40046 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40047 }
+]
+    },
+    {
+        "chapter_name": "ENZYME BY [ ALLEN IHL ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 31063 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 31064 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 31065 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 31066 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 31067 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 31068 }
 ]
             }
         ]
