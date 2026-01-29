@@ -44,6 +44,51 @@ player.on('fullscreenchange', () => {
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
 
+const fav = isFavourite(appState.classId, originalIdx);
+
+html += `
+<div class="subject-card-list">
+    
+    <div class="fav-heart"
+        onclick="event.stopPropagation(); toggleFavourite('${appState.classId}', ${originalIdx})">
+        <i class="${fav ? 'ri-heart-fill' : 'ri-heart-line'}"
+           style="color:${fav ? '#ff3b3b' : '#aaa'}; font-size:1.5rem;"></i>
+    </div>
+
+    <div onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')" style="flex:1">
+        ...
+    </div>
+</div>
+`;
+
+
+function getFavourites() {
+    return JSON.parse(localStorage.getItem('favourite_batches')) || [];
+}
+
+function isFavourite(classId, batchIdx) {
+    return getFavourites().some(
+        f => f.classId === classId && f.batchIdx === batchIdx
+    );
+}
+
+function toggleFavourite(classId, batchIdx) {
+    let favs = getFavourites();
+    const index = favs.findIndex(
+        f => f.classId === classId && f.batchIdx === batchIdx
+    );
+
+    if (index > -1) {
+        favs.splice(index, 1); // remove
+    } else {
+        favs.push({ classId, batchIdx }); // add
+    }
+
+    localStorage.setItem('favourite_batches', JSON.stringify(favs));
+    renderBatches(); // UI refresh
+}
+
+
 function setupPlayerModalControls() {
     const notesBtn = document.getElementById('vp-menu-btn');
     const closeSidebarBtn = document.getElementById('close-sidebar');
