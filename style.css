@@ -186,6 +186,19 @@ header { background: var(--card-bg); padding: 15px 0 0 0; text-align: center; po
     color: var(--text-main); 
 }
 
+.fav-heart {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 5;
+    transition: transform 0.2s ease;
+}
+
+.fav-heart:hover {
+    transform: scale(1.2);
+}
+
 /* 2. Horizontal Corner Brackets */
 .vp-info .vp-quote.purple-bracket::before,
 .vp-info .vp-quote.purple-bracket::after {
