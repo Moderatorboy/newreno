@@ -17,6 +17,14 @@
     
     <link rel="stylesheet" href="style.css">
 
+     <div class="batch-tabs">
+    <button class="batch-tab ${appState.batchTab==='subjects'?'active':''}"
+        onclick="switchBatchTab('subjects')">Total Batches</button>
+
+    <button class="batch-tab ${appState.batchTab==='favourites'?'active':''}"
+        onclick="switchBatchTab('favourites')">Favourites ❤️</button>
+</div>
+    
     <style>
         /* ============================================================== */
         /* CRITICAL FIXES FOR VIDEO MODAL LAYOUT AND SLIDING SIDEBAR      */
@@ -24,14 +32,6 @@
         /* ============================================================== */
         
         /* FIX 1: Modal must be fixed and cover everything */
-
-        <div class="batch-tabs">
-    <button class="batch-tab ${appState.batchTab==='subjects'?'active':''}"
-        onclick="switchBatchTab('subjects')">Total Batches</button>
-
-    <button class="batch-tab ${appState.batchTab==='favourites'?'active':''}"
-        onclick="switchBatchTab('favourites')">Favourites ❤️</button>
-</div>
 
         
         #video-player-modal {
