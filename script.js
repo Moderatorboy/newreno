@@ -44,6 +44,24 @@ player.on('fullscreenchange', () => {
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
 
+if (appState.batchTab === 'favourites') {
+    const favs = getFavourites();
+    if (favs.length === 0) {
+        html += `<div class="empty-state">
+            <i class="ri-heart-line empty-icon"></i>
+            <p>No favourite batches yet</p>
+        </div>`;
+    } else {
+        html += `<div style="display:flex; flex-direction:column;">`;
+        favs.forEach(f => {
+            const batch = DB[f.classId].batches[f.batchIdx];
+            html += createHomeBatchCard(batch, f.classId, f.batchIdx);
+        });
+        html += `</div>`;
+    }
+}
+
+
 const fav = isFavourite(appState.classId, originalIdx);
 
 html += `
