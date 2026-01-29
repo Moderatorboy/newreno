@@ -25,19 +25,87 @@ const player = new Plyr('#player', {
 });
 
 // Force Landscape on Mobile
-player.on('enterfullscreen', event => {
-    try {
-        if (screen.orientation && screen.orientation.lock) {
-            screen.orientation.lock('landscape').catch((e) => console.log("Orientation lock not supported/allowed"));
+player.on('fullscreenchange', () => {
+    if (!player.fullscreen.active) return;
+
+    // Mobile friendly delay
+    setTimeout(() => {
+        try {
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock('landscape');
+            }
+        } catch (e) {
+            console.log('Orientation lock blocked');
         }
-    } catch (err) {
-        console.log("Landscape mode error:", err);
-    }
+    }, 300);
 });
 
 /* ========================================= */
 /* 2. INITIALIZATION & DATA LOADING          */
 /* ========================================= */
+
+if (appState.batchTab === 'favourites') {
+    const favs = getFavourites();
+    if (favs.length === 0) {
+        html += `<div class="empty-state">
+            <i class="ri-heart-line empty-icon"></i>
+            <p>No favourite batches yet</p>
+        </div>`;
+    } else {
+        html += `<div style="display:flex; flex-direction:column;">`;
+        favs.forEach(f => {
+            const batch = DB[f.classId].batches[f.batchIdx];
+            html += createHomeBatchCard(batch, f.classId, f.batchIdx);
+        });
+        html += `</div>`;
+    }
+}
+
+
+const fav = isFavourite(appState.classId, originalIdx);
+
+html += `
+<div class="subject-card-list">
+    
+    <div class="fav-heart"
+        onclick="event.stopPropagation(); toggleFavourite('${appState.classId}', ${originalIdx})">
+        <i class="${fav ? 'ri-heart-fill' : 'ri-heart-line'}"
+           style="color:${fav ? '#ff3b3b' : '#aaa'}; font-size:1.5rem;"></i>
+    </div>
+
+    <div onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')" style="flex:1">
+        ...
+    </div>
+</div>
+`;
+
+
+function getFavourites() {
+    return JSON.parse(localStorage.getItem('favourite_batches')) || [];
+}
+
+function isFavourite(classId, batchIdx) {
+    return getFavourites().some(
+        f => f.classId === classId && f.batchIdx === batchIdx
+    );
+}
+
+function toggleFavourite(classId, batchIdx) {
+    let favs = getFavourites();
+    const index = favs.findIndex(
+        f => f.classId === classId && f.batchIdx === batchIdx
+    );
+
+    if (index > -1) {
+        favs.splice(index, 1); // remove
+    } else {
+        favs.push({ classId, batchIdx }); // add
+    }
+
+    localStorage.setItem('favourite_batches', JSON.stringify(favs));
+    renderBatches(); // UI refresh
+}
+
 
 function setupPlayerModalControls() {
     const notesBtn = document.getElementById('vp-menu-btn');
@@ -190,7 +258,26 @@ function stopAndResetPlayer() {
 
 
 
-        const videoEl = document.getElementById('active-player');
+        function stopAndResetPlayer() {
+    try {
+        if (player) {
+            player.stop();
+            player.source = { type: 'video', sources: [] };
+        }
+
+        const videoEl = document.getElementById('player');
+        if (videoEl) {
+            videoEl.pause();
+            videoEl.removeAttribute('src');
+            videoEl.load();
+        }
+    } catch (e) {
+        console.log("Player cleanup error:", e);
+    }
+
+    document.getElementById('video-player-modal').classList.add('hidden');
+}
+
         if (videoEl) {
             videoEl.pause();
             videoEl.removeAttribute('src');
@@ -859,7 +946,18 @@ function openPlayer(channelId, vidId, title) {
 
     // Video Play Logic
     const streamUrl = `${BASE_API}${channelId}/${vidId}?t=${Date.now()}`;
-    const activePlayerEl = document.getElementById('active-player');
+   const streamUrl = `${BASE_API}${channelId}/${vidId}?t=${Date.now()}`;
+
+const videoEl = document.getElementById('player');
+if (videoEl && player) {
+    player.stop();
+    player.source = {
+        type: 'video',
+        sources: [{ src: streamUrl, type: 'video/mp4' }]
+    };
+    player.play();
+}
+
     
     if (activePlayerEl) {
         let sourceEl = activePlayerEl.querySelector('source');
