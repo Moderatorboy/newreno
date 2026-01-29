@@ -24,6 +24,16 @@
         /* ============================================================== */
         
         /* FIX 1: Modal must be fixed and cover everything */
+
+        <div class="batch-tabs">
+    <button class="batch-tab ${appState.batchTab==='subjects'?'active':''}"
+        onclick="switchBatchTab('subjects')">Total Batches</button>
+
+    <button class="batch-tab ${appState.batchTab==='favourites'?'active':''}"
+        onclick="switchBatchTab('favourites')">Favourites ❤️</button>
+</div>
+
+        
         #video-player-modal {
             position: fixed;
             top: 0;
