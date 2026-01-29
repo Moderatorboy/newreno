@@ -258,7 +258,26 @@ function stopAndResetPlayer() {
 
 
 
-        const videoEl = document.getElementById('active-player');
+        function stopAndResetPlayer() {
+    try {
+        if (player) {
+            player.stop();
+            player.source = { type: 'video', sources: [] };
+        }
+
+        const videoEl = document.getElementById('player');
+        if (videoEl) {
+            videoEl.pause();
+            videoEl.removeAttribute('src');
+            videoEl.load();
+        }
+    } catch (e) {
+        console.log("Player cleanup error:", e);
+    }
+
+    document.getElementById('video-player-modal').classList.add('hidden');
+}
+
         if (videoEl) {
             videoEl.pause();
             videoEl.removeAttribute('src');
@@ -927,7 +946,18 @@ function openPlayer(channelId, vidId, title) {
 
     // Video Play Logic
     const streamUrl = `${BASE_API}${channelId}/${vidId}?t=${Date.now()}`;
-    const activePlayerEl = document.getElementById('active-player');
+   const streamUrl = `${BASE_API}${channelId}/${vidId}?t=${Date.now()}`;
+
+const videoEl = document.getElementById('player');
+if (videoEl && player) {
+    player.stop();
+    player.source = {
+        type: 'video',
+        sources: [{ src: streamUrl, type: 'video/mp4' }]
+    };
+    player.play();
+}
+
     
     if (activePlayerEl) {
         let sourceEl = activePlayerEl.querySelector('source');
