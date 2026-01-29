@@ -17,12 +17,9 @@
     
     <link rel="stylesheet" href="style.css">
 
-     <div class="batch-tabs">
-    <button class="batch-tab ${appState.batchTab==='subjects'?'active':''}"
-        onclick="switchBatchTab('subjects')">Total Batches</button>
-
-    <button class="batch-tab ${appState.batchTab==='favourites'?'active':''}"
-        onclick="switchBatchTab('favourites')">Favourites ❤️</button>
+    <div class="batch-tabs">
+    <button id="tab-subjects" class="batch-tab" onclick="switchBatchTab('subjects')">Total Batches</button>
+    <button id="tab-favourites" class="batch-tab" onclick="switchBatchTab('favourites')">Favourites ❤️</button>
 </div>
     
     <style>
