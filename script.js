@@ -25,14 +25,19 @@ const player = new Plyr('#player', {
 });
 
 // Force Landscape on Mobile
-player.on('enterfullscreen', event => {
-    try {
-        if (screen.orientation && screen.orientation.lock) {
-            screen.orientation.lock('landscape').catch((e) => console.log("Orientation lock not supported/allowed"));
+player.on('fullscreenchange', () => {
+    if (!player.fullscreen.active) return;
+
+    // Mobile friendly delay
+    setTimeout(() => {
+        try {
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock('landscape');
+            }
+        } catch (e) {
+            console.log('Orientation lock blocked');
         }
-    } catch (err) {
-        console.log("Landscape mode error:", err);
-    }
+    }, 300);
 });
 
 /* ========================================= */
