@@ -426,51 +426,79 @@ function renderBatches() {
     document.getElementById('current-path').innerText = currentClass.name;
     document.getElementById('global-search').placeholder = `Search subjects...`;
 
-    // Favorites filter ke liye logic
     let html = `
-        <div id="batch-container" style="display:flex; flex-direction:column;">
+        <div class="batch-tabs">
+            <button class="batch-tab ${appState.batchTab === 'subjects' ? 'active' : ''}" onclick="switchBatchTab('subjects')">Subjects</button>
+            <button class="batch-tab ${appState.batchTab === 'resources' ? 'active' : ''}" onclick="switchBatchTab('resources')">Resources</button>
+        </div>
+        <div id="batch-container">
     `;
 
-    const batches = currentClass.batches;
-    const term = appState.searchTerm;
-    const filtered = batches.filter(b => b.batch_name.toLowerCase().includes(term));
-    
-    if (filtered.length === 0) {
-        html += `<div class="empty-state"><i class="ri-search-2-line empty-icon"></i><p>No Subjects Found</p></div>`;
+    if (appState.batchTab === 'subjects') {
+        const batches = currentClass.batches;
+        const term = appState.searchTerm;
+        const filtered = batches.filter(b => b.batch_name.toLowerCase().includes(term));
+        
+        if (filtered.length === 0) {
+            html += `<div class="empty-state"><i class="ri-search-2-line empty-icon"></i><p>No Subjects Found</p></div>`;
+        } else {
+            html += `<div style="display:flex; flex-direction:column;">`;
+            filtered.forEach(batch => {
+                const originalIdx = batches.indexOf(batch);
+                const stats = getBatchStats(batch); 
+                const style = getSubjectIcon(batch.batch_name); 
+                const cardId = `${appState.classId}-${originalIdx}`;
+                const isFav = favorites.includes(cardId);
+
+                html += `
+                    <div class="subject-card-list" data-id="${cardId}" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
+                        <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text}</div>
+                        <div class="sub-info">
+                            <div class="sub-title">${batch.batch_name}</div>
+                            <div class="sub-meta"><span>${stats.chapters} Chapters</span> • <span>${stats.completed}/${stats.lectures} Lectures</span></div>
+                        </div>
+                        
+                        <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${cardId}')">
+                            <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
+                        </div>
+
+                        <div class="sub-progress">
+                            <span class="prog-text" style="color:${style.color}">${stats.percent}% Done</span>
+                            <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
+                        </div>
+                    </div>
+                `;
+            });
+            html += `</div>`;
+        }
     } else {
-        filtered.forEach(batch => {
-            const originalIdx = batches.indexOf(batch);
-            const stats = getBatchStats(batch); 
-            const style = getSubjectIcon(batch.batch_name); 
-            const cardId = `${appState.classId}-${originalIdx}`;
-            const isFav = favorites.includes(cardId);
-
-            html += `
-                <div class="subject-card-list" data-id="${cardId}" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
-                    <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text || 'SUB'}</div>
-                    <div class="sub-info">
-                        <div class="sub-title">${batch.batch_name}</div>
-                        <div class="sub-meta"><span>${stats.chapters} Chapters</span> • <span>${stats.completed}/${stats.lectures} Lectures</span></div>
+        // Resources Tab Logic
+        const fileBatch = currentClass.batches.find(b => b.batch_name.includes("Files"));
+        if (fileBatch && fileBatch.resources && fileBatch.resources.length > 0) {
+            html += `<div class="grid-layout">`;
+            fileBatch.resources.forEach(res => {
+                let iconClass = res.type === 'VIDEO' ? 'ri-play-circle-line' : 'ri-file-pdf-line';
+                let action = res.type === 'VIDEO' 
+                    ? `onclick="openPlayer('-1003345907635', '${res.url_or_id}', '${res.title}')"`
+                    : `onclick="openPDF('-1003345907635', '${res.url_or_id}')"`;
+                
+                html += `
+                    <div class="card resource-item" ${action} style="cursor: pointer;">
+                        <div class="res-left">
+                            <i class="${iconClass} res-icon"></i>
+                            <div><div style="font-weight:600">${res.title}</div></div>
+                        </div>
                     </div>
-                    
-                    <div class="bookmark-btn ${isFav ? 'active' : ''}" 
-                         onclick="toggleBookmark(event, '${cardId}')">
-                        <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
-                    </div>
-
-                    <div class="sub-progress">
-                        <span class="prog-text" style="color:${style.color}">${stats.percent}% Done</span>
-                        <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
-                    </div>
-                </div>
-            `;
-        });
+                `;
+            });
+            html += `</div>`;
+        } else {
+             html += `<div class="empty-state"><i class="ri-folder-open-line empty-icon"></i><p>No Global Resources Available.</p></div>`;
+        }
     }
-
     html += `</div>`;
     main.innerHTML = html;
-}
-    else {
+}    else {
         // Resources Tab Logic
         const fileBatch = currentClass.batches.find(b => b.batch_name.includes("Files"));
         if (fileBatch && fileBatch.resources && fileBatch.resources.length > 0) {
