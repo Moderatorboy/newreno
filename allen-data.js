@@ -7166,200 +7166,473 @@ const allenMoreData = [
     {
         "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ AA MA'AM ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40375 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40376 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40377 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40378 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40379 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40380 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40381 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40382 }
+]
     },
     {
-        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ KBC SIR ]",
+        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ SK SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38980 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38981 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38982 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38983 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38984 }
+]
     },
     {
-        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ KBC SIR ]",
+        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION BY SUNIL KUMAR ROHILA [ SKR SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40385 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40386 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40387 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40388 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40389 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40390 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40391 }
+]
     },
     {
-        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ KBC SIR ]",
+        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION BY KRISHNA MURTHY [ KM SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40394 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40395 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40396 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40397 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40398 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40399 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40400 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40401 }
+]
     },
     {
-        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION [ AA MA'AM ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40404 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40405 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40406 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40407 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40408 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40409 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40410 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40411 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40412 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40413 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 40414 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 40415 }
+]
     },
     {
-        "chapter_name": "EXCRETORY PRODUCTS AND THEIR ELIMINATION [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION [ AB SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 12975 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 12976 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 12977 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 12978 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION BY SUKESH KASHYAP [ SK SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38953 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38954 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38955 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38956 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38957 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38958 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38959 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38960 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION BY KRISHNA MURTHY [ KM SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40418 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40419 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40420 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40421 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40422 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40423 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40424 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40425 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION BY Dr YOGESH SWAMI [ YS SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40428 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40429 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40430 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40431 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40432 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40433 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40434 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40435 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40436 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION [ MS SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 9968 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 9969 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 9970 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION BY PIYUSH CHAUDHARY SIR [ PC SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 8081 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 8082 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 8083 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 8084 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 8085 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 8086 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 8087 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 8088 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 8089 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION BY ASHISH RATHORE SIR [ AR SIR ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
-        ]
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40439 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40440 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40441 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40442 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40443 }
+]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "DIGESTION AND ABSORPTION [ ALLEN IHL ]",
         "lectures": [
-            { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
-            { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
-            { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 705 },
-            { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 706 },
-            { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 707 },
-            { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 708 },
-            { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 709 },
-            { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 710 },
-            { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 711 },
-            { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 712 }
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 31137 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 31138 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 31139 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 31140 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 31141 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 31142 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT [ AA MA'AM ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40446 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40447 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40448 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40449 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40450 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40451 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40452 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT BY SUKESH KASHYAP [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38947 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38948 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38949 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38950 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT [ SM SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40455 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40456 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40457 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40458 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40459 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT BY SHAHID NOOR [ SN SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40462 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40463 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40464 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40465 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40466 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40467 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT BY PRATEEK KUMAR [ PK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40470 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40471 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40472 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40473 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40474 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40475 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT [ SKR SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 25014 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 25015 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 25016 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 25017 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 25018 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 25019 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 25020 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 25021 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 25022 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT [ AS SIR ]",
+        "lectures":[
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40478 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40479 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40480 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40481 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40482 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40483 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT [ DR SM SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40455 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40456 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40457 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40458 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40459 }
+]
+    },
+    {
+        "chapter_name": "LOCOMOTION AND MOVEMENT [ ALLEN IHL ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 31181 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 31182 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 31183 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 31184 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 31185 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 31186 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 31188 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 31189 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 31190 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 31191 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 31192 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 31193 }
+]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL AND COORDINATION [ AA MA'AM ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40486 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40487 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40488 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40489 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40490 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40491 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40492 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40493 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40494 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40495 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 40496 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 40497 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 40498 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 40499 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 40500 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 40501 }
+]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL AND COORDINATION BY PRATEEK KUMAR [ PK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40504 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40505 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40506 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40507 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40508 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40509 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40510 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40511 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40512 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40513 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 40514 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 40515 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 40516 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 40517 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 40518 }
+]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL AND COORDINATION BY DR YOGESH SWAMI [ YS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40521 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40522 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40523 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40524 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40525 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40526 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40527 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40528 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40529 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40530 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 40531 },
+    { "lec_no": "L-12", "title": "LECTURE 12", "video_id": 40532 },
+    { "lec_no": "L-13", "title": "LECTURE 13", "video_id": 40533 },
+    { "lec_no": "L-14", "title": "LECTURE 14", "video_id": 40534 },
+    { "lec_no": "L-15", "title": "LECTURE 15", "video_id": 40535 },
+    { "lec_no": "L-16", "title": "LECTURE 16", "video_id": 40536 }
+]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL AND COORDINATION BY SUNIL KUMAR ROHILA [ SKR SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40539 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40540 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40541 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40542 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40543 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40544 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40545 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40546 }
+]
+    },
+    {
+        "chapter_name": "NEURAL CONTROL AND COORDINATION [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 38987 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 38988 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 38989 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 38990 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 38991 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 38992 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 38993 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 38994 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 38995 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 38996 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 38997 }
+]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION BY ASHISH BAJPAI [ AB SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 13000 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 13001 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 13002 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 13003 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 13004 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 13005 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 13006 }
         ]
     },
     {
-        "chapter_name": "SEMICONDUCTOR [ KBC SIR ]",
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION [ AA MA'AM ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40557 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40558 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40559 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40560 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40561 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40562 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40563 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40564 }
+]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION BY DR YOGESH SWAMI [ YS SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40567 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40568 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40569 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40570 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40571 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40572 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40573 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40574 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40575 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40576 }
+]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION BY DR YOGESH SWAMI [ YS SIR LIVE ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40579 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40580 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40581 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40582 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40583 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40584 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40585 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40586 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40587 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40588 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 40589 }
+]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION PRATEEK KUMAR [ PK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40592 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40593 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40594 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40595 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40596 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40597 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40598 },
+    { "lec_no": "L-08", "title": "LECTURE 08", "video_id": 40599 },
+    { "lec_no": "L-09", "title": "LECTURE 09", "video_id": 40600 },
+    { "lec_no": "L-10", "title": "LECTURE 10", "video_id": 40601 },
+    { "lec_no": "L-11", "title": "LECTURE 11", "video_id": 40602 }
+]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION [ SK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 39000 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 39001 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 39002 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 39003 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 39004 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 39005 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 39006 }
+]
+    },
+    {
+        "chapter_name": "CHEMICAL COORDINATION AND INTEGRATION [ SM SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40605 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40606 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40607 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40608 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40609 }
+]
+    },
+    {
+        "chapter_name": "EYE AND EAR BY PRATEEK KUMAR [ PK SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40613 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40614 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40615 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40616 },
+    { "lec_no": "L-05", "title": "LECTURE 05", "video_id": 40617 },
+    { "lec_no": "L-06", "title": "LECTURE 06", "video_id": 40618 },
+    { "lec_no": "L-07", "title": "LECTURE 07", "video_id": 40619 }
+]
+    },
+    {
+        "chapter_name": "EYE AND EAR [ SKR SIR ]",
+        "lectures": [
+    { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 40623 },
+    { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 40624 },
+    { "lec_no": "L-03", "title": "LECTURE 03", "video_id": 40625 },
+    { "lec_no": "L-04", "title": "LECTURE 04", "video_id": 40626 }
+]
+    },
+    {
+        "chapter_name": "EYE AND EAR BY KRISHNA MURTHY [ KM SIR ]",
         "lectures": [
             { "lec_no": "L-01", "title": "LECTURE 01", "video_id": 703 },
             { "lec_no": "L-02", "title": "LECTURE 02", "video_id": 704 },
