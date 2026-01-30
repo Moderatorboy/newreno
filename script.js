@@ -448,21 +448,26 @@ function renderBatches() {
                 const stats = getBatchStats(batch); 
                 const style = getSubjectIcon(batch.batch_name); 
                 
+                // Line 360 ke paas renderBatches function ke loop ke andar ye daalein:
                 html += `
-                    <div class="subject-card-list" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
+                    <div class="subject-card-list" data-id="${appState.classId}-${originalIdx}" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
                         <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text}</div>
                         <div class="sub-info">
                             <div class="sub-title">${batch.batch_name}</div>
                             <div class="sub-meta"><span>${stats.chapters} Chapters</span> • <span>${stats.completed}/${stats.lectures} Lectures</span></div>
                         </div>
+
+                        <div class="bookmark-btn ${favorites.includes(appState.classId + '-' + originalIdx) ? 'active' : ''}" 
+                             onclick="toggleBookmark(event, '${appState.classId}-${originalIdx}')">
+                            <i class="${favorites.includes(appState.classId + '-' + originalIdx) ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
+                        </div>
+
                         <div class="sub-progress">
                             <span class="prog-text" style="color:${style.color}">${stats.percent}% Done</span>
                             <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
                         </div>
                     </div>
                 `;
-            });
-            html += `</div>`;
         }
     } 
     else {
@@ -1058,4 +1063,48 @@ function initDoubtSolver() {
             });
         }
     }
+}
+
+/* ========================================= */
+/* 7. BOOKMARK & FILTER LOGIC                */
+/* ========================================= */
+
+let favorites = JSON.parse(localStorage.getItem('favSubjects')) || [];
+
+function toggleBookmark(event, subjectId) {
+    event.stopPropagation(); 
+    const btn = event.currentTarget;
+    const index = favorites.indexOf(subjectId);
+
+    if (index === -1) {
+        favorites.push(subjectId);
+    } else {
+        favorites.splice(index, 1);
+    }
+
+    localStorage.setItem('favSubjects', JSON.stringify(favorites));
+    
+    const isFav = favorites.includes(subjectId);
+    btn.classList.toggle('active', isFav);
+    btn.innerHTML = isFav ? '<i class="ri-heart-fill"></i>' : '<i class="ri-heart-line"></i>';
+}
+
+function filterContent(type) {
+    // Tab active state update
+    const tabs = document.querySelectorAll('.batch-tab');
+    tabs.forEach(t => t.classList.remove('active'));
+    if(event) event.target.classList.add('active');
+
+    const favList = JSON.parse(localStorage.getItem('favSubjects')) || [];
+    const cards = document.querySelectorAll('.subject-card-list');
+
+    cards.forEach(card => {
+        const id = card.getAttribute('data-id');
+        if (type === 'all') {
+            card.style.display = 'flex';
+        } else {
+            // Agar favList mein ID hai toh dikhao, nahi toh chhupao
+            card.style.display = favList.includes(id) ? 'flex' : 'none';
+        }
+    });
 }
