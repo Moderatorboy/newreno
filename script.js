@@ -1069,7 +1069,6 @@ function initDoubtSolver() {
 /* 7. BOOKMARK & FILTER LOGIC                */
 /* ========================================= */
 
-let favorites = JSON.parse(localStorage.getItem('favSubjects')) || [];
 
 function toggleBookmark(event, subjectId) {
     event.stopPropagation(); 
