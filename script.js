@@ -17,6 +17,7 @@ let appState = {
 };
 
 let DB = {}; 
+let favorites = JSON.parse(localStorage.getItem('favSubjects')) || []; // <--- Ye Line Yahan Add Karein
 
 // Plyr Setup with 10s Skip
 const player = new Plyr('#player', {
@@ -301,21 +302,20 @@ function renderGlobalSearch(term) {
     const main = document.getElementById('main-content');
     let html = `<div class="grid-layout">`;
     let found = false;
-    // Iterate all keys in DB
     Object.keys(DB).forEach(cId => {
         if(DB[cId]) {
             DB[cId].batches.forEach((b, idx) => {
                 if (b.batch_name.toLowerCase().includes(term)) {
                     found = true;
-                    html += createHomeBatchCard(b, cId, idx);
+                    // Yahan simple batch card hi rehne dein kyunki ye Home view jaisa hai
+                    html += createHomeBatchCard(b, cId, idx); 
                 }
             });
         }
     });
     html += `</div>`;
-    main.innerHTML = found ? html : `<div class="empty-state"><i class="ri-search-2-line empty-icon"></i><p>No Batches Found</p></div>`;
+    main.innerHTML = found ? html : `<div class="empty-state">...</div>`;
 }
-
 function createHomeBatchCard(batch, classId, idx) {
     const design = getSubjectIcon(batch.batch_name);
     return `
