@@ -85,6 +85,20 @@ header { background: var(--card-bg); padding: 15px 0 0 0; text-align: center; po
 /* --- SUBJECT LIST CARD DESIGN (Like Screenshot 160050.png) --- */
 .subject-card-list { display: flex; align-items: center; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 20px 25px; margin-bottom: 15px; cursor: pointer; transition: 0.2s; }
 .subject-card-list:hover { transform: translateY(-3px); border-color: var(--primary); }
+
+/* Default Style (White/Empty) */
+.bookmark-btn {
+    color: #ccc; /* Light Gray/White */
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+/* Active Style (Red/Filled) */
+.bookmark-btn.active {
+    color: #ff4b2b; /* Bright Red */
+}
+
 .sub-icon-box { width: 55px; height: 55px; border-radius: 12px; background: #fff; color: #333; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.3rem; margin-right: 20px; flex-shrink: 0; }
 .sub-info { flex-grow: 1; }
 .sub-title { font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 4px; }
