@@ -416,58 +416,77 @@ function renderAllenMenu() {
 
 function renderBatches() {
     const main = document.getElementById('main-content');
+    
+    // Check karein ki classId hai ya nahi
     if (!appState.classId || !DB[appState.classId]) {
-        main.innerHTML = `<div class="empty-state"><p>Error loading data.</p></div>`;
+        main.innerHTML = `<div class="empty-state"><p>Please select a class first.</p></div>`;
         return;
     }
 
     const currentClass = DB[appState.classId];
     document.getElementById('current-path').innerText = currentClass.name;
-    document.getElementById('global-search').placeholder = `Search subjects...`;
 
+    // Tabs logic - 'fav' ya 'all' check karein
     let html = `
-        <div class="batch-tabs">
-            <button class="batch-tab ${appState.batchTab === 'subjects' ? 'active' : ''}" onclick="switchBatchTab('subjects')">Subjects</button>
-            <button class="batch-tab ${appState.batchTab === 'resources' ? 'active' : ''}" onclick="switchBatchTab('resources')">Resources</button>
+        <div class="batch-tabs" style="justify-content: center;">
+            <button class="batch-tab ${appState.batchTab !== 'fav' ? 'active' : ''}" onclick="filterContent('all')">Total Subjects</button>
+            <button class="batch-tab ${appState.batchTab === 'fav' ? 'active' : ''}" onclick="filterContent('fav')">Favorites ❤️</button>
         </div>
-        <div id="batch-container">
+        <div id="batch-container" style="display:flex; flex-direction:column; gap:15px; margin-top:20px;">
     `;
 
-    if (appState.batchTab === 'subjects') {
-        const batches = currentClass.batches;
-        const term = appState.searchTerm;
-        const filtered = batches.filter(b => b.batch_name.toLowerCase().includes(term));
-        
-        if (filtered.length === 0) {
-            html += `<div class="empty-state"><i class="ri-search-2-line empty-icon"></i><p>No Subjects Found</p></div>`;
-        } else {
-            html += `<div style="display:flex; flex-direction:column;">`;
-            filtered.forEach(batch => {
-                const originalIdx = batches.indexOf(batch);
-                const stats = getBatchStats(batch); 
-                const style = getSubjectIcon(batch.batch_name); 
-                const cardId = `${appState.classId}-${originalIdx}`;
-                const isFav = favorites.includes(cardId);
+    const batches = currentClass.batches || [];
+    const term = appState.searchTerm || '';
 
-                html += `
-                    <div class="subject-card-list" data-id="${cardId}" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
-                        <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text || 'SUB'}</div>
-                        <div class="sub-info">
-                            <div class="sub-title">${batch.batch_name}</div>
-                            <div class="sub-meta"><span>${stats.chapters} Chapters</span> • <span>${stats.completed}/${stats.lectures} Lectures</span></div>
-                        </div>
-                        <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${cardId}')">
-                            <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
-                        </div>
-                        <div class="sub-progress">
-                            <span class="prog-text" style="color:${style.color}">${stats.percent}% Done</span>
-                            <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
-                        </div>
-                    </div>`;
-            });
-            html += `</div>`;
-        }
+    // Filter Logic: Pehle search term apply karein
+    let filtered = batches.filter(b => b.batch_name.toLowerCase().includes(term));
+
+    // Agar Favorites tab active hai, toh list ko filter karein
+    if (appState.batchTab === 'fav') {
+        filtered = filtered.filter(batch => {
+            const originalIdx = batches.indexOf(batch);
+            return favorites.includes(`${appState.classId}-${originalIdx}`);
+        });
+    }
+
+    if (filtered.length === 0) {
+        html += `<div class="empty-state" style="padding:50px;">
+                    <i class="ri-heart-line" style="font-size:3rem; opacity:0.2;"></i>
+                    <p>${appState.batchTab === 'fav' ? 'No favorites added yet!' : 'No subjects found.'}</p>
+                 </div>`;
     } else {
+        filtered.forEach(batch => {
+            const originalIdx = batches.indexOf(batch);
+            const stats = getBatchStats(batch); 
+            const style = getSubjectIcon(batch.batch_name); 
+            const cardId = `${appState.classId}-${originalIdx}`;
+            const isFav = favorites.includes(cardId);
+
+            html += `
+                <div class="subject-card-list" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
+                    <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text || 'SUB'}</div>
+                    <div class="sub-info">
+                        <div class="sub-title">${batch.batch_name}</div>
+                        <div class="sub-meta"><span>${stats.chapters} Chapters</span> • <span>${stats.completed}/${stats.lectures} Lectures</span></div>
+                    </div>
+                    
+                    <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${cardId}')">
+                        <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
+                    </div>
+
+                    <div class="sub-progress">
+                        <span class="prog-text" style="color:${style.color}">${stats.percent}%</span>
+                        <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
+                    </div>
+                </div>
+            `;
+        });
+    }
+
+    html += `</div>`;
+    main.innerHTML = html;
+}
+   else {
         const fileBatch = currentClass.batches.find(b => b.batch_name.includes("Files"));
         if (fileBatch && fileBatch.resources && fileBatch.resources.length > 0) {
             html += `<div class="grid-layout">`;
