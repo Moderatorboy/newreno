@@ -17,8 +17,8 @@ let appState = {
 };
 
 let DB = {}; 
-let favorites = JSON.parse(localStorage.getItem('favSubjects')) || []; // <--- Ye Line Yahan Add Karein
-
+let favSubjects = JSON.parse(localStorage.getItem('favSubjects')) || [];
+let favChapters = JSON.parse(localStorage.getItem('favChapters')) || [];
 // Plyr Setup with 10s Skip
 const player = new Plyr('#player', {
     controls: ['play-large', 'rewind', 'play', 'fast-forward', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'fullscreen'],
@@ -420,11 +420,7 @@ function renderAllenMenu() {
 
 function renderBatches() {
     const main = document.getElementById('main-content');
-    
-    if (!appState.classId || !DB[appState.classId]) {
-        main.innerHTML = `<div class="empty-state"><p>Please select a class first.</p></div>`;
-        return;
-    }
+    if (!appState.classId || !DB[appState.classId]) return;
 
     const currentClass = DB[appState.classId];
     document.getElementById('current-path').innerText = currentClass.name;
@@ -438,80 +434,34 @@ function renderBatches() {
     `;
 
     const batches = currentClass.batches || [];
-    const term = appState.searchTerm || '';
-
-    let filtered = batches.filter(b => b.batch_name.toLowerCase().includes(term));
+    let filtered = batches.filter(b => b.batch_name.toLowerCase().includes(appState.searchTerm));
 
     if (appState.batchTab === 'fav') {
         filtered = filtered.filter(batch => {
             const originalIdx = batches.indexOf(batch);
-            return favorites.includes(`${appState.classId}-${originalIdx}`);
+            return favSubjects.includes(`${appState.classId}-${originalIdx}`);
         });
     }
 
-    if (filtered.length === 0) {
-        html += `<div class="empty-state" style="padding:50px;"><p>No items found.</p></div>`;
-    } else {
-        filtered.forEach(batch => {
-            const originalIdx = batches.indexOf(batch);
-            const stats = getBatchStats(batch); 
-            const style = getSubjectIcon(batch.batch_name); 
-            const cardId = `${appState.classId}-${originalIdx}`;
-            const isFav = favorites.includes(cardId);
+    filtered.forEach(batch => {
+        const originalIdx = batches.indexOf(batch);
+        const stats = getBatchStats(batch); 
+        const style = getSubjectIcon(batch.batch_name); 
+        const cardId = `${appState.classId}-${originalIdx}`;
+        const isFav = favSubjects.includes(cardId);
 
-            html += `
-                <div class="subject-card-list" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
-                    <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text || 'SUB'}</div>
-                    <div class="sub-info">
-                        <div class="sub-title">${batch.batch_name}</div>
-                        <div class="sub-meta">${stats.chapters} Chapters • ${stats.completed}/${stats.lectures} Lectures</div>
-                    </div>
-                    <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${cardId}')">
-                        <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
-                    </div>
-                    <div class="sub-progress">
-                        <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
-                    </div>
-                </div>`;
-        });
-    }
-    html += `</div>`;
-    main.innerHTML = html;
-}
-
-function switchBatchTab(tab) { 
-    appState.batchTab = tab; 
-    renderBatches(); 
-}
-
-function renderChapters() {
-    const main = document.getElementById('main-content');
-    if (!appState.classId || appState.batchIdx === null) return;
-
-    const batch = DB[appState.classId].batches[appState.batchIdx];
-    document.getElementById('current-path').innerText = `${DB[appState.classId].name} > ${batch.batch_name}`;
-
-    let html = `
-        <div class="batch-tabs">
-            <button class="batch-tab ${appState.chapTab === 'chapters' ? 'active' : ''}" onclick="switchChapterTab('chapters')">Chapters</button>
-            <button class="batch-tab ${appState.chapTab === 'material' ? 'active' : ''}" onclick="switchChapterTab('material')">Study Material</button>
-        </div>
-        <div id="chapters-content">
-    `;
-
-    if (appState.chapTab === 'chapters') {
-        const chapters = batch.chapters || [];
-        html += `<div class="grid-layout">`;
-        chapters.forEach((chap, idx) => {
-            html += `
-                <div class="card chapter-card" onclick="updateURL('/class/${appState.classId}/batch/${appState.batchIdx}/chapter/${idx}')">
-                    <div class="card-body">CH - ${idx+1}: ${chap.chapter_name}</div>
-                </div>`;
-        });
-        html += `</div>`;
-    } else {
-        html += `<div class="empty-state"><p>No Material Yet.</p></div>`;
-    }
+        html += `
+            <div class="subject-card-list" onclick="updateURL('/class/${appState.classId}/batch/${originalIdx}')">
+                <div class="sub-icon-box" style="color:${style.color}">${style.text || 'SUB'}</div>
+                <div class="sub-info">
+                    <div class="sub-title">${batch.batch_name}</div>
+                    <div class="sub-meta">${stats.chapters} Chapters • ${stats.percent}% Done</div>
+                </div>
+                <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${cardId}', 'subject')">
+                    <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
+                </div>
+            </div>`;
+    });
     main.innerHTML = html + `</div>`;
 }
 
@@ -521,10 +471,15 @@ function switchChapterTab(tab) {
 }
 // --- IS SECTION KO SAHI KAREIN ---
 
-function switchBatchTab(tab) { 
+ function switchBatchTab(tab) { 
     appState.batchTab = tab; 
     renderBatches(); 
-}    
+}
+
+function switchChapterTab(tab) {
+    appState.chapTab = tab;
+    renderChapters();
+}   
 
 // AAPKE CODE MEIN YE "function renderChapters()" LIKHNA MISSING HAI:
 function switchBatchTab(tab) { 
@@ -536,55 +491,30 @@ function switchBatchTab(tab) {
 function renderChapters() {
     const main = document.getElementById('main-content');
     if (!appState.classId || appState.batchIdx === null) return;
-    
+
     const batch = DB[appState.classId].batches[appState.batchIdx];
     document.getElementById('current-path').innerText = `${DB[appState.classId].name} > ${batch.batch_name}`;
-    document.getElementById('global-search').placeholder = `Search content...`;
 
-    let html = `
-        <div class="batch-tabs">
-            <button class="batch-tab ${appState.chapTab === 'chapters' ? 'active' : ''}" onclick="switchChapterTab('chapters')">Chapters</button>
-            <button class="batch-tab ${appState.chapTab === 'material' ? 'active' : ''}" onclick="switchChapterTab('material')">Study Material</button>
-        </div>
-        <div id="chapters-content">
-    `;
-    if (appState.chapTab === 'chapters') {
-        const chapters = batch.chapters || [];
-        const term = appState.searchTerm;
-        const filtered = chapters.filter(c => c.chapter_name.toLowerCase().includes(term));
-        const completedList = getCompletedLectures();
+    let html = `<div class="grid-layout">`;
+    const chapters = batch.chapters || [];
 
-        if (filtered.length === 0) {
-            html += `<div class="empty-state"><p>No Chapters Found</p></div>`;
-        } else {
-            html += `<div class="grid-layout">`;
-            filtered.forEach((chap, idx) => {
-                const originalIdx = chapters.indexOf(chap);
-                const lecCount = chap.lectures ? chap.lectures.length : 0;
-                let completedInChap = 0;
-                if(chap.lectures) {
-                    chap.lectures.forEach(l => {
-                        if(l.video_id && completedList.includes(l.video_id.toString())) completedInChap++;
-                    });
-                }
+    chapters.forEach((chap, idx) => {
+        const chapId = `${appState.classId}-${appState.batchIdx}-${idx}`; // Unique Chapter ID
+        const isFav = favChapters.includes(chapId);
 
-                html += `
-                    <div class="card chapter-card" onclick="updateURL('/class/${appState.classId}/batch/${appState.batchIdx}/chapter/${originalIdx}')">
-                        <div class="card-body" style="height:100%; display:flex; flex-direction:column; justify-content:space-between;">
-                            <div>
-                                <div class="chapter-tag">CH - ${String(originalIdx+1).padStart(2, '0')}</div>
-                                <div class="card-title" style="font-size:1rem; line-height:1.4;">${chap.chapter_name}</div>
-                            </div>
-                            <div class="lecture-status" style="display:flex; justify-content:space-between; align-items:center;">
-                                <span><i class="ri-play-circle-line"></i> ${lecCount} Lectures</span>
-                                <span style="font-size:0.75rem; color:var(--accent); font-weight:bold;">${completedInChap}/${lecCount} Done</span>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            });
-            html += `</div>`;
-        }
+        html += `
+            <div class="card chapter-card" onclick="updateURL('/class/${appState.classId}/batch/${appState.batchIdx}/chapter/${idx}')">
+                <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${chapId}', 'chapter')">
+                    <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
+                </div>
+                <div class="card-body">
+                    <div class="chapter-tag">CH - ${String(idx+1).padStart(2, '0')}</div>
+                    <div class="card-title">${chap.chapter_name}</div>
+                </div>
+            </div>`;
+    });
+    main.innerHTML = html + `</div>`;
+}
     } else {
         html += `<div class="empty-state"><i class="ri-folder-open-line empty-icon"></i><p>No Study Material Uploaded Yet.</p></div>`;
     }
@@ -1098,22 +1028,25 @@ function initDoubtSolver() {
 /* ========================================= */
 
 
-function toggleBookmark(event, subjectId) {
-    event.stopPropagation(); 
+function toggleBookmark(event, id, type) {
+    event.stopPropagation();
     const btn = event.currentTarget;
-    const index = favorites.indexOf(subjectId);
+    
+    let currentFavs = (type === 'subject') ? favSubjects : favChapters;
+    let storageKey = (type === 'subject') ? 'favSubjects' : 'favChapters';
 
+    const index = currentFavs.indexOf(id);
     if (index === -1) {
-        favorites.push(subjectId);
+        currentFavs.push(id);
     } else {
-        favorites.splice(index, 1);
+        currentFavs.splice(index, 1);
     }
 
-    localStorage.setItem('favSubjects', JSON.stringify(favorites));
+    localStorage.setItem(storageKey, JSON.stringify(currentFavs));
     
-    const isFav = favorites.includes(subjectId);
+    const isFav = currentFavs.includes(id);
     btn.classList.toggle('active', isFav);
-    btn.innerHTML = isFav ? '<i class="ri-heart-fill"></i>' : '<i class="ri-heart-line"></i>';
+    btn.innerHTML = `<i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>`;
 }
 
 function filterContent(type) {
