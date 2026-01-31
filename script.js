@@ -465,29 +465,24 @@ function renderBatches() {
     main.innerHTML = html + `</div>`;
 }
 
-function switchChapterTab(tab) {
-    appState.chapTab = tab;
-    renderChapters();
-}
-// --- IS SECTION KO SAHI KAREIN ---
+/* ========================================= */
+/* 6. SWITCH TABS LOGIC                      */
+/* ========================================= */
 
- function switchBatchTab(tab) { 
-    appState.batchTab = tab; 
-    renderBatches(); 
-}
-
-function switchChapterTab(tab) {
-    appState.chapTab = tab;
-    renderChapters();
-}   
-
-// AAPKE CODE MEIN YE "function renderChapters()" LIKHNA MISSING HAI:
 function switchBatchTab(tab) { 
     appState.batchTab = tab; 
     renderBatches(); 
-}    
+}
 
-// Yahan bracket band hona chahiye aur naya function shuru hona chahiye:
+function switchChapterTab(tab) {
+    appState.chapTab = tab;
+    renderChapters();
+}
+
+/* ========================================= */
+/* 6. CHAPTER RENDERER                       */
+/* ========================================= */
+
 function renderChapters() {
     const main = document.getElementById('main-content');
     if (!appState.classId || appState.batchIdx === null) return;
@@ -495,25 +490,39 @@ function renderChapters() {
     const batch = DB[appState.classId].batches[appState.batchIdx];
     document.getElementById('current-path').innerText = `${DB[appState.classId].name} > ${batch.batch_name}`;
 
-    let html = `<div class="grid-layout">`;
-    const chapters = batch.chapters || [];
+    let html = `
+        <div class="batch-tabs">
+            <button class="batch-tab ${appState.chapTab === 'chapters' ? 'active' : ''}" onclick="switchChapterTab('chapters')">Chapters</button>
+            <button class="batch-tab ${appState.chapTab === 'material' ? 'active' : ''}" onclick="switchChapterTab('material')">Study Material</button>
+        </div>
+        <div id="chapters-content">
+    `;
 
-    chapters.forEach((chap, idx) => {
-        const chapId = `${appState.classId}-${appState.batchIdx}-${idx}`; // Unique Chapter ID
-        const isFav = favChapters.includes(chapId);
+    if (appState.chapTab === 'chapters') {
+        const chapters = batch.chapters || [];
+        html += `<div class="grid-layout">`;
+        chapters.forEach((chap, idx) => {
+            const chapId = `${appState.classId}-${appState.batchIdx}-${idx}`; 
+            const isFav = favChapters.includes(chapId);
 
-        html += `
-            <div class="card chapter-card" onclick="updateURL('/class/${appState.classId}/batch/${appState.batchIdx}/chapter/${idx}')">
-                <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${chapId}', 'chapter')">
-                    <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
-                </div>
-                <div class="card-body">
-                    <div class="chapter-tag">CH - ${String(idx+1).padStart(2, '0')}</div>
-                    <div class="card-title">${chap.chapter_name}</div>
-                </div>
-            </div>`;
-    });
-    main.innerHTML = html + `</div>`;
+            html += `
+                <div class="card chapter-card" onclick="updateURL('/class/${appState.classId}/batch/${appState.batchIdx}/chapter/${idx}')">
+                    <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${chapId}', 'chapter')">
+                        <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="chapter-tag">CH - ${String(idx+1).padStart(2, '0')}</div>
+                        <div class="card-title">${chap.chapter_name}</div>
+                    </div>
+                </div>`;
+        });
+        html += `</div>`;
+    } else {
+        html += `<div class="empty-state"><p>No Study Material Uploaded Yet.</p></div>`;
+    }
+
+    html += `</div>`;
+    main.innerHTML = html;
 }
     } else {
         html += `<div class="empty-state"><i class="ri-folder-open-line empty-icon"></i><p>No Study Material Uploaded Yet.</p></div>`;
