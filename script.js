@@ -19,7 +19,7 @@ let appState = {
 let DB = {}; 
 let favSubjects = JSON.parse(localStorage.getItem('favSubjects')) || [];
 let favChapters = JSON.parse(localStorage.getItem('favChapters')) || [];
-// Plyr Setup with 10s Skip
+
 const player = new Plyr('#player', {
     controls: ['play-large', 'rewind', 'play', 'fast-forward', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'fullscreen'],
     seekTime: 10,
