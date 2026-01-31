@@ -487,12 +487,16 @@ function renderBatches() {
     main.innerHTML = html;
 }
 
-// Ye function aapke script mein missing tha, ise add karein:
+// --- IS SECTION KO SAHI KAREIN ---
+
 function switchBatchTab(tab) { 
     appState.batchTab = tab; 
     renderBatches(); 
 }    
-{const main = document.getElementById('main-content');
+
+// AAPKE CODE MEIN YE "function renderChapters()" LIKHNA MISSING HAI:
+function renderChapters() {
+    const main = document.getElementById('main-content');
     const batch = DB[appState.classId].batches[appState.batchIdx];
     document.getElementById('current-path').innerText = `${DB[appState.classId].name} > ${batch.batch_name}`;
     document.getElementById('global-search').placeholder = `Search content...`;
@@ -1074,21 +1078,20 @@ function toggleBookmark(event, subjectId) {
 }
 
 function filterContent(type) {
-    // Tab active state update
+    // 1. UI Tabs ki active state update karein
     const tabs = document.querySelectorAll('.batch-tab');
     tabs.forEach(t => t.classList.remove('active'));
-    if(event) event.target.classList.add('active');
+    
+    // Clicked button ko highlight karein
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
 
-    const favList = JSON.parse(localStorage.getItem('favSubjects')) || [];
-    const cards = document.querySelectorAll('.subject-card-list');
+    // 2. Global State update karein (taaki renderBatches ko pata chale kya dikhana hai)
+    // type ya toh 'all' hoga ya 'fav'
+    appState.batchTab = type; 
 
-    cards.forEach(card => {
-        const id = card.getAttribute('data-id');
-        if (type === 'all') {
-            card.style.display = 'flex';
-        } else {
-            // Agar favList mein ID hai toh dikhao, nahi toh chhupao
-            card.style.display = favList.includes(id) ? 'flex' : 'none';
-        }
-    });
+    // 3. Pura Container Re-render karein
+    // Isse navigation (click to open chapter) 100% sahi kaam karega
+    renderBatches();
 }
