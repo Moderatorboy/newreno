@@ -514,8 +514,16 @@ function switchBatchTab(tab) {
 }    
 
 // AAPKE CODE MEIN YE "function renderChapters()" LIKHNA MISSING HAI:
+function switchBatchTab(tab) { 
+    appState.batchTab = tab; 
+    renderBatches(); 
+}    
+
+// Yahan bracket band hona chahiye aur naya function shuru hona chahiye:
 function renderChapters() {
     const main = document.getElementById('main-content');
+    if (!appState.classId || appState.batchIdx === null) return;
+    
     const batch = DB[appState.classId].batches[appState.batchIdx];
     document.getElementById('current-path').innerText = `${DB[appState.classId].name} > ${batch.batch_name}`;
     document.getElementById('global-search').placeholder = `Search content...`;
@@ -527,7 +535,6 @@ function renderChapters() {
         </div>
         <div id="chapters-content">
     `;
-
     if (appState.chapTab === 'chapters') {
         const chapters = batch.chapters || [];
         const term = appState.searchTerm;
