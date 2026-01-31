@@ -414,10 +414,13 @@ function renderAllenMenu() {
     `;
 }
 
+/* ========================================= */
+/* 6. RENDERERS (BATCHES & CHAPTERS)         */
+/* ========================================= */
+
 function renderBatches() {
     const main = document.getElementById('main-content');
     
-    // Check karein ki classId hai ya nahi
     if (!appState.classId || !DB[appState.classId]) {
         main.innerHTML = `<div class="empty-state"><p>Please select a class first.</p></div>`;
         return;
@@ -426,7 +429,6 @@ function renderBatches() {
     const currentClass = DB[appState.classId];
     document.getElementById('current-path').innerText = currentClass.name;
 
-    // Tabs logic - 'fav' ya 'all' check karein
     let html = `
         <div class="batch-tabs" style="justify-content: center;">
             <button class="batch-tab ${appState.batchTab !== 'fav' ? 'active' : ''}" onclick="filterContent('all')">Total Subjects</button>
@@ -438,10 +440,8 @@ function renderBatches() {
     const batches = currentClass.batches || [];
     const term = appState.searchTerm || '';
 
-    // Filter Logic: Pehle search term apply karein
     let filtered = batches.filter(b => b.batch_name.toLowerCase().includes(term));
 
-    // Agar Favorites tab active hai, toh list ko filter karein
     if (appState.batchTab === 'fav') {
         filtered = filtered.filter(batch => {
             const originalIdx = batches.indexOf(batch);
@@ -450,10 +450,7 @@ function renderBatches() {
     }
 
     if (filtered.length === 0) {
-        html += `<div class="empty-state" style="padding:50px;">
-                    <i class="ri-heart-line" style="font-size:3rem; opacity:0.2;"></i>
-                    <p>${appState.batchTab === 'fav' ? 'No favorites added yet!' : 'No subjects found.'}</p>
-                 </div>`;
+        html += `<div class="empty-state" style="padding:50px;"><p>No items found.</p></div>`;
     } else {
         filtered.forEach(batch => {
             const originalIdx = batches.indexOf(batch);
@@ -467,45 +464,61 @@ function renderBatches() {
                     <div class="sub-icon-box" style="color:${style.color}; border:1px solid ${style.color}40;">${style.text || 'SUB'}</div>
                     <div class="sub-info">
                         <div class="sub-title">${batch.batch_name}</div>
-                        <div class="sub-meta"><span>${stats.chapters} Chapters</span> • <span>${stats.completed}/${stats.lectures} Lectures</span></div>
+                        <div class="sub-meta">${stats.chapters} Chapters • ${stats.completed}/${stats.lectures} Lectures</div>
                     </div>
-                    
                     <div class="bookmark-btn ${isFav ? 'active' : ''}" onclick="toggleBookmark(event, '${cardId}')">
                         <i class="${isFav ? 'ri-heart-fill' : 'ri-heart-line'}"></i>
                     </div>
-
                     <div class="sub-progress">
-                        <span class="prog-text" style="color:${style.color}">${stats.percent}%</span>
                         <div class="prog-bg"><div class="prog-fill" style="width:${stats.percent}%; background:${style.color};"></div></div>
                     </div>
-                </div>
-            `;
+                </div>`;
         });
     }
-
     html += `</div>`;
     main.innerHTML = html;
 }
-   else {
-        const fileBatch = currentClass.batches.find(b => b.batch_name.includes("Files"));
-        if (fileBatch && fileBatch.resources && fileBatch.resources.length > 0) {
-            html += `<div class="grid-layout">`;
-            fileBatch.resources.forEach(res => {
-                let iconClass = res.type === 'VIDEO' ? 'ri-play-circle-line' : 'ri-file-pdf-line';
-                html += `
-                    <div class="card resource-item" onclick="${res.type === 'VIDEO' ? `openPlayer('-1003345907635', '${res.url_or_id}', '${res.title}')` : `openPDF('-1003345907635', '${res.url_or_id}')`}" style="cursor: pointer;">
-                        <div class="res-left"><i class="${iconClass} res-icon"></i><div><div style="font-weight:600">${res.title}</div></div></div>
-                    </div>`;
-            });
-            html += `</div>`;
-        } else {
-            html += `<div class="empty-state"><p>No Global Resources Available.</p></div>`;
-        }
+
+function switchBatchTab(tab) { 
+    appState.batchTab = tab; 
+    renderBatches(); 
+}
+
+function renderChapters() {
+    const main = document.getElementById('main-content');
+    if (!appState.classId || appState.batchIdx === null) return;
+
+    const batch = DB[appState.classId].batches[appState.batchIdx];
+    document.getElementById('current-path').innerText = `${DB[appState.classId].name} > ${batch.batch_name}`;
+
+    let html = `
+        <div class="batch-tabs">
+            <button class="batch-tab ${appState.chapTab === 'chapters' ? 'active' : ''}" onclick="switchChapterTab('chapters')">Chapters</button>
+            <button class="batch-tab ${appState.chapTab === 'material' ? 'active' : ''}" onclick="switchChapterTab('material')">Study Material</button>
+        </div>
+        <div id="chapters-content">
+    `;
+
+    if (appState.chapTab === 'chapters') {
+        const chapters = batch.chapters || [];
+        html += `<div class="grid-layout">`;
+        chapters.forEach((chap, idx) => {
+            html += `
+                <div class="card chapter-card" onclick="updateURL('/class/${appState.classId}/batch/${appState.batchIdx}/chapter/${idx}')">
+                    <div class="card-body">CH - ${idx+1}: ${chap.chapter_name}</div>
+                </div>`;
+        });
+        html += `</div>`;
+    } else {
+        html += `<div class="empty-state"><p>No Material Yet.</p></div>`;
     }
-    html += `</div>`;
-    main.innerHTML = html;
+    main.innerHTML = html + `</div>`;
 }
 
+function switchChapterTab(tab) {
+    appState.chapTab = tab;
+    renderChapters();
+}
 // --- IS SECTION KO SAHI KAREIN ---
 
 function switchBatchTab(tab) { 
